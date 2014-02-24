@@ -86,7 +86,6 @@ a:after {
 	font-weight: 800;
 	font-size: 14px;
 	padding-top: 10px;
-	padding-bottom: 10px;
 }
 
 .navbar-inverse {
@@ -205,7 +204,7 @@ a:after {
 #r {
 	background: #ff7878;
 	padding-top: 35px;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 }
 
 #r h4 {
@@ -221,8 +220,8 @@ a:after {
 
 #blue {
 	background: #3498db;
-	padding-top: 35px;
-	padding-bottom: 20px;
+	padding-top: 41px;
+    padding-bottom: 36px;
 }
 
 #blue h4 {
@@ -256,7 +255,8 @@ a:after {
 /****** SECTIONS *****/
 
 .w {
-	padding-top: 35px;
+	padding-top: 55px;
+    margin-bottom: -11px;
 }
 
 .w h4 {
@@ -308,7 +308,7 @@ a:after {
 }
 
 .modal-body {
-	background: #f2f2f2;
+	background: #fff;
     font-family: "Lato";
     font-weight: 300;
     font-size: 16px;

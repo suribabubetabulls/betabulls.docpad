@@ -74,15 +74,27 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">BETA  <img src="/img/bull-black-01.png" alt="Beta Bull" height="42" width="42"">  BULLS</a>
+          <a class="navbar-brand" href="/">BETA<%- @partial('betabulls-svg-icon') %>BULLS</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="index.html">HOME</a></li>
+            <li><a href="/">HOME</a>
+            
+            <!-- DocPad menu -->
+            <% for document in @getCollection('pages').toJSON(): %>
+                <li typeof="sioc:Page" about="<%= document.url %>" class="<%= 'active'  if @document.url is document.url %>">
+                    <a href="<%= document.url %>" property="dc:title"><%= document.title %></a>
+                </li>
+            <% end %> <!-- DocPad menu end -->
+            
+            <!-- <li class="active"><a href="/">HOME</a></li>
             <li><a href="howitworks.html">HOW IT WORKS?</a></li>
-            <li><a href="pricing.html">PRICING</a></li>
+            <li><a href="pricing.html">PRICING</a></li> -->
            <!-- <li><a href="works.html">WORKS</a></li> -->
-            <li><a data-toggle="modal" data-target="#myModal" href="#myModal"><i class="fa fa-envelope-o"></i></a></li>
+            <li><a data-toggle="modal" data-target="#myModal" href="#myModal">
+                <%- @getIconmonstrBlock('email','emailIcon','email-icon-header') %>
+                </a>
+            </li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -93,10 +105,26 @@
     <!-- FOOTER -->
 	<div id="f">
 		<div class="container">
+            <br/>
 			<div class="row centered">
-				<a href="callto:sg.v01" title="Chat With Us"><i class="fa fa-skype"></i></a>
-		
+                <a href="https://twitter.com/betabulls" title="Tweet to BetaBulls">
+                    <!-- <i class="fa fa-skype"> --></i>
+                    <%- @getIconmonstrBlock('twitter4','twitterIcon','twitter-icon-footer footer-icon') %>    
+                </a>
+                <a href="https://www.facebook.com/betabulls" title="BetaBulls Facebook page">
+                    <!-- <i class="fa fa-skype"> --></i>
+                    <%- @getIconmonstrBlock('facebook4','facebookIcon','facebook-icon-footer footer-icon') %>    
+                </a>
+				<a href="callto:sg.v01" title="Skype With BetaBulls">
+                    <!-- <i class="fa fa-skype"> --></i>
+                    <%- @getIconmonstrBlock('skype','skypeIcon','skype-icon-footer footer-icon') %>    
+                </a>
+                <a href="https://github.com/BetaBulls" title="BetaBulls Facebook page">
+                    <!-- <i class="fa fa-skype"> --></i>
+                    <%- @getIconmonstrBlock('github9','githubIcon','github-icon-footer footer-icon') %>    
+                </a>
 			</div><!-- row -->
+            <br/>
             <div class="row centered">
                 &copy;<%- (new Date()).getFullYear() %> BetaBulls <span class="muted">*</span>&nbsp;
                 <a href="/pages/privacy">Privacy Policy</a> <span class="muted">*</span>&nbsp;
@@ -116,12 +144,15 @@
 	      </div>
 	      <div class="modal-body">
 		        <div class="row centered">
-	               <p>
+	               <p>     
+                        <br/>
 		        		101, College Road East<br/>
 						Princeton, NJ<br/>
 						<br/>	
 		        	</p>
-                <script type="text/javascript" src="http://form.jotform.us/jsform/40316771223144"></script>
+                <span class="jot-form">
+                    <script type="text/javascript" src="http://form.jotform.us/jsform/40316771223144"> </script>
+                </span>
 		        </div>
 	      </div>
 	    </div><!-- /.modal-content -->

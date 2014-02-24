@@ -1,6 +1,18 @@
 # The DocPad Configuration File
 # It is simply a CoffeeScript Object which is parsed by CSON
 docpadConfig = {
+    
+    # Plugin Paths
+    # An array of special paths which to load single plugins from
+    # E.g. ['/a/path/to/a/docpad-plugin-special']
+    pluginPaths: []  # default
+
+    # Plugins Paths
+    # An array of paths which to load multiple plugins from
+    pluginsPaths: [  # default
+        'node_modules'
+        'plugins'
+    ]
 
 	# =================================
 	# Template Data
@@ -39,7 +51,7 @@ docpadConfig = {
 			# Styles
 			styles: [
 				"http://yui.yahooapis.com/pure/0.2.0/pure-min.css"
-				"/styles/style.css"
+				"/css/style.css"
                 "/css/bootstrap.css"
                 "/css/font-awesome.min.css"
                 "/css/main.css"
@@ -47,9 +59,9 @@ docpadConfig = {
 
 			# Scripts
 			scripts: [
-				"http://yui.yahooapis.com/3.12.0/build/yui/yui-min.js"
+				"http://yui.yahooapis.com/3.14.1/build/yui/yui-min.js"
 				"http://code.jquery.com/jquery-1.10.2.min.js"
-				"/scripts/script.js"
+				"/js/script.js"
                 "/js/bootstrap.min.js"
 			]
 
@@ -127,11 +139,6 @@ docpadConfig = {
 	# Set to `false` to load all plugins whether or not they are compatible with our DocPad version or not
 	skipUnsupportedPlugins: false  # default: true
 
-	# Enabled Plugins
-	enabledPlugins: 
-		# False to disable. True to enable. 
-		circleeffects: false
-
 	plugins:
 		ghpages:
 			deployRemote: 'origin'
@@ -140,7 +147,7 @@ docpadConfig = {
 		sitemap:
 			cachetime: 600000
 			changefreq: 'weekly'
-			hostname: 'http://arkivum.com'
+			hostname: 'http://betabulls.com'
 }
 
 

@@ -15,7 +15,6 @@
     "docpad-plugin-partials": "~2.8.1",
     "docpad-plugin-text": "~2.3.2",
     "docpad-plugin-ghpages": "~2.4.2",
-    "docpad-plugin-iconmonstr": "~2.0.15",
     "docpad-plugin-sitemap": "~2.2.0"
   },
   "devDependencies": {
