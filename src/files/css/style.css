@@ -16,6 +16,16 @@
     float: right;
     margin: -17px 0 0 0;
 }
+    .blog-thumb{
+        width: 47%;
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
+    .blog-listing-label{
+        clear: both;
+        display: block;
+    }
 
 .right{
     float: right;
