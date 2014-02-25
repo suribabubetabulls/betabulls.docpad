@@ -1,0 +1,26 @@
+---
+title: BLOG
+layout: page
+pageOrder: 3
+---
+
+<div class="content pure-u-1">
+    <div class="pure-g-r content-ribbon">
+        <div class="pure-u-1">
+            <nav class="linklist">
+                <% for document in @getCollection('posts').toJSON(): %>
+                    <li><a class="home-post-title" href="<%= document.url %>">
+                        <%- @getIconmonstrBlock(document.iconmonstr,'blogListIconId','footer-icon') %>
+                        <%= document.title %> </a> &raquo; 
+                        <span> <%- document.desc %> </span>
+                        <!-- <span>Updated <%= document.date.toDateString() %></span> -->
+                        <a href="<%= document.url %>" class="pure-button right">READ</a>
+                    </li>
+                <% end %>
+            </nav>
+        </div>
+    </div>
+</div>
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>

@@ -12,6 +12,24 @@
     opacity: 0.7;
 }
 
+.right{
+    float: right;
+}
+
+.post{
+    padding: 77px;
+}
+.page .linklist{
+    padding: 77px;
+    width: 90%;
+    margin: auto;
+}
+    .page .linklist li{
+        padding: 33px;
+        list-style: none;
+        background: #fafafa;
+    }
+
 #emailIcon{
     fill: #999;
     height: 22px;
