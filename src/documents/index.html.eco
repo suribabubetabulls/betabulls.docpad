@@ -108,7 +108,7 @@ title: 'Home'
 				<div class="col-lg-8 col-lg-offset-2">
 					<h4>WANT TO LEARN MORE?</h4>
 				
-				<a href="pages/howitworks">
+				<a href="/pages/howitworks">
                     <h2><button type="button btn-default btn-xlarge" class="btn btn-primary btn-xlarge"><b>How It Works</b></button></h2>
                 </a>
                 </div>
