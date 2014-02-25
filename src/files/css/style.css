@@ -16,6 +16,9 @@
     float: right;
 }
 
+.post-content{
+    font-size: 18px;
+}
 .post{
     padding: 77px;
 }
