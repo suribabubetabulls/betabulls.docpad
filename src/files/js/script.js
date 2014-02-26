@@ -11,7 +11,7 @@ YUI().use('node', 'event', 'aui-modal', function (Y) {
       {
         bodyContent: '<div class="pure-u-1 center"><p>101, College Road East Princeton, NJ </p><span class="jot-form"><iframe class="jot-frame" src="/pages/jot-form"></iframe></span></div> <!-- .pure-u-1 .center -->',
         centered: true,
-        headerContent: '<h3>CONTACT US</h3>',
+        headerContent: '<h3>.</h3>',
         modal: true,
         render: '#contact',
         /* resizable: {
@@ -24,7 +24,7 @@ YUI().use('node', 'event', 'aui-modal', function (Y) {
     
     modal.hide();
 
-    Y.all('#emailIcon, .pricing-signup').on(
+    Y.all('#emailIcon, .pricing-signup, .contact-step').on(
         'click',
         function() {
             modal.show();

@@ -627,6 +627,10 @@ line-height: 18px;
     margin: 3px 0 0 0 !important;
 }
 
+.contact-step{
+    cursor: pointer;
+}
+
 .modal{
     z-index: 2!important;
 }
@@ -648,13 +652,108 @@ line-height: 18px;
 }
 
 
-@media screen and (max-width: 960px){
-    .bb-aspects{
-        width: 81%;
-        margin: 0;
+@media (max-width: 979px){
+    .bb-aspect{
+        width: 77% !important;
+        margin: 33px 0 !important;
+        padding: 0 33px !important;
     }
+        .bb-aspect:first-child{
+            margin-top: 0;
+        }
+        .home-icon{
+            margin-top: 33px;
+        }
+        .group-icon{
+            margin-top: 11px;
+        }
+   
+    .pure-menu-heading{
+        text-align: center;
+        width: 90%;
+    }
+        .pure-menu.pure-menu-horizontal>ul{
+            padding-right: 0;
+            margin: 0 0 0 -21px;
+            text-align: center;
+            width: 100%;
+        }
+        .pure-menu li a{
+            padding: 5px 13px;
+        }
+    
+    #headerwrap h1{
+        margin-top: 120px;
+        font-size: 42px;
+        line-height: 42px;
+    }
+        #headerwrap h2{
+            font-size: 33px;
+        }
+    
+    .home-device-bg{
+        width: 81%;
+        margin: 33px 0;
+    }   
+    
+.foursteps {
+    margin: 33px 0;
+    width: 77%;
+}
+    .label-info{
+        margin: 33px 0 0 0;
+    }
+    #blue{
+        margin: 110px 0 0 0;
+    }
+    
+.mobile-price{
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+    .pricing-option:first-child{
+        margin: 0 14px 44px 14px;
+    }
+    
+.modal{
+    width: 506px !important;
+    height: 525px !important;
+    top: 33px;
+}
+    .modal-header .close{
+        margin: 6px 23px 0 0;
+        font-size: 33px;
+    }
+    
+.post{
+    padding: 77px 33px;
+    line-height: 33px;
+}
+    .page .linklist{
+        padding: 77px 0;
+    }
+    .blog-feature-image{
+        margin: 0;
+    
+} /* end of small device css
+
+@media (max-width: 480px){
+    .bb-aspect{
+        width: 81% !important;
+        margin: 33px 0 !important;
+        padding: 0 !important;
+    }
+        .bb-aspect:first-child{
+            margin-top: 0;
+        }
+        .home-icon{
+            margin-top: 33px;
+        }
     .100{
-        width: 100%;
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
     }
     
 } /* end of small device css */
