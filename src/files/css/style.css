@@ -463,7 +463,9 @@ line-height: 18px;
 }
 
 .badge-info, .label-info {
-background-color: #3a87ad!important;
+    padding: 14px 17px;
+    font-size: 19px;
+    background-color: #3a87ad!important;
 }
 
 
@@ -595,6 +597,9 @@ background-color: #3a87ad!important;
     margin-top: 17px;
 }
 
+.foursteps{
+    margin: 33px;
+}
 .bb-aspect, .foursteps{
     background: rgba(255, 255, 255, 0.74);
     border: 1px solid #FFEDED;
@@ -641,3 +646,15 @@ background-color: #3a87ad!important;
 #f a{
     color: #7b7b7b;
 }
+
+
+@media screen and (max-width: 960px){
+    .bb-aspects{
+        width: 81%;
+        margin: 0;
+    }
+    .100{
+        width: 100%;
+    }
+    
+} /* end of small device css */
