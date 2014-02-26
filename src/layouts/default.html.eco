@@ -81,7 +81,7 @@
                 </li>
             <% end %> <!-- DocPad menu end -->
             
-            <li><a data-toggle="modal" data-target="#contact" href="#contact">
+            <li><a href="#contact">
                 <%- @getIconmonstrBlock('email','emailIcon','email-icon-header') %>
                 </a>
             </li>
