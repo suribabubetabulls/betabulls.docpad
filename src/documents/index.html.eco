@@ -75,22 +75,30 @@ title: 'Home'
 				<h4>LATEST WORKS</h4>
 				<br>
 				<div class="pure-u-1-3 home-device-bg">
-					<div class="tilt-left">
-					<a href="#"><img src="/img/iTimeKeep-iphone-app.png" alt="iTimeKeep iPhone iOS app BetaBulls"></a>
-					</div>
+					<a target="_blank" href="https://itunes.apple.com/us/app/itimekeep/id444103210?mt=8">
+                        <img src="/img/iTimeKeep-iphone-app.png" alt="iTimeKeep iPhone iOS app BetaBulls">
+                        <img class="itunes-icon" src="/img/iTimeKeep_app-icon.jpg" alt="iTimeKeep iTunes app icon" />
+                        <br/>
+                        <p>
+                            iTimeKeep is an iPad and iPhone App for Time Entry that seamlessly integrates with your Time & Billing System.
+                        </p>
+                    </a>
 				</div>
 
 				<div class="pure-u-1-3 home-device-bg">
-					<div class="tilt-right">
-					<a href="#"><img src="/img/iDocExplorer.png" alt="iDocExplorer iPhone iOS app BetaBulls"></a>
-					</div>
+					<a target="_blank" href="https://itunes.apple.com/us/app/idoc-explorer-from-bellefield/id421336585?mt=8">
+                        <img src="/img/iDocExplorer.png" alt="iDocExplorer iPhone iOS app BetaBulls">
+                        <img class="itunes-icon idoc-icon" src="/img/iDocExplorer_app-icon.jpg" alt="iDocExplorer iTunes app icon" />
+                        <br/>
+                        <p>
+                            iDocExplorer lets users view a firm’s documents stored in the ProLaw Document Management System.
+                        </p>
+                    </a>
 				</div>
 			</div><!-- pure-u-1 -->
             <div class="pure-u-1 center">
                 <div class="pure-u-3-4 screen home-device-bg">
-					<div class="tilt-right">
                         <a href="#"><img src="/img/web-app_screen.png" alt="web app screen"></a>
-					</div>
 				</div>
 			</div><!-- pure-u-1 -->
 		</div><!-- pure-g-r -->

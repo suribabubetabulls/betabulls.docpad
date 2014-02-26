@@ -501,6 +501,23 @@ line-height: 18px;
         display: block;
     }
 
+.itunes-icon{
+    width: 77px;
+    display: block;
+    margin: auto;
+    padding: 7px;
+    background: #fff;
+    border-radius: 19px;
+    border: 1px solid #D3D3D3;
+}
+    .idoc-icon{
+        padding: 0;
+        width: 92px;
+    }
+
+.clear{
+    clear: both;
+}
 .center{
     text-align: center;
 }
@@ -565,6 +582,7 @@ line-height: 18px;
     .home-icon{
         height: 37px;
         width: 37px;
+        margin: 33px 0 0 0;
     }
         .home-icon path{
              fill: #FF7878;
@@ -577,12 +595,10 @@ line-height: 18px;
     .banknote-icon{
         height: 47px;
         width: 47px;
-        margin: -9px 0 -7px 0;
     }
     .wrench-icon{
         height: 39px;
         width: 39px;
-        margin: -1px 0 0 0;
     }
     .footer-icon{
         height: 37px;
@@ -613,11 +629,14 @@ line-height: 18px;
     }
     .home-device-bg{
         background: #DDDDDD;
-        padding: 66px 33px;
+        padding: 66px 33px 13px;
         border-radius: 33px;
         margin: 33px;
         border: 1px solid #E9E9E9;
     }
+        .home-device-bg a{
+            color: #7b7b7b;
+        }
 
 #betabulls-svg-icon:hover{
     opacity: 1;
@@ -660,9 +679,6 @@ line-height: 18px;
     }
         .bb-aspect:first-child{
             margin-top: 0;
-        }
-        .home-icon{
-            margin-top: 33px;
         }
         .group-icon{
             margin-top: 11px;
