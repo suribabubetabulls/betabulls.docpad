@@ -7,7 +7,6 @@ YUI().use('node', 'event', 'aui-modal', function (Y) {
         Y.one('#betabulls-svg-icon').setStyle('opacity', 0.7)
     });
  
-
     var modal = new Y.Modal(
       {
         bodyContent: '<div class="pure-u-1 center"><p>101, College Road East Princeton, NJ </p><span class="jot-form"><iframe class="jot-frame" src="/pages/jot-form"></iframe></span></div> <!-- .pure-u-1 .center -->',
@@ -32,5 +31,4 @@ YUI().use('node', 'event', 'aui-modal', function (Y) {
         }
     );
 
-
-});
+}); // YUI closing

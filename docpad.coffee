@@ -53,7 +53,6 @@ docpadConfig = {
 
 			# Scripts
 			scripts: [
-				"http://yui.yahooapis.com/3.14.1/build/yui/yui-min.js"
                 "http://cdn.alloyui.com/2.0.0/aui/aui-min.js"
 				"/js/script.js"
 			]
