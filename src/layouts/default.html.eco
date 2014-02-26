@@ -66,19 +66,13 @@
 
 <!-- Markup -->
 <!-- Fixed navbar -->
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="/">BETA<%- @partial('betabulls-svg-icon') %>BULLS</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="/">HOME</a>
+
+<div class="content main pure-g-r">
+	<div class="main-inner">
+		<div class="header pure-u-1">
+			<div class="pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal">
+          <a href="/"><span class="pure-menu-heading">BETA<%- @partial('betabulls-svg-icon') %>BULLS</span></a>
+          <ul class="header-nav">
             
             <!-- DocPad menu -->
             <% for document in @getCollection('pages').toJSON(): %>
@@ -87,16 +81,11 @@
                 </li>
             <% end %> <!-- DocPad menu end -->
             
-            <!-- <li class="active"><a href="/">HOME</a></li>
-            <li><a href="howitworks.html">HOW IT WORKS?</a></li>
-            <li><a href="pricing.html">PRICING</a></li> -->
-           <!-- <li><a href="works.html">WORKS</a></li> -->
             <li><a data-toggle="modal" data-target="#contact" href="#contact">
                 <%- @getIconmonstrBlock('email','emailIcon','email-icon-header') %>
                 </a>
             </li>
           </ul>
-        </div><!--/.nav-collapse -->
       </div>
     </div>
 
@@ -104,9 +93,9 @@
     
     <!-- FOOTER -->
 	<div id="f">
-		<div class="container">
+		<div class="pure-g-r">
             <br/>
-			<div class="row centered">
+			<div class="pure-u-1 center">
                 <a href="https://twitter.com/betabulls" title="Tweet to BetaBulls">
                     <!-- <i class="fa fa-skype"> --></i>
                     <%- @getIconmonstrBlock('twitter4','twitterIcon','twitter-icon-footer footer-icon') %>    
@@ -123,42 +112,23 @@
                     <!-- <i class="fa fa-skype"> --></i>
                     <%- @getIconmonstrBlock('github9','githubIcon','github-icon-footer footer-icon') %>    
                 </a>
-			</div><!-- row -->
+			</div><!-- pure-u-1 center -->
             <br/>
-            <div class="row centered">
+            <div class="pure-u-1 center">
                 &copy;<%- (new Date()).getFullYear() %> BetaBulls <span class="muted">*</span>&nbsp;
                 <a href="/pages/privacy">Privacy Policy</a> <span class="muted">*</span>&nbsp;
                 <a href="/pages/terms">Terms & Conditions</a>
-            </div><!-- row -->
-		</div><!-- container -->
+            </div><!-- pure-u-1 center -->
+		</div><!-- pure-g-r -->
 	</div><!-- Footer -->
 
 	<!-- MODAL FOR CONTACT -->
 	<!-- Modal -->
-	<div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-	  <div class="modal-dialog">
-	    <div class="modal-content">
-	      <div class="modal-header">
-	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-	        <h4 class="modal-title" id="myModalLabel">contact us</h4>
-	      </div>
-	      <div class="modal-body">
-		        <div class="row centered">
-	               <p>     
-                        <br/>
-		        		101, College Road East<br/>
-						Princeton, NJ<br/>
-						<br/>	
-		        	</p>
-                <span class="jot-form">
-                    <script type="text/javascript" src="http://form.jotform.us/jsform/40316771223144"> </script>
-                </span>
-		        </div>
-	      </div>
-	    </div><!-- /.modal-content -->
-	  </div><!-- /.modal-dialog -->
+	<div class="yui3-skin-sam">
+      <div id="contact"> </div><!-- /#contact -->
 	</div><!-- /.modal -->
 
+</div> <!-- .content .main -->
 
 	<!-- Scripts -->
 	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>

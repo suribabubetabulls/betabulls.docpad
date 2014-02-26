@@ -46,18 +46,16 @@ docpadConfig = {
 			# Styles
 			styles: [
 				"http://yui.yahooapis.com/pure/0.2.0/pure-min.css"
+                "http://cdn.alloyui.com/2.0.0/aui-css/css/bootstrap.min.css"
 				"/css/style.css"
-                "/css/bootstrap.css"
                 "/css/font-awesome.min.css"
-                "/css/main.css"
 			]
 
 			# Scripts
 			scripts: [
 				"http://yui.yahooapis.com/3.14.1/build/yui/yui-min.js"
-				"http://code.jquery.com/jquery-1.10.2.min.js"
+                "http://cdn.alloyui.com/2.0.0/aui/aui-min.js"
 				"/js/script.js"
-                "/js/bootstrap.min.js"
 			]
 
 
