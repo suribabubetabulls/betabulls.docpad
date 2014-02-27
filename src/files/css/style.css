@@ -532,14 +532,14 @@ line-height: 18px;
 .post-content{
     font-size: 18px;
 }
-.post{
-    padding: 77px;
-}
-.page .linklist{
-    padding: 77px;
-    width: 90%;
-    margin: auto;
-}
+    .post{
+        padding: 77px;
+    }
+    .page .linklist{
+        padding: 77px;
+        width: 90%;
+        margin: auto;
+    }
     .page .linklist li{
         padding: 33px;
         margin: 0 0 33px;
