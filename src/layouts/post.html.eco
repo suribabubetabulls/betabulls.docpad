@@ -2,6 +2,7 @@
 layout: default
 ---
 
+
 <article id="post" class="post">
 	<h1><%= @document.title %></h1>
     <img class="blog-feature-image" alt="wright bothers plane lite idea beta bulls" src="<%= @document.img %>"/>
