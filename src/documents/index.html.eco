@@ -98,13 +98,13 @@ title: 'Home'
 			</div><!-- pure-u-1 -->
             <div class="pure-u-1 center">
                 <div class="pure-u-3-4 screen home-device-bg">
-                        <a href="http://www.operoinc.com/">
-                            <img src="/img/web-app_screen.png" alt="web app screen">
-                            <br/>
-                            <p>
-                                <strong>TAPO</strong><br/>
+                    <a target="_blank" href="http://www.operoinc.com/">
+                        <img src="/img/web-app_screen.png" alt="web app screen">
+                        <br/>
+                        <p>
+                            <strong>TAPO</strong><br/>
 Track and Improve workforce training programs such as Trade Adjustment Assistance Community College and Career Training (TAACCCT) Program, and collaborate with key stakeholders. 
-                        </a>
+                    </a>
 				</div>
 			</div><!-- pure-u-1 -->
 		</div><!-- pure-g-r -->
