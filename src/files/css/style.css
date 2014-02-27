@@ -542,6 +542,7 @@ line-height: 18px;
 }
     .page .linklist li{
         padding: 33px;
+        margin: 0 0 33px;
         list-style: none;
         background: #fafafa;
     }
