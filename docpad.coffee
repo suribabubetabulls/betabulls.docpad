@@ -34,11 +34,11 @@ docpadConfig = {
 
 			# The website keywords (for SEO) separated by commas
 			keywords: """
-				Software development services, Co-founder services, Start-ups, BetaBulls
+				Software development services, Co-founder services, Start-ups, BetaBulls, Beta Bulls
 				"""
 
 			# The website author's name
-			author: "Mass Distribution Media"
+			author: "BetaBulls"
 
 			# The website author's email
 			email: "mike@mdm.cm"
