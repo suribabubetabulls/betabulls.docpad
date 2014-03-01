@@ -452,22 +452,35 @@ line-height: 18px;
 }
 
 .show{display: block}
+.disable-icon{fill: #999);}
 
 .soundcloud-icon{
 	cursor: pointer;
 	width: 42px;
 	height: 42px;
 	margin: 9px 0 -10px 7px;
+	fill: orange;
 }
-	.soundcloud-icon path{
-		fill: orange;
-	}
 	.soundcloud-iframe{
 		display: none;
 		position: fixed;
 		top: 70px;
 		left: -168px;
 		width: 113%;
+	}
+	.close-soundcloud{
+		display: none;
+		cursor: pointer;
+		position: fixed;
+		top: 208px;
+		z-index: 2;
+		background: #fafafa;
+		padding: 3px 7px;
+		right: 44px;
+		border-radius: 3px;
+		border: 1px solid #F0F0F0;
+		font-size: 13px;
+		font-family: arial;
 	}
 	.post-soundcloud{margin: 177px 0 0 0;}
 
