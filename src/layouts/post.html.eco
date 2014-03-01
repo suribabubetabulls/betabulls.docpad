@@ -4,11 +4,12 @@ layout: default
 
 
 <article id="post" class="post">
+
 	<h1>
         <%= @document.title %>
         
         <% if @document.soundcloud: %>
-            <%- @getIconmonstrTipsyBlock('scoundcloud','soundcloudID','soundcloud-icon','data-placement="right" data-content="Chill back and listen to this article spoken audibly."') %> 
+            <%- @getIconmonstrTipsyBlock('soundcloud','soundcloudID','soundcloud-icon','data-placement="right" data-content="Chill back and listen to this article spoken audibly."') %> 
 		<% end %>
         
     </h1>
