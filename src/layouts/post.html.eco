@@ -4,7 +4,15 @@ layout: default
 
 
 <article id="post" class="post">
-	<h1><%= @document.title %></h1>
+	<h1>
+        <%= @document.title %>
+        
+        <% if @document.soundcloud: %>
+            <%- @getIconmonstrTipsyBlock('scoundcloud','soundcloudID','soundcloud-icon','data-placement="right" data-content="Chill back and listen to this article spoken audibly."') %> 
+		<% end %>
+        
+    </h1>
+	
     <img class="blog-feature-image" alt="wright bothers plane lite idea beta bulls" src="<%= @document.img %>"/>
 	<div class="post-content"><%- @content %></div>
 </article>

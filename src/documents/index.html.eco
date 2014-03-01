@@ -16,7 +16,7 @@ title: 'Home'
 		<div class="pure-u-1 center">
 			
 			<div class="pure-u-1-4 bb-aspect">
-				<%- @getIconmonstrBlock('heart','heartIcon','heart-icon home-icon') %>
+				<%- @getIconmonstrTipsyBlock('heart','heartIcon','heart-icon home-icon') %>
 				<h4>We Love Ideas</h4>
 				<p>Working with new ideas and start-ups is our passion. Not work.</p>
 			</div><!-- pure-u-1-4 -->
@@ -28,7 +28,7 @@ title: 'Home'
 			</div><!-- pure-u-1-4 -->
 
 			<div class="pure-u-1-4 bb-aspect">
-				<%- @getIconmonstrBlock('crosshair11','mapIcon','map-icon home-icon') %>
+				<%- @getIconmonstrTipsyBlock('crosshair11','mapIcon','map-icon home-icon') %>
 				<h4>Idea to Product</h4>
 				<p>We build an awesome, usable product around your idea.</p>
 			</div>
@@ -36,19 +36,19 @@ title: 'Home'
 		</div><!-- .pure-u-1 .center -->
 		<div class="pure-u-1 center">
 			<div class="pure-u-1-4 bb-aspect">
-				<%- @getIconmonstrBlock('wrench20','wrenchIcon','wrench-icon home-icon') %>
+				<%- @getIconmonstrTipsyBlock('wrench20','wrenchIcon','wrench-icon home-icon') %>
 				<h4>We Support & Maintain</h4>
 				<p>We make sure your product is up and running. You focus on demos and the path to world domination.</p>
 			</div><!-- pure-u-1-4 -->
 
 			<div class="pure-u-1-4 bb-aspect">
-				<%- @getIconmonstrBlock('checkmark11','checkIcon','check-icon home-icon') %>
+				<%- @getIconmonstrTipsyBlock('checkmark11','checkIcon','check-icon home-icon') %>
 				<h4>Obsessed with Quality</h4>
 				<p>We are fanatics about frameworks and standards. Result is high quality product at lower cost faster.</p>
 			</div><!-- pure-u-1-4 -->
 
 			<div class="pure-u-1-4 bb-aspect">
-				<%- @getIconmonstrBlock('compass6','compassIcon','compass-icon home-icon') %>
+				<%- @getIconmonstrTipsyBlock('compass6','compassIcon','compass-icon home-icon') %>
 				<h4>Mentorship</h4>
 				<p>Apart from technology, our business experts mentor you with lean advise and a helping hand.</p>
 			</div><!-- pure-u-1-4 -->
@@ -56,7 +56,7 @@ title: 'Home'
 		<div class="pure-u-1 center">
             
 			<div class="pure-u-1-4 bb-aspect">
-				<%- @getIconmonstrBlock('banknote3','banknoteIcon','banknote-icon home-icon') %>
+				<%- @getIconmonstrTipsyBlock('banknote3','banknoteIcon','banknote-icon home-icon') %>
 				<h4>Most Affordable</h4>
 				<p>You dont have to break the bank to purse your idea. No need to give up equity or complicated paperwork.</p>
 			</div><!-- pure-u-1-4 -->

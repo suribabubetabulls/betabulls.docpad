@@ -6,16 +6,6 @@ YUI().use('node', 'event', 'aui-modal', function (Y) {
     Y.one('.pure-menu-heading').on('mouseleave', function(){
         Y.one('#betabulls-svg-icon').setStyle('opacity', 0.7)
     });
-    
-    Y.one('#leanClick').on('click', function(){
-        Y.one('.lean-startup').setStyle('display','block');
-        Y.one('.lean-icon-bg').setStyles({
-            padding: '33px 0 0',
-            background: 'transparent'
-        });
-        Y.one('.books-included').setStyle('margin','11px 0 77px');
-        Y.one('#leanClick').hide();
-    });
  
     var modal = new Y.Modal(
       {

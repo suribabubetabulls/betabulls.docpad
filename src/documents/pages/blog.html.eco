@@ -1,7 +1,7 @@
 ---
 title: BLOG
 layout: page
-pageOrder: 3
+pageOrder: 4
 ---
 
 <div class="content pure-u-1">
@@ -13,7 +13,7 @@ pageOrder: 3
                         <img class="blog-thumb" alt="wright bothers plane lite idea beta bulls" src="<%= document.img %>"/>
                         <span class="blog-listing-label">
                             <a class="home-post-title" href="<%= document.url %>">
-                            <%- @getIconmonstrBlock(document.iconmonstr,'blogListIconId','footer-icon') %>
+                            <%- @getIconmonstrTipsyBlock(document.iconmonstr,'blogListIconId','footer-icon') %>
                             <%= document.title %> </a> &raquo; 
                             <span> <%- document.desc %> </span>
                             <!-- <span>Updated <%= document.date.toDateString() %></span> -->
