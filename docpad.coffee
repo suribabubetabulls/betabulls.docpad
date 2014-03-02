@@ -25,16 +25,16 @@ docpadConfig = {
 			oldUrls: ['']
 
 			# The default title of our website
-			title: "Software development services and Co-founder services for Start-ups - BetaBulls"
+			title: "Lean MVP development services & Co-founder services for Start-ups - BetaBulls"
 
 			# The website description (for SEO)
 			description: """
-				Software development services and Co-founder services for Start-ups - BetaBulls
+				Lean MVP development services & Co-founder services for Start-ups - BetaBulls
 				"""
 
 			# The website keywords (for SEO) separated by commas
 			keywords: """
-				Software development services, Co-founder services, Start-ups, BetaBulls, Beta Bulls
+				Lean MVP development services, Co-founder services, Start-ups, BetaBulls, Beta Bulls, MVP, Lean, Lean UX, Lean Startup, Lean MVP
 				"""
 
 			# The website author's name
