@@ -87,11 +87,31 @@ script: '/js/pricing.js'
                 <sub id="leanClick">To learn more, <a href="#lean-startup">Click Here</a></sub>
             </span>
             <span class="lean-startup">
-                <img class="lean-book" src="https://googledrive.com/host/0BwctX3BqWnGmYkw0dE5jRnQ3UTA/lean-startup_book-cover.png" alt="the lean startup book cover png"/>
+				<span class="lean-cover">
+					<%- @getIconmonstrTipsyBlock('play3', 'playIcon', 'play-icon') %>
+					<img class="lean-book" src="https://googledrive.com/host/0BwctX3BqWnGmYkw0dE5jRnQ3UTA/lean-startup_book-cover.png" alt="the lean startup book cover png"/>
+				</span>
                 <p>
                     Already read it? Choose another great book from the <i>Lean Series.</i>
                 </p>
-                <img class="lean-series" src="https://googledrive.com/host/0BwctX3BqWnGmYkw0dE5jRnQ3UTA/lean-series.png" alt="lean series books"/>
+				<span class="lean-series">
+				<span class="pure-u-1-5">
+					<span class="lean-analytics"> </span>
+				</span>
+				<span class="pure-u-1-5">
+					<span class="lean-enterprise"> </span>
+				</span>
+				<span class="pure-u-1-5">
+					<span class="lean-ux"> </span>
+				</span>
+				<span class="pure-u-1-5 running-frame">
+					<%- @getIconmonstrTipsyBlock('play3', 'playIcon', 'play-icon play-icon-running') %>
+					<span class="lean-running"> </span>
+				</span>
+				<span class="pure-u-1-5">
+					<span class="lean-ux-startup"> </span>
+				</span>
+				</span> <!-- .lean-series 0-->
             </span>
         </div>        
     </div>
@@ -110,3 +130,12 @@ script: '/js/pricing.js'
 		</div><!-- pure-g-r -->
 	</div><!-- r wrap -->
 	
+	<!-- Lean Modal Pricing -->
+	<div class="yui3-skin-sam lean-modal-frame">
+      <div id="leanModalPrice"> </div><!-- /#leanModalPrice -->
+	</div><!-- /.modal -->
+	
+	<!-- Running Lean Modal -->
+	<div class="yui3-skin-sam lean-modal-frame">
+      <div id="runningLeanModal"> </div><!-- /#runningLeanModal -->
+	</div><!-- /.modal -->

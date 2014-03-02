@@ -14,9 +14,9 @@ YUI().use('node', 'event', 'aui-modal', function (Y) {
         headerContent: '<h3>.</h3>',
         modal: true,
         render: '#contact',
-        /* resizable: {
+        resizable: {
           handles: ''
-        }, */
+        },
         width: 565,
         height: 606
       }
@@ -30,5 +30,8 @@ YUI().use('node', 'event', 'aui-modal', function (Y) {
             modal.show();
         }
     );
+	Y.one('.yui3-widget-mask').on('click', function(){
+		modal.hide();
+	});
 
 }); // YUI closing

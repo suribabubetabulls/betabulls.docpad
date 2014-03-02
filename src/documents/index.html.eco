@@ -1,8 +1,9 @@
 ---
 layout: 'default'
 title: 'Home'
+script: '/js/home.js'
 ---
-
+	<span class="home">
 	<div id="headerwrap" class="pure-g-r>
 		<div class="pure-u-1 center">
             <h1>We Build Prototypes<br/> for startups</h1>
@@ -119,4 +120,11 @@ Track and Improve workforce training programs such as Trade Adjustment Assistanc
             </div><!-- pure-u-1 -->
 		</div><!-- pure-g-r -->
     </div><!-- r wrap -->
+	
+	<!-- Lean Modal -->
+	<div class="yui3-skin-sam lean-modal-frame">
+      <div id="leanModal"> </div><!-- /#leanModal -->
+	</div><!-- /.modal -->
+	
+	</span>  <!-- .home --> 
 	

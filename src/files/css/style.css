@@ -605,11 +605,36 @@ line-height: 18px;
 .lean-startup{
     display: none;
 }
+	.lean-book{
+		cursor: pointer;
+	}
+	.lean-cover{
+		width: 333px;
+		height: 503px;
+		margin: auto;
+		display: block;
+	}
     .lean-icon-bg{
         display: block;
         padding: 133px 0 131px;
         background: url(https://googledrive.com/host/0BwctX3BqWnGmYkw0dE5jRnQ3UTA/Lean-Startup_icon-white-w333.png) no-repeat center;
     }
+	.play-icon{
+		transition: 1s;
+		opacity: 0;
+		width: 222px;
+		height: 222px;
+		position: absolute;
+		margin: 186px 0 0 91px;
+		fill:#fff;
+		cursor: pointer;
+	}
+		.play-icon-running{
+			width: 177px;
+			height: 177px;
+			margin: 44px 0 0 -99px;
+			fill:#000;
+		}
         
 .pricing-slogan{
     margin-top: 17px;
@@ -635,6 +660,9 @@ line-height: 18px;
         height: 221px;
         margin: 27px;
     }
+	.bb-lean{
+		cursor: pointer;
+	}
     .home-device-bg{
         background: #DDDDDD;
         padding: 66px 33px 13px;
@@ -667,6 +695,50 @@ line-height: 18px;
 
 .modal{
     z-index: 2!important;
+	transition: 1s;
+}
+.lean-modal-frame .modal-body{
+	background: #222;
+}
+	.lean-startup .pure-u-1-5{
+		margin: 0 -3px 0 0;
+		width: 16%;
+		padding: 13px;
+	}
+	.lean-analytics{
+		background: url('https://googledrive.com/host/0BwctX3BqWnGmYkw0dE5jRnQ3UTA/lean-series.png') no-repeat -4px -9px;
+		display: block;
+		width: 180px;
+		height: 270px;
+	}
+	.lean-enterprise{
+		background: url('https://googledrive.com/host/0BwctX3BqWnGmYkw0dE5jRnQ3UTA/lean-series.png') no-repeat -212px -9px;
+		display: block;
+		width: 180px;
+		height: 270px;
+	}
+	.lean-ux {
+		background: url('https://googledrive.com/host/0BwctX3BqWnGmYkw0dE5jRnQ3UTA/lean-series.png') no-repeat -419px -9px;
+		display: block;
+		width: 180px;
+		height: 270px;
+	}
+	.lean-running{
+		background: url('https://googledrive.com/host/0BwctX3BqWnGmYkw0dE5jRnQ3UTA/lean-series.png') no-repeat -627px -9px;
+		display: block;
+		width: 180px;
+		height: 270px;
+		cursor: pointer;
+	}
+	.lean-ux-startup{
+		background: url('https://googledrive.com/host/0BwctX3BqWnGmYkw0dE5jRnQ3UTA/lean-series.png') no-repeat -834px -9px;
+		display: block;
+		width: 180px;
+		height: 270px;
+	}
+#sumotest-badge{
+	opacity: 0;
+	left: -39px;
 }
 .jot-frame{
     width: 777px;
