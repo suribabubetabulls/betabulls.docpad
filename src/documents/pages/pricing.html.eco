@@ -30,7 +30,7 @@ script: '/js/pricing.js'
                         <div class="pricing-top">
                             <span class="pricing-edition">Hash Out
 								<br/>
-								<span class="price-slogan"> Define &amp; Visualize </span>
+								<span class="price-slogan"> Define, Visualize, Survey </span>
 							</span>
                             <span class="price">
                                 <sup>$</sup>
