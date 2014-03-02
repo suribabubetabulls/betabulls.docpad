@@ -95,8 +95,7 @@
             <br/>
             <div class="pure-u-1 center">
                 &copy;<%- (new Date()).getFullYear() %> BetaBulls <span class="muted">*</span>&nbsp;
-                <a href="/pages/privacy">Privacy Policy</a> <span class="muted">*</span>&nbsp;
-                <a href="/pages/terms">Terms & Conditions</a>
+                <a href="/pages/privacy">Privacy Policy</a>
             </div><!-- pure-u-1 center -->
 		</div><!-- pure-g-r -->
 	</div><!-- Footer -->

@@ -554,7 +554,7 @@ line-height: 18px;
         padding: 77px;
     }
     .page .linklist{
-        padding: 77px;
+        padding: 77px 0;
         width: 90%;
         margin: auto;
     }
@@ -836,9 +836,6 @@ line-height: 18px;
     padding: 77px 33px;
     line-height: 33px;
 }
-    .page .linklist{
-        padding: 77px 0;
-    }
     .blog-feature-image{
         margin: 0;
     }
