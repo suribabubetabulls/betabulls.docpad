@@ -773,7 +773,7 @@ line-height: 18px;
    
     .pure-menu-heading{
         text-align: center;
-        width: 90%;
+        width: 86%;
     }
         .pure-menu li{
             margin: 0 0 0 -13px;
@@ -787,6 +787,11 @@ line-height: 18px;
         .pure-menu li a{
             padding: 5px 13px;
         }
+		.email-icon-header{
+			position: absolute;
+			top:-48px;
+			right: 33px;
+		}
     
     #headerwrap h1{
         margin-top: 120px;
@@ -839,5 +844,20 @@ line-height: 18px;
     .blog-feature-image{
         margin: 0;
     }
-        
+    
+.soundcloud-iframe{
+	top: 111px;
+	width: 149%;
+}
+	.close-soundcloud{
+		top: 233px;
+	}
+	
+#r h3{
+	font-size: 21px;
+}
+	#r h4{
+		font-size: 16px;
+	}
+	
 } /* end of small device css
