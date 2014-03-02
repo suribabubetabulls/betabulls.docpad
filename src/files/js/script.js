@@ -9,7 +9,7 @@ YUI().use('node', 'event', 'aui-modal', function (Y) {
  
     var modal = new Y.Modal(
       {
-        bodyContent: '<div class="pure-u-1 center"><p>101, College Road East Princeton, NJ </p><span class="jot-form"><iframe class="jot-frame" src="/pages/jot-form"></iframe></span></div> <!-- .pure-u-1 .center -->',
+        bodyContent: '<div class="pure-u-1 center"><p>180 Raritan Center Parkway, Suite 200, Edison, NJ 08837 </p><span class="jot-form"><iframe class="jot-frame" src="/pages/jot-form"></iframe></span></div> <!-- .pure-u-1 .center -->',
         centered: true,
         headerContent: '<h3>.</h3>',
         modal: true,

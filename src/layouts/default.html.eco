@@ -22,7 +22,7 @@
 	<%- @getBlock('meta').toHTML() %>
 
 	<!-- Icon -->
-    <link rel="shortcut icon" href="">
+    <link rel="shortcut icon" href="/favicon.ico">
 
 	<!-- Shims: IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>
