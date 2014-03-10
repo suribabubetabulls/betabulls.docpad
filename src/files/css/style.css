@@ -475,7 +475,7 @@ line-height: 18px;
 
 .blog-feature-image{
     float: right;
-    margin: -17px 0 0 0;
+    margin: 38px 0 0 0;
 }
     .blog-thumb{
         width: 47%;
@@ -548,6 +548,7 @@ line-height: 18px;
 
 .post-content{
     font-size: 18px;
+	padding: 33px;
     color: #444;
 }
     .post{
