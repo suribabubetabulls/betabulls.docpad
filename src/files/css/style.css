@@ -315,11 +315,8 @@ a:after {
 }
 	.pricing-free-top{
 		background: rgba(161, 161, 255, 0.44);
-		color: #fff;
+		color: #7463B6;
 	}
-		.pricing-top-free .price-slogan{
-			color: #fafafa !important;
-		}
 	.pricing-hash-top{
 		background: #1F301E;
 		color: #6CB865;
