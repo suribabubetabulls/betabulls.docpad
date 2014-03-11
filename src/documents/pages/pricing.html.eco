@@ -67,10 +67,11 @@ script: '/js/pricing.js'
 						</div>
 						<ul class="pricing-items-hash">
 				<li><strong>Analyse Idea</strong></li>
-							<li><strong>Define Use Cases</strong></li>
-							<li><strong>Design User Interface</strong></li>
-							<li><strong>Custom Built Application with Hard Coded Data</strong></li>
-							<li><strong>100 UsabilityHub Tests</strong></li>
+				<li><strong>Define Use Cases</strong></li>
+				<li><strong>Design User Interface</strong></li>
+				<li><strong>Custom Built Application with Hard Coded Data</strong></li>
+				<li><strong>100 UsabilityHub Tests</strong></li>
+				<li><strong>Landing Page</strong></li>
 				<li><strong>Hosting &amp; Maintenance</strong></li>
 				<li><strong>Mentorship</strong></li>
 						</ul>
@@ -100,6 +101,7 @@ script: '/js/pricing.js'
 							<li><strong>Enhance User Interface</strong></li>                     
 							<li><strong>Fully Functional Application with Real Data</strong></li>
 							<li><strong>300 UsabilityHub Tests</strong></li>
+							<li><strong>3 Page Website</strong></li>
 							<li><strong>Hosting &amp; Maintainace</strong></li>
 							<li><strong>Mentorship</strong></li>
 						</ul>
@@ -112,7 +114,7 @@ script: '/js/pricing.js'
         <div class="pure-u-1">
             <span class="lean-icon-bg">
                 <h1>Have you read <i>The Lean Startup</i> yet?</h1>
-                <h3>The book is included in either option above. </h3>
+                <h3>The book is included in non-free plans above. </h3>
                 <sub id="leanClick">To learn more, <a href="#lean-startup">Click Here</a></sub>
             </span>
             <span class="lean-startup">
