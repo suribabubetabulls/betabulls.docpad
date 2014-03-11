@@ -24,60 +24,89 @@ script: '/js/pricing.js'
 			<div class="pure-u-1 center">
 				<h4>PRICING PLANS</h4>
 				<br>
-				<div class="pure-u-2-5 mobile-price">
-                    <!-- START PRICING TABLE -->
-                    <div class="pricing-option">
-                        <div class="pricing-top">
-                            <span class="pricing-edition">Hash Out
+
+				<div class="pure-u-1-3 mobile-price">
+					<!-- START PRICING TABLE -->
+					<div class="pricing-option">
+						<div class="pricing-top pricing-free-top">
+							<span class="pricing-edition">Free
+								<br/>
+								<span class="price-slogan"> Strapped for Cash </span>
+							</span>
+							<span class="price">
+								<sup>$</sup>
+								<span class="price-amount">0</span>
+								<small></small>
+							</span>
+						</div>
+						<ul class="pricing-items-free">
+				<li><strong>Idea Analysis &amp; Feedback</strong></li>
+				<li><strong><a href="/pages/blog">Lean Startup Resources</a></strong></li>
+				<li><strong>Lean Startup Case Studies</strong></li>
+				<li><strong><a href="/pages/blog">Startup Events</a></strong></li>
+						</ul>
+				<a href="#contact" class="pricing-signup pricing-signup-free">Get Advice</a>
+				</div><!-- /pricing-option -->
+<div class="col-lg-2"> </div>
+                    <!-- END PRICING TABLE -->
+				</div><!-- pure-u-1-3 -->
+
+				<div class="pure-u-1-3 mobile-price">
+					<!-- START PRICING TABLE -->
+					<div class="pricing-option">
+						<div class="pricing-top pricing-hash-top">
+							<span class="pricing-edition">Hash Out
 								<br/>
 								<span class="price-slogan"> Define Visualize Survey </span>
 							</span>
-                            <span class="price">
-                                <sup>$</sup>
-                                <span class="price-amount">3k</span>
-                                <small></small>
-                            </span>
-                        </div>
-                        <ul>
+							<span class="price">
+								<sup>$</sup>
+								<span class="price-amount">3k</span>
+								<small></small>
+							</span>
+						</div>
+						<ul class="pricing-items-hash">
 				<li><strong>Analyse Idea</strong></li>
-                            <li><strong>Define Use Cases</strong></li>
-                            <li><strong>Design User Interface</strong></li>
-                            <li><strong>Custom Built Application with Hard Coded Data</strong></li>
+							<li><strong>Define Use Cases</strong></li>
+							<li><strong>Design User Interface</strong></li>
+							<li><strong>Custom Built Application with Hard Coded Data</strong></li>
+							<li><strong>100 UsabilityHub Tests</strong></li>
 				<li><strong>Hosting &amp; Maintenance</strong></li>
 				<li><strong>Mentorship</strong></li>
-                        </ul>
-              <a href="#contact" class="pricing-signup">Hashout Your Idea</a>
-                    </div><!-- /pricing-option -->
+						</ul>
+				<a href="#contact" class="pricing-signup pricing-signup-hash">Hashout Your Idea</a>
+				</div><!-- /pricing-option -->
 <div class="col-lg-2"> </div>
                     <!-- END PRICING TABLE -->
-				</div><!-- pure-u-2-5 -->
+				</div><!-- pure-u-1-3 -->
 				
-				<div class="pure-u-2-5 mobile-price">
-                    <!-- START PRICING TABLE -->
-                    <div class="pricing-option">
-                        <div class="pricing-top">
-                            <span class="pricing-edition">MVP
+				<div class="pure-u-1-3 mobile-price">
+					<!-- START PRICING TABLE -->
+					<div class="pricing-option">
+						<div class="pricing-top pricing-mvp-top">
+							<span class="pricing-edition">MVP
 								<br/>
 								<span class="price-slogan"> Minimum Viable Product </span>
 							</span>
-                            <span class="price">
-                                <sup>$</sup>
-                                <span class="price-amount">7k</span>
-                                <small></small>
-                            </span>
-                        </div>
-                        <ul>
-                            <li><strong>Detailed Analysis</strong></li>
-                            <li><strong>Technical Architecture</strong></li>
-                            <li><strong>Enhance User Interface</strong></li>                     
-                            <li><strong>Fully Functional Application with Real Data</strong></li>
-                            <li><strong>Hosting &amp; Maintainace</strong></li>
-                            <li><strong>Mentorship</strong></li>
-                        </ul>
-                        <a href="#contact" class="pricing-signup">Impress Investors </a>
-                    </div><!-- /pricing-option -->
-                    <!-- END PRICING TABLE -->
-				</div><!-- pure-u-2-5 -->
+							<span class="price">
+								<sup>$</sup>
+								<span class="price-amount">7k</span>
+								<small></small>
+							</span>
+						</div>
+						<ul class="pricing-items-mvp">
+							<li><strong>Detailed Analysis</strong></li>
+							<li><strong>Technical Architecture</strong></li>
+							<li><strong>Enhance User Interface</strong></li>                     
+							<li><strong>Fully Functional Application with Real Data</strong></li>
+							<li><strong>300 UsabilityHub Tests</strong></li>
+							<li><strong>Hosting &amp; Maintainace</strong></li>
+							<li><strong>Mentorship</strong></li>
+						</ul>
+						<a href="#contact" class="pricing-signup pricing-signup-mvp">Impress Investors </a>
+					</div><!-- /pricing-option -->
+					<!-- END PRICING TABLE -->
+				</div><!-- pure-u-1-3 -->
                 
     <div id="lean-startup-book" class="pure-g-r books-included">
         <div class="pure-u-1">

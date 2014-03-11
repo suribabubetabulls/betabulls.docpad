@@ -301,13 +301,11 @@ a:after {
    
 .pricing-option {
     padding-bottom: 40px;
-    margin: 0 14px;
+    margin: -2px;
 }
 
 .pricing-option .pricing-top {
     position: relative;
-    background: #222;
-    color: white;
     text-align: center;
     font-weight: bold;
     padding: 40px 20px 47px 20px;
@@ -315,6 +313,21 @@ a:after {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+	.pricing-free-top{
+		background: rgba(161, 161, 255, 0.44);
+		color: #fff;
+	}
+		.pricing-top-free .price-slogan{
+			color: #fafafa !important;
+		}
+	.pricing-hash-top{
+		background: #1F301E;
+		color: #6CB865;
+	}
+	.pricing-mvp-top{
+		background: #251801;
+		color: #F1720E;
+	}
 
 .pricing-option .pricing-top .special-label {
     display: block;
@@ -363,16 +376,28 @@ a:after {
     left: -10px;
     font-size: 18px;
 }
-
 .pricing-option ul {
     list-style: none;
     margin: 0;
-    background: #eee;
     text-align: center;
     padding-left: 0px;
 }
+	.pricing-items-free{
+		background: rgba(234, 234, 255, 0.28);
+	}
+		.pricing-items-free a{
+			color: rgba(22, 69, 187, 0.74);
+		}
+	.pricing-items-hash{
+		background: rgba(71, 194, 170, 0.06);
+	}
+	.priving-items-mvp{
+		background: rgba(255, 201, 103, 0.06);
+	}
 
 .pricing-option ul li {
+	border-left: 2px solid #E4E4E4;
+	border-right: 2px solid #E4E4E4;
     border-bottom: solid 1px #e1e1e1;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -385,35 +410,42 @@ a:after {
     font-weight: bold;
     padding: 15px 10px;
     color: white;
-    background: #1abc9c;
 }
-
-.pricing-option .pricing-signup:hover {
-    background: #ff7878;
-}
+	.pricing-option .pricing-signup:hover {
+		background: #ff7878;
+	}
+	.pricing-signup-free{
+		background: rgba(115, 115, 250, 0.58);
+		color: #fff;
+	}
+	.pricing-signup-hash{
+		background: #1abc9c;
+	}
+	.pricing-signup-mvp{
+		background: orange;
+	}
 
 .processbox {
-background: #f2f2f2;
-border: 2px solid #DFDFDF;
-padding: 20px;
-list-style-type: none;
+	background: #f2f2f2;
+	border: 2px solid #DFDFDF;
+	padding: 20px;
+	list-style-type: none;
 }
 
 .btn-xlarge {
-padding: 10px 16px;
-font-size: 25px;
-line-height: 1.33;
-border-radius: 6px;
+	padding: 10px 16px;
+	font-size: 25px;
+	line-height: 1.33;
+	border-radius: 6px;
 }
 
 .badge {
-text-shadow: none;
-font-size: 12px;
-padding-top: 1px;
-padding-bottom: 3px;
-font-weight: normal;
-line-height: 18px;
-
+	text-shadow: none;
+	font-size: 12px;
+	padding-top: 1px;
+	padding-bottom: 3px;
+	font-weight: normal;
+	line-height: 18px;
 }
 
 .badge-info, .label-info {
@@ -701,6 +733,9 @@ line-height: 18px;
     .pricing-row{
         margin: 111px 0 0 0;
     }
+	.pricing-row .pure-u-1-3{
+		width: 32.33333%;	
+	}
     .books-included{
         margin: 11px 0 33px;
     }
