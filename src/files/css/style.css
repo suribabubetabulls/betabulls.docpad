@@ -104,7 +104,7 @@ a:after {
 
 #headerwrap {
 	background: url(../img/header-bg.jpg) no-repeat center top;
-	margin-top: -14px;
+	margin-top: 72px;
 	padding-top: 19px;
 	text-align:center;
 	background-attachment: relative;
@@ -552,7 +552,7 @@ a:after {
     float: right;
 }
 .pure-menu.pure-menu-open.pure-menu-fixed{
-    background: #2D2D2D;
+    background: rgba(45, 45, 45, 0.9);
     border: 0;
     padding: 9px;
 }
