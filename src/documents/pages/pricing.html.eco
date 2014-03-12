@@ -46,6 +46,11 @@ script: '/js/pricing.js'
 				<li><strong><a href="/pages/blog">Startup Events</a></strong></li>
 						</ul>
 				<a href="#contact" class="pricing-signup pricing-signup-free">Get Advice</a>
+				<ul class="sub-questions">
+					<li><sub>Already have a prototype? <a id="moreThanMvP" href="#beyond-mvp">Click</a>.</sub></li>
+					<li><sub>Why does it cost this? <a id="modalCost" href="#why-cost">Click</a>.</sub></li>
+					<li><sub>Not ready yet? <a id="priceFeedModal" href="#pricing-questions">Click</a>.</sub></li>
+				</ul>
 				</div><!-- /pricing-option -->
 <div class="col-lg-2"> </div>
                     <!-- END PRICING TABLE -->
@@ -160,6 +165,21 @@ script: '/js/pricing.js'
 			</div><!-- pure-u-1 -->
 		</div><!-- pure-g-r -->
 	</div><!-- r wrap -->
+	
+	<!-- More than MVPs Modal -->
+	<div class="yui3-skin-sam beyondmvp-modal-frame">
+		<div id="beyondMvp"> </div> <!-- #beyondMvp -->
+	</div><!-- .beyondmvp-modal-frame -->
+	
+	<!-- Pricing Feedback Modal -->
+	<div class="yui3-skin-sam pricefeed-modal-frame">
+		<div id="pricingFeedbackModal"> </div> <!-- #pricingFeedbackModal -->
+	</div><!-- .pricefeed-modal-frame -->
+	
+	<!-- Why Cost Modal -->
+	<div class="yui3-skin-sam cost-modal-frame">
+		<div id="costModal"> </div> <!-- #costModeal -->
+	</div><!-- .cost-modal-frame -->
 	
 	<!-- Lean Modal Pricing -->
 	<div class="yui3-skin-sam lean-modal-frame">

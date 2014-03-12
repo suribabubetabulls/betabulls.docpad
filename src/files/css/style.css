@@ -380,7 +380,7 @@ a:after {
 	.pricing-items-free{
 		background: rgba(234, 234, 255, 0.28);
 	}
-		.pricing-items-free a{
+		.pricing-items-free a, .sub-questions a{
 			color: rgba(22, 69, 187, 0.74);
 		}
 	.pricing-items-hash{
@@ -580,6 +580,10 @@ a:after {
 .right{
     float: right;
 }
+	.left{
+		float: left;
+		text-align: left;
+	}
 
 .post-content{
     font-size: 18px;
@@ -783,7 +787,7 @@ a:after {
 }
 
 .modal{
-    z-index: 2!important;
+    z-index: 3!important;
 	transition: 1s;
 }
 .lean-modal-frame .modal-body{
