@@ -13,7 +13,6 @@ YUI().use('node', 'event', 'aui-modal', function (Y) {
 		Y.one('.play-icon-running').setStyle('opacity', '0');	
 	});
 	
-	
 	Y.one('#leanClick').on('click', function(){
         Y.one('.lean-startup').setStyle('display','block');
         Y.one('.lean-icon-bg').setStyles({

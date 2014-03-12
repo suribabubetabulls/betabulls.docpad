@@ -787,7 +787,7 @@ a:after {
 }
 
 .modal{
-    z-index: 3!important;
+    z-index: 3 !important;
 	transition: 1s;
 }
 .lean-modal-frame .modal-body{
