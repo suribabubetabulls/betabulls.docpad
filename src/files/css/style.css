@@ -661,6 +661,9 @@ a:after {
     width: 26px;
     margin: 1px 0 -4px 0;
 }
+	#emailIcon:hover{
+		fill: #fff;
+	}
     .home-icon{
         height: 37px;
         width: 37px;

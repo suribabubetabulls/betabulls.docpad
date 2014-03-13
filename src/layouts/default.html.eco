@@ -76,19 +76,15 @@
             <br/>
 			<div class="pure-u-1 center">
                 <a href="https://twitter.com/betabulls" title="Tweet to BetaBulls">
-                    <!-- <i class="fa fa-skype"> --></i>
-                    <%- @getIconmonstrTipsyBlock('twitter4','twitterIcon','twitter-icon-footer footer-icon') %>    
+                    <%- @getIconmonstrTipsyBlock('twitter4','twitterIcon','twitter-icon-footer footer-icon') %>
                 </a>
                 <a href="https://www.facebook.com/betabulls" title="BetaBulls Facebook page">
-                    <!-- <i class="fa fa-skype"> --></i>
                     <%- @getIconmonstrTipsyBlock('facebook4','facebookIcon','facebook-icon-footer footer-icon') %>    
                 </a>
-				<a href="callto:sg.v01" title="Skype With BetaBulls">
-                    <!-- <i class="fa fa-skype"> --></i>
-                    <%- @getIconmonstrTipsyBlock('skype','skypeIcon','skype-icon-footer footer-icon') %>    
-                </a>
+				<!-- <a href="callto:sg.v01" title="Skype With BetaBulls">
+                     <i class="fa fa-skype"> </i>
+                </a> -->
                 <a href="https://github.com/BetaBulls" title="BetaBulls Facebook page">
-                    <!-- <i class="fa fa-skype"> --></i>
                     <%- @getIconmonstrTipsyBlock('github9','githubIcon','github-icon-footer footer-icon') %>    
                 </a>
 			</div><!-- pure-u-1 center -->
