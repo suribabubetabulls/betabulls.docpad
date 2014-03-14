@@ -469,6 +469,7 @@ a:after {
 
 .show{display: block}
 .disable-icon{fill: #999);}
+iframe{border: 0}
 
 .soundcloud-icon{
 	cursor: pointer;
@@ -742,15 +743,30 @@ a:after {
         margin: 11px 0 33px;
     }
 
-.foursteps{
-    margin: 33px;
-}
 .bb-aspect, .foursteps{
     background: rgba(255, 255, 255, 0.74);
     border: 1px solid #FFEDED;
     padding: 33px;
     height: 221px;
 }
+.foursteps{
+	background: rgba(29, 29, 29, 1);
+	border: 1px solid #88ADD6;
+    margin: 33px;
+	color: #fff;
+}
+	.foursteps h4{
+		color: #fff;
+	}
+	.foursteps:hover{
+		margin:33px 67px 66px;
+	}
+	.foursteps:hover, .foursteps:hover h4{
+		transition: 1s;
+		border: 0;
+		padding: 0 0 33px;
+		background: rgba(255, 255, 255, 0);
+	}
     .bb-aspect{
         padding: 13px;
         height: 221px;
