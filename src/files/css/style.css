@@ -471,6 +471,12 @@ a:after {
 .disable-icon{fill: #999);}
 iframe{border: 0}
 
+.pdf-icon {
+	fill: red;
+	width: 44px;
+	height: 44px;
+	margin: 0 0 -12px 0;
+}
 .soundcloud-icon{
 	cursor: pointer;
 	width: 42px;
