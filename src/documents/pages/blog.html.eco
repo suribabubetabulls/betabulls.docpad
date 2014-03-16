@@ -17,11 +17,12 @@ pageOrder: 4
 		.cal-link a{color:green}
 </style>
 
-<div class="content pure-u-1 blog-index">
-    <div class="pure-g-r content-ribbon">
+<div class="pure-g-r content-ribbon">
+	<div class="content pure-u-1 blog-index">
 			<div class="pure-u-1-3 blog-3rd">
 				<h1>Articles</h1>
 				<nav class="linklist">
+					<ul>
 					<% for document in @getCollection('articles').toJSON(): %>
 						<li>
 							<a href="<%= document.url %>">
@@ -37,6 +38,7 @@ pageOrder: 4
 							</span>
 						</li>
 					<% end %>
+					</ul>	
 				</nav>
 			</div>
 			<div class="pure-u-1-3 blog-3rd">
@@ -46,6 +48,7 @@ pageOrder: 4
 					<%- @getIconmonstrTipsyBlock('calendar4','calIcon','cal-icon') %>
 				</a></span>
 				<nav class="linklist">
+					<ul>
 					<% for document in @getCollection('events').toJSON(): %>
 						<li>
 							<a href="<%= document.url %>">
@@ -61,11 +64,13 @@ pageOrder: 4
 							</span>
 						</li>
 					<% end %>
+					</ul>
 				</nav>
 			</div>
 			<div class="pure-u-1-3 blog-3rd">
 				<h1>Resources</h1>
 				<nav class="linklist">
+					<ul>
 					<% for document in @getCollection('resources').toJSON(): %>
 						<li>
 							<a href="<%= document.url %>">
@@ -81,6 +86,7 @@ pageOrder: 4
 							</span>
 						</li>
 					<% end %>
+					</ul>
 				</nav>
 			</div>
     </div>

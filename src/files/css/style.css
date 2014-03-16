@@ -885,6 +885,7 @@ iframe{border: 0}
 
 
 @media (max-width: 979px){
+	.giphy{display: none}
     .bb-aspect{
         width: 77% !important;
         margin: 33px 0 !important;
@@ -970,6 +971,9 @@ iframe{border: 0}
     .blog-feature-image{
         margin: 0;
     }
+	.blog-index .blog-3rd{
+		width: inherit;
+	}
     
 .soundcloud-iframe{
 	top: 111px;
