@@ -467,6 +467,14 @@ a:after {
     opacity: 0.7;
 }
 
+#_giphy_SBDwBgzOoclxe{
+	transition: 1s;
+	opacity: 0;
+}
+	.you-conquer:hover #_giphy_SBDwBgzOoclxe{
+		opacity: 1;
+	}
+
 .show{display: block}
 .disable-icon{fill: #999);}
 iframe{border: 0}
