@@ -5,7 +5,7 @@ tags: ['post', 'idea', 'startup', 'resource']
 resource: 1
 iconmonstr: ''
 soundcloud:
-desc: '<strong>by Steven Gary Blank</strong>. Read this book to give your startup a chance (or die trying, 50Cent modified-quote)'
+desc: '<strong>by Steven Gary Blank</strong>. Read this book to give your startup a chance (or die trying, modified 50Cent album title)'
 img: 'https://googledrive.com/host/0B92YJK5CJQemQUMtajVhYnBIV1U/Steve-Blank-The-Four-Steps-to-the-Epiphany.jpg'
 script: '/js/soundcloud.js'
 ---
