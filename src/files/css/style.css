@@ -607,6 +607,9 @@ iframe{border: 0}
 		float: left;
 		text-align: left;
 	}
+	.text-left{
+		text-align: left;
+	}
 
 .post-content{
     font-size: 18px;
