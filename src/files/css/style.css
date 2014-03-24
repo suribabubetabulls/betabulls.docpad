@@ -6,7 +6,7 @@
 
 body {
   background-color: #f2f2f2;
-    font-family: "Lato";
+    font-family: "Lato", arial;
     font-weight: 300;
     font-size: 16px;
     color: #555;
@@ -801,7 +801,23 @@ iframe{border: 0}
         padding: 13px;
         height: 221px;
         margin: 27px;
+		transition: 0.3s;
     }
+	.bb-aspect h4{
+		transition: 0.3s;
+	}
+		.bb-aspect:hover{
+			padding: 23px;
+			margin: 23px;
+			box-shadow: 7px 7px rgba(211, 211, 211, 0.1);
+		}
+		.bb-aspect:hover h4{
+			font-size: 19px;
+		}
+		.bb-aspect:hover .home-icon{
+			height: 39px;
+			width: 39px;
+		}
 	.bb-lean{
 		cursor: pointer;
 	}

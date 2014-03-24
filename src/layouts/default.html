@@ -50,23 +50,23 @@
 	<div class="main-inner">
 		<div class="header pure-u-1">
 			<div class="pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal">
-          <a href="/"><span class="pure-menu-heading">BETA<%- @partial('betabulls-svg-icon') %>BULLS</span></a>
-          <ul class="header-nav">
-            
-            <!-- DocPad menu -->
-            <% for document in @getCollection('pages').toJSON(): %>
-                <li typeof="sioc:Page" about="<%= document.url %>" class="<%= 'active'  if @document.url is document.url %>">
-                    <a href="<%= document.url %>" property="dc:title"><%= document.title %></a>
-                </li>
-            <% end %> <!-- DocPad menu end -->
-            
-            <li><a href="#contact">
-                <%- @getIconmonstrTipsyBlock('email','emailIcon','email-icon-header') %>
-                </a>
-            </li>
-          </ul>
-      </div>
-    </div>
+			  <a itemscope itemtype="http://schema.org/Organization" href="/"><span itemprop="name" class="pure-menu-heading">BETA<%- @partial('betabulls-svg-icon') %>BULLS</span></a>
+			  <ul class="header-nav">
+
+				<!-- DocPad menu -->
+				<% for document in @getCollection('pages').toJSON(): %>
+					<li typeof="sioc:Page" about="<%= document.url %>" class="<%= 'active'  if @document.url is document.url %>">
+						<a href="<%= document.url %>" property="dc:title"><%= document.title %></a>
+					</li>
+				<% end %> <!-- DocPad menu end -->
+
+				<li><a href="#contact">
+					<%- @getIconmonstrTipsyBlock('email','emailIcon','email-icon-header') %>
+					</a>
+				</li>
+			  </ul>
+		  </div>
+		</div>
 
     <%- @content %>
     
