@@ -34,9 +34,11 @@ script: '/js/pricing.js'
 								<span class="price-slogan"> Strapped for Cash </span>
 							</span>
 							<span class="price">
+								<!-- price
 								<sup>$</sup>
 								<span class="price-amount">0</span>
 								<small></small>
+								-->
 							</span>
 						</div>
 						<ul class="pricing-items-free">
@@ -65,9 +67,11 @@ script: '/js/pricing.js'
 								<span class="price-slogan"> Define Visualize Survey </span>
 							</span>
 							<span class="price">
+								<!-- price
 								<sup>$</sup>
 								<span class="price-amount">3k</span>
 								<small></small>
+								-->
 							</span>
 						</div>
 						<ul class="pricing-items-hash">
@@ -95,9 +99,11 @@ script: '/js/pricing.js'
 								<span class="price-slogan"> Minimum Viable Product </span>
 							</span>
 							<span class="price">
+								<!-- price
 								<sup>$</sup>
 								<span class="price-amount">7k</span>
 								<small></small>
+								-->
 							</span>
 						</div>
 						<ul class="pricing-items-mvp">

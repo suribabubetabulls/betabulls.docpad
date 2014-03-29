@@ -6,7 +6,7 @@ script: '/js/home.js'
 	<span class="home">
 	<div id="headerwrap" class="pure-g-r>
 		<div class="pure-u-1 center">
-            <h1>We Build Prototypes<br/> for startups</h1>
+            <h1>We Build Apps<br/> for startups</h1>
             <h2>We are your interim CTO</h2>
             <!-- <a href="howitworks.html"><h2><button type="button btn-default btn-xlarge" class="btn btn-success btn-xlarge"><b>How It Works?</b></button></h2></a> -->
 		</div><!-- pure-u-1 -->
