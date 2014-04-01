@@ -79,9 +79,9 @@ script: '/js/pricing.js'
 				<li><strong>Define Use Cases</strong></li>
 				<li><strong>Design User Interface</strong></li>
 				<li><strong>Custom Built Application with Hard Coded Data</strong></li>
-				<li><strong>100 UsabilityHub Tests</strong></li>
+				<li><strong>100 Usability Tests</strong></li>
 				<li><strong>Landing Page</strong></li>
-				<li><strong>Hosting &amp; Maintenance</strong></li>
+				<li><strong>App Hosting &amp; Maintenance</strong></li>
 				<li><strong>Mentorship</strong></li>
 						</ul>
 				<a href="#contact" class="pricing-signup pricing-signup-hash">Hashout Your Idea</a>
@@ -110,10 +110,10 @@ script: '/js/pricing.js'
 							<li><strong>Detailed Analysis</strong></li>
 							<li><strong>Technical Architecture</strong></li>
 							<li><strong>Enhance User Interface</strong></li>                     
-							<li><strong>Fully Functional Application with Real Data</strong></li>
-							<li><strong>300 UsabilityHub Tests</strong></li>
+							<li><strong>Fully Functional Application</strong></li>
+							<li><strong>300 Usability Tests</strong></li>
 							<li><strong>3 Page Website</strong></li>
-							<li><strong>Hosting &amp; Maintainace</strong></li>
+							<li><strong>App Hosting &amp; Maintainace</strong></li>
 							<li><strong>Mentorship</strong></li>
 						</ul>
 						<a href="#contact" class="pricing-signup pricing-signup-mvp">Impress Investors </a>
