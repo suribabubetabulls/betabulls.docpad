@@ -10,10 +10,6 @@ pageOrder: 3
 <h1> Frequently Asked Questions</h1>
 <br/><br/>
 
-<%- @partial('why-cost') %>
-
-<br/><br/><br/>
-
 <span id="what-is-the-lean-startup">
 <strong>What’s an MVP?</strong> <br/>
 MVP stands for Minimum Viable Product. It is a barebones prototype, even missing some necessary usage features, making it less than a “beta launch” product. It’s purpose is for early and affordable testing of an idea. At BetaBulls, we take your idea, no matter how grandiose or petite and chisel it into an ideal MVP for you to release to the world and begin testing/tweaking. Building a MVP to test before building a full product will save you money. Feedback at this early stage will always result in changing the direction of the product. This is based on the principles written in “<a target="_blank" href="http://theleanstartup.com/">The Lean Startup</a>”. See the Wikipedia article on “Minimum viable Product” here: <a target="_blank" href="https://en.wikipedia.org/wiki/Minimum_viable_product">https://en.wikipedia.org/wiki/Minimum_viable_product</a>
