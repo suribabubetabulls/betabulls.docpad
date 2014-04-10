@@ -615,6 +615,7 @@ iframe{border: 0}
     font-size: 18px;
 	padding: 33px 0;
     color: #444;
+	clear: both;
 }
     .post{
         padding: 77px;
