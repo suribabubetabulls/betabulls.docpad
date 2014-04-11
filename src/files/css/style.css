@@ -69,6 +69,7 @@ a:after {
     padding: 0;
 }
 
+.hide{display: none;}
 
 .navbar {
 	font-weight: 800;
@@ -524,8 +525,8 @@ iframe{border: 0}
 	.post-soundcloud{margin: 177px 0 0 0;}
 
 .blog-feature-image{
-    float: right;
-    margin: 38px 0 0 0;
+	width: 100%;
+    margin: 38px auto 0;
 	padding: 33px;
 }
     .blog-thumb{
@@ -616,6 +617,8 @@ iframe{border: 0}
 	padding: 33px 0;
     color: #444;
 	clear: both;
+	max-width: 81%;
+	margin: auto;
 }
     .post{
         padding: 77px;
@@ -915,6 +918,9 @@ iframe{border: 0}
 #f a{
     color: #7b7b7b;
 }
+.mute{
+	opacity: 0.7;
+}
 
 
 @media (max-width: 979px){
@@ -966,61 +972,66 @@ iframe{border: 0}
         width: 81%;
         margin: 33px 0;
     }   
-    
-.foursteps {
-    margin: 33px 0;
-    width: 77%;
-}
-    .label-info{
-        margin: 33px 0 0 0;
-    }
-    #blue{
-        margin: 109px 0 0 0;
-    }
-    
-.mobile-price{
-    width: 100% !important;
-    margin: 0 !important;
-    padding: 0 !important;
-}
-    .pricing-option:first-child{
-        margin: 0 14px 44px 14px;
-    }
-    
-.modal{
-    width: 506px !important;
-    height: 525px !important;
-    top: 33px;
-}
-    .modal-header .close{
-        margin: 6px 23px 0 0;
-        font-size: 33px;
-    }
-    
-.post{
-    padding: 77px 33px;
-    line-height: 33px;
-}
-    .blog-feature-image{
-        margin: 0;
-    }
-	.blog-index .blog-3rd{
-		width: inherit;
-	}
-    
-.soundcloud-iframe{
-	top: 111px;
-	width: 149%;
-}
-	.close-soundcloud{
-		top: 233px;
-	}
 	
-#r h3{
-	font-size: 21px;
-}
-	#r h4{
-		font-size: 16px;
+	.post-content{
+		width: 100%;
+		max-width: inherit;
 	}
+    
+	.foursteps {
+		margin: 33px 0;
+		width: 77%;
+	}
+		.label-info{
+			margin: 33px 0 0 0;
+		}
+		#blue{
+			margin: 109px 0 0 0;
+		}
+
+	.mobile-price{
+		width: 100% !important;
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+		.pricing-option:first-child{
+			margin: 0 14px 44px 14px;
+		}
+
+	.modal{
+		width: 506px !important;
+		height: 525px !important;
+		top: 33px;
+	}
+		.modal-header .close{
+			margin: 6px 23px 0 0;
+			font-size: 33px;
+		}
+
+	.post{
+		padding: 77px 33px;
+		line-height: 33px;
+	}
+		.blog-feature-image{
+			margin: 0;
+		}
+		.blog-index .blog-3rd{
+			width: inherit;
+		}
+
+	.soundcloud-iframe{
+		top: 111px;
+		width: 149%;
+	}
+		.close-soundcloud{
+			top: 233px;
+		}
+
+	#r h3{
+		font-size: 21px;
+	}
+		#r h4{
+			font-size: 16px;
+		}
 	
 } /* end of small device css

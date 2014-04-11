@@ -14,8 +14,13 @@ layout: default
         
     </h1>
 	
-    <img class="blog-feature-image" alt="wright bothers plane lite idea beta bulls" src="<%= @document.img %>"/>
-	<div class="post-content"><%- @content %></div>
+	<span class="featured-image">
+		<img class="blog-feature-image <%= @document.featImgClasses %>" alt="<%= @document.imgDecr %>" src="<%= @document.img %>"/>
+		<% if @document.caption: %> 
+			<summary class="mute"><%= @document.caption %></summary>
+		<% end %>
+	</span>
+	<article class="post-content"><%- @content %></article>
 </article>
 
 <footer>
