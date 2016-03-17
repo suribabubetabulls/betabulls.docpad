@@ -5,8 +5,8 @@ docpadConfig = {
     # Plugins Paths
     # An array of paths which to load multiple plugins from
     pluginsPaths: [  # default
-        'node_modules'
-        'plugins'
+        './node_modules'
+        './plugins'
     ]
 
 	# =================================
