@@ -7,5 +7,5 @@ layout: default
 </article>
         
 	<% if @document.soundcloud: %>
-		<%- @getIconmonstrTipsyBlock('scoundcloud','soundcloudID','soundcloud-icon','data-placement="right" data-content="Chill back and listen to this article spoken audibly."') %> 
+		<%- @getIconmonstrIcon('scoundcloud','soundcloudID','soundcloud-icon','data-placement="right" data-content="Chill back and listen to this article spoken audibly."') %> 
 	<% end %>

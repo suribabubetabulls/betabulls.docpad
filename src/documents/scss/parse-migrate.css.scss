@@ -1,0 +1,55 @@
+::-webkit-scrollbar {width: 17px;background: #1d1d1d;}
+::-webkit-scrollbar-track {-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);}
+::-webkit-scrollbar-thumb {background: #88ADD6;}
+
+body{background: #000}
+.you-conquer{
+	padding: 33px 0 0;
+	margin: 77px auto 0;
+	height: 146px;
+	width: 1001px;
+	display: block;
+}
+
+/* Removing animations for now:
+.foursteps {
+	width: 200px;
+	height: 200px;
+	display: block;
+	position: relative;
+	
+	
+	&::after { // Trying to get the backgroun image to fade in. 
+		transition: 3s; 
+		content: "";
+		opacity: 0;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		position: absolute;
+		z-index: -1;   
+	}
+}
+
+#giphyPreload1 { background: url(/img/scan_giphy.gif) no-repeat -9999px -9999px; }
+#giphyPreload2 { background: url(/img/blue_orb_lights-giphy.gif) no-repeat -9999px -9999px; }
+#giphyPreload3 { background: url(/img/blue_wave_light-giphy.gif) no-repeat -9999px -9999px; }
+#giphyPreload4 { background: url(/img/blue_flashing_light-giphy.gif) no-repeat -9999px -9999px; }
+#giphyPreload5 { background: url(/img/blue_bladerunner_light-giphy.gif) no-repeat -9999px -9999px; }
+#giphyPreload6 { background: url(/img/blue_bright_light-giphy.gif) no-repeat -9999px -9999px; }
+
+$giphyUrl: 	"/img/scan_giphy.gif",
+						"/img/blue_orb_lights-giphy.gif",
+						"/img/blue_wave_light-giphy.gif",
+						"/img/blue_flashing_light-giphy.gif",
+						"/img/blue_bladerunner_light-giphy.gif",
+						"/img/blue_bright_light-giphy.gif";
+
+@for $i from 1 through length($giphyUrl){
+	.giphy-bg-#{$i}:hover{
+		background: url(nth($giphyUrl, $i)) center no-repeat;
+		&::after{opacity: 1;}
+	}
+}
+*/

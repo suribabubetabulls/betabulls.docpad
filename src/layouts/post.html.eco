@@ -9,7 +9,7 @@ layout: default
         <%= @document.title %>
         
         <% if @document.soundcloud: %>
-            <%- @getIconmonstrTipsyBlock('soundcloud','soundcloudID','soundcloud-icon','data-placement="right" data-content="Chill back and listen to this article spoken audibly."') %> 
+            <%- @getIconmonstrIcon('soundcloud','soundcloudID','soundcloud-icon') %> 
 		<% end %>
         
     </h1>

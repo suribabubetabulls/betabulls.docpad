@@ -18,7 +18,7 @@ script: '/js/soundcloud.js'
 
 We’ve backed up Steve’s free PDF, “The Four Steps to the Epiphany” to make sure you can get it.  <br/><br/>
 <a href="https://googledrive.com/host/0B92YJK5CJQemQUMtajVhYnBIV1U/Four_Steps.pdf">
-	<%- @getIconmonstrTipsyBlock('pdf-file2','pdfIcon','pdf-icon') %>
+	<%- @getIconmonstrIcon('pdf-file2','pdfIcon','pdf-icon') %>
 	https://googledrive.com/host/0B92YJK5CJQemQUMtajVhYnBIV1U/Four_Steps.pdf
 </a>
 

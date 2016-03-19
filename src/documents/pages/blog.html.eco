@@ -30,7 +30,7 @@ pageOrder: 4
 							</a>
 							<span class="blog-listing-label">
 								<a class="home-post-title" href="<%= document.url %>">
-								<%- @getIconmonstrTipsyBlock(document.iconmonstr,'blogListIconId','footer-icon') %>
+								<%- @getIconmonstrIcon(document.iconmonstr,'blogListIconId','footer-icon') %>
 								<%= document.title %> </a> &raquo; 
 								<span> <%- document.desc %> </span>
 								<!-- <span>Updated <%= document.date.toDateString() %></span> -->
@@ -45,7 +45,7 @@ pageOrder: 4
 				<h1>Events</h1>
 				<span class="center cal-link"><a href="/pages/events">
 					Tech/Startup Meetup Calendar
-					<%- @getIconmonstrTipsyBlock('calendar4','calIcon','cal-icon') %>
+					<%- @getIconmonstrIcon('calendar4','calIcon','cal-icon') %>
 				</a></span>
 				<nav class="linklist">
 					<ul>
@@ -56,7 +56,7 @@ pageOrder: 4
 							</a>
 							<span class="blog-listing-label">
 								<a class="home-post-title" href="<%= document.url %>">
-								<%- @getIconmonstrTipsyBlock(document.iconmonstr,'blogListIconId','footer-icon') %>
+								<%- @getIconmonstrIcon(document.iconmonstr,'blogListIconId','footer-icon') %>
 								<%= document.title %> </a> &raquo; 
 								<span> <%- document.desc %> </span>
 								<!-- <span>Updated <%= document.date.toDateString() %></span> -->
@@ -78,7 +78,7 @@ pageOrder: 4
 							</a>
 							<span class="blog-listing-label">
 								<a class="home-post-title" href="<%= document.url %>">
-								<%- @getIconmonstrTipsyBlock(document.iconmonstr,'blogListIconId','footer-icon') %>
+								<%- @getIconmonstrIcon(document.iconmonstr,'blogListIconId','footer-icon') %>
 								<%= document.title %> </a> &raquo; 
 								<span> <%- document.desc %> </span>
 								<!-- <span>Updated <%= document.date.toDateString() %></span> -->

@@ -1,13 +1,6 @@
 # The DocPad Configuration File
 # It is simply a CoffeeScript Object which is parsed by CSON
 docpadConfig = {
-    
-    # Plugins Paths
-    # An array of paths which to load multiple plugins from
-    pluginsPaths: [  # default
-        './node_modules'
-        './plugins'
-    ]
 
 	# =================================
 	# Template Data
@@ -41,19 +34,21 @@ docpadConfig = {
 			author: "BetaBulls"
 
 			# The website author's email
-			email: "mike@mdm.cm"
+			email: "mike@mdm.cc"
 
 			# Styles
 			styles: [
-				"http://yui.yahooapis.com/pure/0.2.0/pure-min.css"
-                "http://cdn.alloyui.com/2.0.0/aui-css/css/bootstrap.min.css"
-				"/css/style.css"
-                "/css/font-awesome.min.css"
+				"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css"
+				"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.css.map"
+				"/css/pure-min.css"
+				"/css/font-awesome.min.css"
+				"/scss/style.css"
 			]
 
 			# Scripts
 			scripts: [
-                "http://cdn.alloyui.com/2.0.0/aui/aui-min.js"
+				"https://cdnjs.cloudflare.com/ajax/libs/yui/3.18.0/yui/yui-min.js"
+				"/js/aui-min.js"
 				"/js/script.js"
 			]
 
@@ -149,6 +144,7 @@ docpadConfig = {
 			cachetime: 600000
 			changefreq: 'weekly'
 			hostname: 'http://betabulls.com'
+			
 }
 
 

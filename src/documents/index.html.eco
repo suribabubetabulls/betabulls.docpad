@@ -3,12 +3,17 @@ layout: 'default'
 title: 'BetaBulls'
 script: '/js/home.js'
 ---
+
+	<div id="fixedForBetaBulls">
+		<a href="enterprise" id="yui_patched_v3_11_0_1_1458257209567_399"><img src="img/ForEnterprise.png" class="img-responsive"></a>
+	</div>
+
 	<span class="home">
-	<div id="headerwrap" class="pure-g-r>
+	<div id="headerwrap" class="pure-g-r">
 		<div class="pure-u-1 center">
-            <h1>We Build Apps<br/> for startups</h1>
-            <h2>We are your interim CTO</h2>
-            <!-- <a href="howitworks.html"><h2><button type="button btn-default btn-xlarge" class="btn btn-success btn-xlarge"><b>How It Works?</b></button></h2></a> -->
+			<h1>We Build Apps<br/> for startups</h1>
+			<h2>We are your interim CTO</h2>
+			<!-- <a href="howitworks.html"><h2><button type="button btn-default btn-xlarge" class="btn btn-success btn-xlarge"><b>How It Works?</b></button></h2></a> -->
 		</div><!-- pure-u-1 -->
 	</div><!-- headerwrap -->
 
@@ -23,8 +28,8 @@ script: '/js/home.js'
 			</div><!-- pure-u-1-4 -->
 
 			<div class="pure-u-1-4 bb-aspect bb-lean">
-                <img class="home-icon leanstartup-icon" src="https://googledrive.com/host/0BwctX3BqWnGmYkw0dE5jRnQ3UTA/Lean-Startup_icon-pink.png" alt="lean startup png icon pink"/>
-                <h4>We Believe in Lean</h4>
+					<img class="home-icon leanstartup-icon" src="https://googledrive.com/host/0BwctX3BqWnGmYkw0dE5jRnQ3UTA/Lean-Startup_icon-pink.png" alt="lean startup png icon pink"/>
+					<h4>We Believe in Lean</h4>
 				<p>Prototype now, full product later. We work very hard to convince you on this model even if you are ready to spend money on a full product.</p>
 			</div><!-- pure-u-1-4 -->
 
@@ -55,7 +60,7 @@ script: '/js/home.js'
 			</div><!-- pure-u-1-4 -->
 		</div><!-- .pure-u-1 .center -->
 		<div class="pure-u-1 center">
-            
+						
 			<div class="pure-u-1-4 bb-aspect">
 				<%- @getIconmonstrIcon('banknote3','banknoteIcon','banknote-icon home-icon') %>
 				<h4>Most Affordable</h4>
@@ -68,62 +73,62 @@ script: '/js/home.js'
 
 
 	<!-- PORTFOLIO SECTION -->
-    <div id="dg">
-		<div class="pure-g-r">
-			<div class="pure-u-1 center">
-				<h4>LATEST WORKS</h4>
-				<br>
-				<div class="pure-u-1-3 home-device-bg">
-					<a target="_blank" href="https://itunes.apple.com/us/app/itimekeep/id444103210?mt=8">
-                        <img src="/img/iTimeKeep-iphone-app.png" alt="iTimeKeep iPhone iOS app BetaBulls">
-                        <img class="itunes-icon" src="/img/iTimeKeep_app-icon.jpg" alt="iTimeKeep iTunes app icon" />
-                        <br/>
-                        <p>
-                            <strong>iTimeKeep</strong> is an iPad and iPhone App for Time Entry that seamlessly integrates with your Time & Billing System.
-                        </p>
-                    </a>
-				</div>
+		<div id="dg">
+			<div class="pure-g-r">
+				<div class="pure-u-1 center">
+					<h4>LATEST WORKS</h4>
+					<br>
+					<div class="pure-u-1-3 home-device-bg">
+						<a target="_blank" href="https://itunes.apple.com/us/app/itimekeep/id444103210?mt=8">
+							<img src="/img/iTimeKeep-iphone-app.png" alt="iTimeKeep iPhone iOS app BetaBulls">
+							<img class="itunes-icon" src="/img/iTimeKeep_app-icon.jpg" alt="iTimeKeep iTunes app icon" />
+							<br/>
+							<p>
+									<strong>iTimeKeep</strong> is an iPad and iPhone App for Time Entry that seamlessly integrates with your Time & Billing System.
+							</p>
+						</a>
+					</div>
 
 				<div class="pure-u-1-3 home-device-bg">
 					<a target="_blank" href="https://itunes.apple.com/us/app/idoc-explorer-from-bellefield/id421336585?mt=8">
-                        <img src="/img/iDocExplorer.png" alt="iDocExplorer iPhone iOS app BetaBulls">
-                        <img class="itunes-icon idoc-icon" src="/img/iDocExplorer_app-icon.jpg" alt="iDocExplorer iTunes app icon" />
-                        <br/>
-                        <p>
-                            <strong>iDocExplorer</strong> lets users view a firm’s documents stored in the ProLaw Document Management System.
-                        </p>
-                    </a>
+						<img src="/img/iDocExplorer.png" alt="iDocExplorer iPhone iOS app BetaBulls">
+						<img class="itunes-icon idoc-icon" src="/img/iDocExplorer_app-icon.jpg" alt="iDocExplorer iTunes app icon" />
+						<br/>
+						<p>
+							<strong>iDocExplorer</strong> lets users view a firm’s documents stored in the ProLaw Document Management System.
+						</p>
+					</a>
 				</div>
-			</div><!-- pure-u-1 -->
-            <div class="pure-u-1 center">
-                <div class="pure-u-3-4 screen home-device-bg">
-                    <a target="_blank" href="http://www.operoinc.com/">
-                        <img src="/img/web-app_screen.png" alt="web app screen">
-                        <br/>
-                        <p>
-                            <strong>TAPO</strong><br/>
-Track and Improve workforce training programs such as Trade Adjustment Assistance Community College and Career Training (TAACCCT) Program, and collaborate with key stakeholders. 
-                    </a>
-				</div>
-			</div><!-- pure-u-1 -->
+				</div><!-- pure-u-1 -->
+				<div class="pure-u-1 center">
+					<div class="pure-u-3-4 screen home-device-bg">
+						<a target="_blank" href="http://www.operoinc.com/">
+							<img class="tablet-app" src="/img/web-app_screen.png" alt="web app screen">
+							<br/>
+							<p>
+								<strong>TAPO</strong><br/>
+								Track and Improve workforce training programs such as Trade Adjustment Assistance Community College and Career Training (TAACCCT) Program, and collaborate with key stakeholders. 
+							</p>
+						</a>
+					</div>
+				</div><!-- TAPO pure-u-1 -->
 		</div><!-- pure-g-r -->
 	</div> <!-- DG -->
 
-	
 	<div id="r">
 		<div class="pure-g-r">
 			<div class="pure-u-1 center">
-					<h4>WANT TO LEARN MORE?</h4>
+				<h4>WANT TO LEARN MORE?</h4>
 				<a href="/pages/howitworks">
-                    <h2><button type="button btn-default btn-xlarge" class="btn btn-primary btn-xlarge"><b>How It Works</b></button></h2>
-                </a>
-            </div><!-- pure-u-1 -->
+					<h2><button type="button btn-default btn-xlarge" class="btn btn-primary btn-xlarge"><b>How It Works</b></button></h2>
+				</a>
+			</div><!-- pure-u-1 -->
 		</div><!-- pure-g-r -->
-    </div><!-- r wrap -->
+		</div><!-- r wrap -->
 	
 	<!-- Lean Modal -->
 	<div class="yui3-skin-sam lean-modal-frame">
-      <div id="leanModal"> </div><!-- /#leanModal -->
+		<div id="leanModal"> </div><!-- /#leanModal -->
 	</div><!-- /.modal -->
 	
 	</span>  <!-- .home --> 

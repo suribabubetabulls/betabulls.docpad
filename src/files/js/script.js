@@ -1,10 +1,10 @@
 YUI().use('node', 'event', 'aui-modal', function (Y) {
     
     Y.one('.pure-menu-heading').on('mouseenter', function(){
-        Y.one('#betabulls-svg-icon').setStyle('opacity', 1)        
+        Y.one('#betabulls-svg-icon').setStyle('opacity', 1);  
     });   
     Y.one('.pure-menu-heading').on('mouseleave', function(){
-        Y.one('#betabulls-svg-icon').setStyle('opacity', 0.7)
+        Y.one('#betabulls-svg-icon').setStyle('opacity', 0.7);
     });
  
     var modal = new Y.Modal(
