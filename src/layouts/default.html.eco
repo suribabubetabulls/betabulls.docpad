@@ -20,7 +20,13 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 	<!-- Our site title and description -->
-	<title><%= @getPreparedTitle() %></title>
+	<title>
+		<% if @document.customTitle: %>
+			<%= @document.customTitle %>
+		<% else: %>
+			<%= @getPreparedTitle() %>
+		<% end %>
+	</title>
 	<meta name="description" content="<%= @getPreparedDescription() %>" />
 	<meta name="keywords" content="<%= @getPreparedKeywords() %>" />
 	<meta name="author" content="<%= @site.author or '' %>" />
