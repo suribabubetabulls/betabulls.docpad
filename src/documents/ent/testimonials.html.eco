@@ -1,0 +1,86 @@
+---
+title: Testimonials
+layout: enterprise-default
+entPageOrder: 3
+script:
+style: 
+---
+
+<span class="home">
+	<div id="headerwrap" class="pure-g-r mobile-enablement">
+		<div class="pure-u-1 center">
+
+<div class="banner-txt">
+	<h1 style="text-align: left; font-size: 36px !important; font-weight: bold; margin: 0px; padding: 0px;">
+							What Our Clients Are Saying About Us</h1>
+	<!-- <h4 style="text-align: left; color: #ffffff; font-weight: bold;">Don't just take it from us, let our customers do speak</h4> -->
+</div>
+</div>
+<!-- pure-u-1-->
+</div>
+<!-- headerwrap -->
+<div style="width: 100%; margin: 0px auto; padding: 0px 0px 0px 0px; text-align: center;">
+	<h2 style=" font-weight:500;" align="center">Testimonials</h2>
+	<hr>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-8">
+			<div class="pure-g-r w">
+
+				<p>I felt they understood startups very well. They have a clear focus on client's success. They even recommend de-scoping some functionality if the feature is not appropriate for that time. Also they excel at defining requirements from one line idea
+					stage. At the same time, they never lose focus on the end user value vs cost of development. </p>
+				<!-- <p><b>- Kim Ciraulo, CEO. KJ Connections</b></p> -->
+
+				<hr style="background: #ccc;" />
+
+
+				<p>They understand that requirements cannot be given with every minute detail. They have a great process of taking the requirement and coming up with a clickable prototype quickly. This helped us to visualize the product, understand scope very clearly.
+					<br/> They are great with applying technology to business problems. They understand business objective clearly and provide valuable suggestions on what more can be achieved with available technology. </p>
+				<!-- <p><b>- James Beal, CTO. HSA Planner</b></p> -->
+
+				<hr style="background: #ccc;" />
+
+				<p>They have very established process for scoping, analysis and estimation. Their communication skills are excellent. They had to change the resource once in the first month to match with the required skill set. I'm very happy with their work. Their
+					size, agile nature, they way the approach the problem fitted very well with ours.</p>
+				<!--  <p><b>- Sapna Madiraju, Manager. EMGENEX</b></p>     -->
+
+			</div>
+			<!-- .pure-u-1 .center -->
+
+		</div>
+		<!-- container -->
+		<!-------------------------------------------->
+
+		<div class="col-md-4 right-col1" style="padding:0 5px 0 5px;">
+			<div class="bck-contact">
+				<!-- contact form start -->
+				<h3>Please Contact Us</h3>
+				<hr/>
+
+				<iframe src="https://form.jotform.me/60712670748459" style="border: 0; margin-top:-10px !important;" height="673px" width="350"></iframe>
+			</div>
+			<!-- contact form end -->
+			<hr/>
+			<div id="tagsSidebar">
+				<h2>Tags</h2>
+
+
+				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=bigdata+training+in+hyderabad" class="btn btn-success" type="button" target="_blank">
+					#Application Support  </a>
+				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=bigdata+training+in+traingap" class="btn btn-success" type="button" target="_blank">
+					#Application Maintenance </a>
+				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=traingap.com" class="btn btn-success" type="button" target="_blank">
+					#Request Support </a>
+				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=courses+in+traingap.com" class="btn btn-success" type="button" target="_blank">
+					#Request Maintenance</a>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Lean Modal -->
+</span>
+<!-- .home -->

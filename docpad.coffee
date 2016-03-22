@@ -39,10 +39,9 @@ docpadConfig = {
 			# Styles
 			styles: [
 				"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css"
-				"https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.css.map"
 				"/css/pure-min.css"
 				"/css/font-awesome.min.css"
-				"/scss/style.css"
+				"/css/style.css"
 			]
 
 			# Scripts
@@ -86,6 +85,9 @@ docpadConfig = {
 		# Pages & Posts, default DocPad collections
 		pages: (database) ->
 			database.findAllLive({pageOrder: $exists: true}, [pageOrder:1,title:1])
+			
+		entPages: (database) ->
+			database.findAllLive({entPageOrder: $exists: true}, [pageOrder:1,title:1])
 
 		posts: (database) ->
 			database.findAllLive({tags:$has:'post'}, [postDate:-1, date:-1])

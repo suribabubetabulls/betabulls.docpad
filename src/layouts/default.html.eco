@@ -27,8 +27,17 @@
 			<%= @getPreparedTitle() %>
 		<% end %>
 	</title>
-	<meta name="description" content="<%= @getPreparedDescription() %>" />
-	<meta name="keywords" content="<%= @getPreparedKeywords() %>" />
+	
+	<% if @document.description: %>
+		<meta name="description" content="<%= @document.description %>" />
+	<% else: %>
+		<meta name="description" content="<%= @getPreparedDescription() %>" />
+	<% end %>
+	<% if @document.keywords: %>
+		<meta name="keywords" content="<%= @document.keywords %>" />
+	<% else: %>
+		<meta name="keywords" content="<%= @getPreparedKeywords() %>" />
+	<% end %>
 	<meta name="author" content="<%= @site.author or '' %>" />
 
 	<!-- Output DocPad produced meta elements -->
@@ -106,7 +115,8 @@
 			</div><!-- pure-u-1 center -->
 						<br/>
 						<div class="pure-u-1 center">
-								&copy;<%- (new Date()).getFullYear() %> BetaBulls <span class="muted">*</span>&nbsp;
+								&copy;<%- (new Date()).getFullYear() %> BetaBulls
+								<span class="muted">*</span>&nbsp;
 								<a href="/pages/privacy">Privacy Policy</a>
 						</div><!-- pure-u-1 center -->
 		</div><!-- pure-g-r -->
