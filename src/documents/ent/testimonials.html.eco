@@ -1,22 +1,20 @@
 ---
 title: Testimonials
 layout: enterprise-default
+class: betabulls-enterprise-testimonials
 entPageOrder: 3
 script:
 style: 
 ---
 
-<span class="home">
-	<div id="headerwrap" class="pure-g-r mobile-enablement">
-		<div class="pure-u-1 center">
-
-<div class="banner-txt">
-	<h1 style="text-align: left; font-size: 36px !important; font-weight: bold; margin: 0px; padding: 0px;">
-							What Our Clients Are Saying About Us</h1>
-	<!-- <h4 style="text-align: left; color: #ffffff; font-weight: bold;">Don't just take it from us, let our customers do speak</h4> -->
-</div>
-</div>
-<!-- pure-u-1-->
+<div id="headerwrap" class="pure-g-r mobile-enablement">
+	<div class="pure-u-1 center">
+		<div class="banner-txt">
+			<h1 style="text-align: left; font-size: 36px !important; font-weight: bold; margin: 0px; padding: 0px;">
+				What Our Clients Are Saying About Us</h1>
+			<!-- <h4 style="text-align: left; color: #ffffff; font-weight: bold;">Don't just take it from us, let our customers do speak</h4> -->
+		</div>
+	</div><!-- pure-u-1-->
 </div>
 <!-- headerwrap -->
 <div style="width: 100%; margin: 0px auto; padding: 0px 0px 0px 0px; text-align: center;">
@@ -65,7 +63,6 @@ style:
 			<div id="tagsSidebar">
 				<h2>Tags</h2>
 
-
 				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=bigdata+training+in+hyderabad" class="btn btn-success" type="button" target="_blank">
 					#Application Support  </a>
 				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=bigdata+training+in+traingap" class="btn btn-success" type="button" target="_blank">
@@ -79,8 +76,3 @@ style:
 		</div>
 	</div>
 </div>
-
-
-<!-- Lean Modal -->
-</span>
-<!-- .home -->

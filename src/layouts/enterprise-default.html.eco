@@ -115,8 +115,10 @@
 			</div>
 			</div>
 			</nav>
-
-			<%- @content %>
+			
+			<span class="<%= @document.class %>">
+				<%- @content %>
+			</span>
 
 			<!-- FOOTER -->
 			<div id="f">

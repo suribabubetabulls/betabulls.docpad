@@ -287,6 +287,11 @@ hr {
 		overflow: hidden;
 	}
 }
+.main-inner{
+	.betabulls-enterprise-about, .betabulls-enterprise-services, .betabulls-enterprise-testimonials{
+		.banner-txt{height: 306px;}
+	}
+}
 .headerwrap-main {
 	background: rgba(0, 0, 0, 0) url(../img/ent-img/header-bg.jpg) no-repeat scroll center top;
 }

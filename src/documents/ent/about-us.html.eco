@@ -1,23 +1,23 @@
 ---
 title: About Us
 layout: enterprise-default
+class: betabulls-enterprise-about
 entPageOrder: 1
 script:
 style: 
 ---
 
-<span class="home">
 <div id="headerwrap" class="pure-g-r headerwrap-main">
-		<div class="pure-u-1 center">
-			<div class="banner-txt">
-					<h1 style="text-align: left; font-weight: bold; margin: 0px; padding: 0px;">
-						About Us
-					</h1>
-					<h4 style="text-align: left; color: #ffffff; font-weight: bold;">
-						To grow your business, reduce risk and make better decisions
-					</h4>
-			</div>
-		</div><!-- pure-u-1-->
+	<div class="pure-u-1 center">
+		<div class="banner-txt">
+			<h1 style="text-align: left; font-weight: bold; margin: 0px; padding: 0px;">
+				About Us
+			</h1>
+			<h4 style="text-align: left; color: #ffffff; font-weight: bold;">
+				To grow your business, reduce risk and make better decisions
+			</h4>
+		</div>
+	</div><!-- pure-u-1-->
 </div> <!-- headerwrap -->
 <div style="width: 100%; margin: 0px auto; padding: 0px 0px 0px 0px; text-align: center;">
 	<h2 style=" font-weight:500;" align="center">About Us</h2>
@@ -45,7 +45,7 @@ style:
 	<!-- contact form end -->
 	<hr/>
 	<div id="tagsSidebar">
-			<h2>Tags</h2>
+				<h2>Tags</h2>
 				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=bigdata+training+in+hyderabad" class="btn btn-success" type="button" target="_blank">
 				#Application Support  </a>
 				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=bigdata+training+in+traingap" class="btn btn-success" type="button" target="_blank">
@@ -58,6 +58,3 @@ style:
 		</div>
 	</div>
 </div>
-
-<!-- Lean Modal -->
-</span>  <!-- .<%= %> -->
