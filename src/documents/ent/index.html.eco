@@ -23,39 +23,33 @@ style: '../css/ent-home-style.css'
 <div class="pure-g-r w">
 	<div class="pure-u-1" style="overflow:  hidden;">
 		<a name="WhatWeDo" id="WhatWeDo"></a>
+		<a href="application-support-maintenance">
 		<div class="pure-u-1-4 bb-aspect1 center">
 			<i class="material-icons large light-blue">vertical_align_top</i>
 			<div class="card-hr"> </div>
-			<a href="application-support-maintenance"><h4>Application Support & Maintenance</h4></a>
+			<h4>Application Support & Maintenance</h4>
 			<p>We support your applications 24x7 and keep the Lights On (KTLO).</p>
 			<div class="card-sub-title">Need application support ?</div>
-			<a class="case-study-label" href="application-support-maintenance">Case Studies</a>
-		</div><!-- pure-u-1-4 -->
+			<div class="case-study-label">Case Studies</div>
+		</div></a><!-- pure-u-1-4 -->
+		<a href="custom-software-development">
 		<div class="pure-u-1-4 bb-aspect1 center">
-			<a href="custom-software-development"><i class="material-icons large light-blue">subtitles</i></a>
-			<a href="custom-software-development">
-				<div class="card-hr"> </div>
-			</a>
-			<a href="custom-software-development"><h4>Custom Software Development</h4></a>
+			<i class="material-icons large light-blue">subtitles</i>
+			<div class="card-hr"> </div>
+			<h4>Custom Software Development</h4>
 			<p>We develop reliable web and Mobile software that matters to you.</p>
-			<a href="custom-software-development">
-				<div class="card-sub-title"> Need a developer or whole team?</div>
-			</a>
-			<a href="custom-software-development">
-				<div class="case-study-label">Case Studies</div>
-			</a>
-		</div><!-- pure-u-1-4 -->
+			<div class="card-sub-title"> Need a developer or whole team?</div>
+			<div class="case-study-label">Case Studies</div>
+		</div></a><!-- pure-u-1-4 -->
+		<a href="mobile-enablement">
 		<div class="pure-u-1-4 bb-aspect1 center">
 			<i class="material-icons large light-blue">devices</i>
 			<div class="card-hr"> </div>
-			<a href="mobile-enablement">
-				<h4>Mobile Enablement</h4></a>
+			<h4>Mobile Enablement</h4>
 			<p>We Extend Legacy Applications to Smartphones and Tablets.</p>
-			<a href="mobile-enablement">
-				<div class="case-study-label">Case Studies</div>
-			</a>
+			<div class="case-study-label">Case Studies</div>
 			<div class="card-sub-title">Need to engage users on Mobile?</div>
-		</div>
+		</div></a>
 		<div class="pure-u-1-4 bb-aspect1 center">
 			<i class="material-icons large light-blue">linear_scale</i>
 			<div class="card-hr"> </div>
@@ -64,69 +58,23 @@ style: '../css/ent-home-style.css'
 			<div class="card-sub-title">Need to discoverthings among piles of data?</div>
 			<div class="case-study-label">Case Studies</div>
 		</div><!-- pure-u-1-4 -->
+		<a href="big-data-analytics">
 		<div class="pure-u-1-4 bb-aspect1 center">
 			<i class="material-icons large light-blue">group_work</i>
 			<div class="card-hr"> </div>
-			<a href="big-data-analytics">
-				<h4>Big Data Analytics</h4></a>
+			<h4>Big Data Analytics</h4>
 			<p>We help you make smarter decisions with analytics.</p>
 			<div class="card-sub-title">Need insights from your big data?</div>
-			<a href="big-data-analytics">
-				<div class="case-study-label">Case Studies</div>
-			</a>
-		</div><!-- pure-u-1-4 -->
+			<div class="case-study-label">Case Studies</div>
+		</div></a><!-- pure-u-1-4 -->
+		<a href="software-testing">
 		<div class="pure-u-1-4 bb-aspect1 center">
 			<i class="material-icons large light-blue">cloud_done</i>
 			<div class="card-hr"> </div>
-			<a href="software-testing">
-				<h4>Software Testing</h4></a>
+				<h4>Software Testing</h4>	
 			<p>We use manual and automated testing to ensure your software exceeds expectations.</p>
 			<div class="card-sub-title">Get rid of surprises.</div>
-			<a href="software-testing">
-				<div class="case-study-label">Case Studies</div>
-			</a>
-		</div><!-- pure-u-1-4 -->
+			<div class="case-study-label">Case Studies</div>
+		</div></a><!-- bb-aspect1 pure-u-1-4 -->
 	</div><!-- .pure-u-1 .w -->
-	<div class="pure-u-1">
-		<div class="pure-u-1-4 bb-aspect1 center">
-			<i class="material-icons large light-blue">border_style</i>
-			<div class="card-hr"> </div>
-			<h4>Log Analytics</h4>
-			<p>We create processing rules and visualizations for complex data.</p>
-			<div class="case-study-label">Case Studies</div>
-			<div class="card-padder"> </div>
-		</div><!-- pure-u-1-4 -->
-		<div class="pure-u-1-4 bb-aspect1 center ">
-			<i class="material-icons large light-blue">art_track</i>
-			<div class="card-hr"> </div>
-			<h4>Job Boards & Resume Matching</h4>
-			<p>We have world-class expertise with job and talent management platforms.</p>
-			<div class="case-study-label">Case Studies</div>
-			<div class="card-padder"> </div>
-		</div><!-- pure-u-1-4 -->
-		<div class="pure-u-1-4 bb-aspect1 center">
-			<i class="material-icons large light-blue">archive</i>
-			<div class="card-hr"> </div>
-			<h4>Big Data Ingest</h4>
-			<p>We will connect, centralize, preprocess and store your data.</p>
-			<div class="case-study-label">Case Studies</div>
-			<div class="card-padder"> </div>
-		</div><!-- pure-u-1-4 -->
-		<div class="pure-u-1-4 bb-aspect1 center">
-			<i class="material-icons large light-blue">cached</i>
-			<div class="card-hr"> </div>
-			<h4>Build Automation</h4>
-			<p>Set up your development and deployment to be hands-free and continuous.</p>
-			<div class="case-study-label">Case Studies</div>
-			<div class="card-padder"> </div>
-		</div><!-- pure-u-1-4 -->
-		<div class="pure-u-1-4 bb-aspect1 center">
-			<i class="material-icons large light-blue">subscriptions</i>
-			<div class="card-hr"></div>
-			<h4>Online Video & Media</h4>
-			<p>Implement systems and workflow that leverage online video and engage users.</p>
-			<div class="case-study-label">Case Studies</div>
-			<div class="card-padder"> </div>
-		</div><!-- pure-u-1-4 -->
-	</div><!-- .pure-u-1 -->
 </div><!-- .pure-g-r .w -->
