@@ -4,7 +4,7 @@ layout: enterprise-default
 class: betabulls-enterprise-testimonials
 entPageOrder: 3
 script:
-style: 
+style: '../css/ent-testimonials-style.css'
 ---
 
 <div id="headerwrap" class="pure-g-r mobile-enablement">
@@ -26,6 +26,19 @@ style:
 		<div class="col-md-8">
 			<div class="pure-g-r w">
 
+				<div class="testimonial-card mdl-shadow--2dp">
+				<p>
+					BetaBulls did a good job focusing on delivery of the solution and working within our 
+					budget and the inevitable scope creep that occurs when hands-on experience with new things
+					leads to new, great ideas... BetaBulls had a great attitude and energy and never stopped
+					working for the end goal." 
+				</p>
+				<p><b> &#9473;Online Operations Developer, <span class="org">Health Savings Advisor Company</span></b></p> 
+				</div>
+
+				<hr style="background: #ccc;" />
+				
+				
 				<p>I felt they understood startups very well. They have a clear focus on client's success. They even recommend de-scoping some functionality if the feature is not appropriate for that time. Also they excel at defining requirements from one line idea
 					stage. At the same time, they never lose focus on the end user value vs cost of development. </p>
 				<!-- <p><b>- Kim Ciraulo, CEO. KJ Connections</b></p> -->

@@ -47,8 +47,8 @@ style: '../css/ent-home-style.css'
 			<div class="card-hr"> </div>
 			<h4>Mobile Enablement</h4>
 			<p>We Extend Legacy Applications to Smartphones and Tablets.</p>
-			<div class="case-study-label">Learn More</div>
 			<div class="card-sub-title">Need to engage users on Mobile?</div>
+			<div class="case-study-label">Learn More</div>
 		</div></a>
 		<div class="pure-u-1-4 bb-aspect1 center mdl-shadow--2dp">
 			<i class="material-icons large light-blue">linear_scale</i>
