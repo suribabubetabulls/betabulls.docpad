@@ -10,10 +10,10 @@ style:
 <div id="headerwrap" class="pure-g-r headerwrap-main">
 	<div class="pure-u-1 center">
 		<div class="banner-txt">
-			<h1 style="text-align: left; font-weight: bold; margin: 0px; padding: 0px;">
+			<h1>
 				About Us
 			</h1>
-			<h4 style="text-align: left; color: #ffffff; font-weight: bold;">
+			<h4>
 				To grow your business, reduce risk and make better decisions
 			</h4>
 		</div>
@@ -24,8 +24,8 @@ style:
 	<hr>
 </div>
 <div class="container">
-<div class="row">
-<div class="col-md-8">
+<div class="row center">
+<div class="pure-u-2-3">
 		
 <p>BetaBulls Inc. is a leading New Jersey based Information technology, consulting and outsourcing services provider. BetaBulls is seen as a reliablepartner by small and mid-sized businesses, helping them with innovative technology solutions to disrupt existing businesses and creating new opportunities.</p>
 <p>BetaBulls Startup Division partners with entrepreneursto help build and grow their startups. While It make all kinds of web and mobile applications, this division specializes in getting Minimum Viable Product (MVP) online for feedback and initial sales. We take the idea, no matter how grandiose or petite and chisel it into an ideal MVP and release to the world quickly.</p>
@@ -34,15 +34,12 @@ style:
 </div><!-- container -->
 <!-------------------------------------------->
 
-<div class="col-md-4 right-col1" style="padding:0 5px 0 5px;">
-	<div class="bck-contact">
-		<!-- contact form start -->
+<div class="pure-u-1-4 right-col1">
+	<div class="bck-contact"><!-- contact form start -->
 		<h3>Please Contact Us</h3>
 		<hr/>
-		
-		<iframe src="https://form.jotform.me/60712670748459" style="border: 0; margin-top:-10px !important;"  height="673px" width="350" ></iframe>
-	</div>
-	<!-- contact form end -->
+		<iframe class="contactus-card" src="https://form.jotform.me/60712670748459"></iframe>
+	</div><!-- contact form end -->
 	<hr/>
 	<div id="tagsSidebar">
 				<h2>Tags</h2>

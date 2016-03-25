@@ -98,36 +98,35 @@
 		<!-- FOOTER -->
 	<div id="f">
 		<div class="pure-g-r">
-						<br/>
+			<br/>
 			<div class="pure-u-1 center">
-								<a href="https://twitter.com/betabulls" title="Tweet to BetaBulls">
-										<%- @getIconmonstrIcon('twitter4','twitterIcon','twitter-icon-footer footer-icon') %>
-								</a>
-								<a href="https://www.facebook.com/betabulls" title="BetaBulls Facebook page">
-										<%- @getIconmonstrIcon('facebook4','facebookIcon','facebook-icon-footer footer-icon') %>    
-								</a>
+				<a href="https://twitter.com/betabulls" title="Tweet to BetaBulls">
+					<%- @getIconmonstrIcon('twitter4','twitterIcon','twitter-icon-footer footer-icon') %>
+				</a>
+				<a href="https://www.facebook.com/betabulls" title="BetaBulls Facebook page">
+					<%- @getIconmonstrIcon('facebook4','facebookIcon','facebook-icon-footer footer-icon') %>
+				</a>
 				<!-- <a href="callto:sg.v01" title="Skype With BetaBulls">
-										 <i class="fa fa-skype"> </i>
-								</a> -->
-								<a href="https://github.com/BetaBulls" title="BetaBulls Facebook page">
-										<%- @getIconmonstrIcon('github9','githubIcon','github-icon-footer footer-icon') %>    
-								</a>
+						 <i class="fa fa-skype"> </i>
+				</a> -->
+				<a href="https://github.com/BetaBulls" title="BetaBulls Facebook page">
+					<%- @getIconmonstrIcon('github9','githubIcon','github-icon-footer footer-icon') %>
+				</a>
 			</div><!-- pure-u-1 center -->
-						<br/>
-						<div class="pure-u-1 center">
-								&copy;<%- (new Date()).getFullYear() %> BetaBulls
-								<span class="muted">*</span>&nbsp;
-								<a href="/pages/privacy">Privacy Policy</a>
-						</div><!-- pure-u-1 center -->
+				<br/>
+				<div class="pure-u-1 center">
+					&copy;<%- (new Date()).getFullYear() %> BetaBulls
+					<span class="muted">*</span>&nbsp;
+					<a href="/pages/privacy">Privacy Policy</a>
+				</div><!-- pure-u-1 center -->
 		</div><!-- pure-g-r -->
 	</div><!-- Footer -->
 
 	<!-- MODAL FOR CONTACT -->
 	<!-- Contact Modal -->
 	<div class="yui3-skin-sam">
-			<div id="contact"> </div><!-- /#contact -->
+		<div id="contact"> </div><!-- /#contact -->
 	</div><!-- /.modal -->
-
 </div> <!-- .content .main -->
 
 	<!-- Scripts -->

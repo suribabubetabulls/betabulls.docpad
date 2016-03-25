@@ -1,0 +1,93 @@
+--- 
+title: Application Support Maintenance
+layout: enterprise-default 
+class: betabulls-enterprise-application-support 
+script: 
+style: 
+---
+
+<div id="headerwrap" class="pure-g-r maintenance-support" style="margin-top: 0px;">
+	<div class="pure-u-1 center" style="background-color: rgba(0,0,0,0.5); overflow: hidden; height: 300px;">
+		<div class="banner-txt">
+			<h1 style="text-align: left; font-weight: bold; margin: 0px; padding: 0px;">
+							Reliable Support and Maintenance with a Purpose</h1>
+			<h4 style="text-align: left; color: #ffffff; font-weight: bold;">Improve Quality and Reduce costs year over year</h4>
+		</div>
+	</div><!-- pure-u-1-->
+</div><!-- headerwrap -->
+<div style="width: 100%; margin: 0px auto; padding: 0px 0px 0px 0px; text-align: center;">
+	<h2 style=" font-weight:500;" align="center">Application Support & Maintenance</h2>
+	<hr>
+</div>
+<div class="container">
+	<div class="row center">
+		<div class="pure-u-2-3">
+			<div class="pure-g-r w">
+				<a name="WhatWeDo" id="WhatWeDo"></a>
+
+				<div class="pure-u-1 center">
+					<div class="pure-u-1-3 bb-aspect">
+						<i class="material-icons large light-blue" >accessibility</i>
+						<div class="card-hr"></div>
+						<h4>Proactive</h4>
+						<p>We take proactive approach to manage errors before they even occur</p>
+						<!-- <div style="width: 125px; margin: 5px auto; padding: 3px; background-color: #464646; color: #ffffff; opacity: 0.9; letter-spacing: 0.1em; font-size: small; font-weight: bold;">Case Studies</div>  -->
+						<!-- <div style="width: 100%; margin: 5px auto; padding: 3px; color: #c82f32; letter-spacing: 0.1em; font-size: small; font-weight: 200;">Need application support or maintenance?</div> -->
+					</div><!-- pure-u-1-4 -->
+
+					<div class="pure-u-1-3 bb-aspect">
+						<a href="custom-software-development"><i class="material-icons large light-blue" >subtitles</i></a>
+						<div class="card-hr"></div>
+						<h4>Beyond Offshore Price Difference</h4></a>
+						<p>We reduce total cost of ownership by optimizing the entire process beyond offshoring </p>
+						<!-- <div style="width: 125px; margin: 5px auto; padding: 3px; background-color: #464646; color: #ffffff; opacity: 0.9; letter-spacing: 0.1em; font-size: small; font-weight: bold;">Case Studies</div> -->
+						<!-- <a href="custom-software-development"><div style="width: 100%; margin: 5px auto; padding: 3px; color: #c82f32; letter-spacing: 0.1em; font-size: small; font-weight: 200;">Hire a developer or whole team?</div></a> -->
+					</div><!-- pure-u-1-4 -->
+
+					<div class="pure-u-1-3 bb-aspect">
+						<i class="material-icons large light-blue" >devices</i>
+						<div class="card-hr"></div>
+						<h4>Business Focus</h4>
+						<p>We strive to understand your business so we can fine tune our service.</p>
+						<!-- <div style="width: 125px; margin: 5px auto; padding: 3px; background-color: #464646; color: #ffffff; opacity: 0.9; letter-spacing: 0.1em; font-size: small; font-weight: bold;">Case Studies</div> -->
+						<!-- <div style="width: 100%; margin: 5px auto; padding: 3px; color: #c82f32; letter-spacing: 0.1em; font-size: small; font-weight: 200;">Engage users on mobile platforms?</div> -->
+					</div>
+
+
+					<div class="pure-u-1-3 bb-aspect">
+						<i class="material-icons" >settings_backup_restore</i>
+						<div class="card-hr"></div>
+						<h4>Project Rescue</h4>
+						<p>We mastered the process of bringing project back on track if your current project is gone wrong or current in-house or outsourced development team is off-the-rails. We can even recover source code from executables.</p>
+						<!--  <div style="width: 125px; margin: 5px auto; padding: 3px; background-color: #464646; color: #ffffff; opacity: 0.9; letter-spacing: 0.1em; font-size: small; font-weight: bold;">Case Studies</div> -->
+						<!-- <div style="width: 100%; margin: 5px auto; padding: 3px; color: #c82f32; letter-spacing: 0.1em; font-size: small; font-weight: 200;">Locate things among piles of data?</div> -->
+					</div><!-- pure-u-1-4 -->
+				</div><!-- .pure-u-1 .center -->
+			</div><!-- .pure-u-1 .center -->
+		</div>
+		<!-- container -->
+		<!-------------------------------------------->
+
+		<div class="pure-u-1-4 right-col1">
+			<div class="bck-contact"><!-- contact form start -->
+				<h3>Please Contact Us</h3>
+				<hr/>
+
+				<iframe class="contactus-card" src="https://form.jotform.me/60712670748459"></iframe>
+			</div><!-- contact form end -->
+			<hr/>
+			<div id="tagsSidebar">
+				<h2>Tags</h2>
+				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=bigdata+training+in+hyderabad" class="btn btn-success" type="button" target="_blank">
+					#Application Support  </a>
+				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=bigdata+training+in+traingap" class="btn btn-success" type="button" target="_blank">
+					#Application Maintenance </a>
+				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=traingap.com" class="btn btn-success" type="button" target="_blank">
+					#Request Support </a>
+				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=courses+in+traingap.com" class="btn btn-success" type="button" target="_blank">
+					#Request Maintenance</a>
+
+			</div>
+		</div>
+	</div>
+</div>

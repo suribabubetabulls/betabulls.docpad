@@ -12,21 +12,19 @@ style: '../css/ent-testimonials-style.css'
 		<div class="banner-txt">
 			<h1 style="text-align: left; font-size: 36px !important; font-weight: bold; margin: 0px; padding: 0px;">
 				What Our Clients Are Saying About Us</h1>
-			<!-- <h4 style="text-align: left; color: #ffffff; font-weight: bold;">Don't just take it from us, let our customers do speak</h4> -->
 		</div>
 	</div><!-- pure-u-1-->
-</div>
-<!-- headerwrap -->
+</div><!-- headerwrap -->
 <div style="width: 100%; margin: 0px auto; padding: 0px 0px 0px 0px; text-align: center;">
 	<h2 style=" font-weight:500;" align="center">Testimonials</h2>
 	<hr>
 </div>
 <div class="container">
-	<div class="row">
-		<div class="col-md-8">
+	<div class="row center">
+		<div class="pure-u-2-3">
 			<div class="pure-g-r w">
 
-				<div class="testimonial-card mdl-shadow--2dp">
+				<div class="testimonial-card ">
 				<p>
 					BetaBulls did a good job focusing on delivery of the solution and working within our 
 					budget and the inevitable scope creep that occurs when hands-on experience with new things
@@ -55,21 +53,19 @@ style: '../css/ent-testimonials-style.css'
 				<p>They have very established process for scoping, analysis and estimation. Their communication skills are excellent. They had to change the resource once in the first month to match with the required skill set. I'm very happy with their work. Their
 					size, agile nature, they way the approach the problem fitted very well with ours.</p>
 				<!--  <p><b>- Sapna Madiraju, Manager. EMGENEX</b></p>     -->
-
-			</div>
-			<!-- .pure-u-1 .center -->
+			</div><!-- .pure-u-1 .center -->
 
 		</div>
 		<!-- container -->
 		<!-------------------------------------------->
 
-		<div class="col-md-4 right-col1" style="padding:0 5px 0 5px;">
+		<div class="pure-u-1-4 right-col1">
 			<div class="bck-contact">
 				<!-- contact form start -->
 				<h3>Please Contact Us</h3>
 				<hr/>
 
-				<iframe src="https://form.jotform.me/60712670748459" style="border: 0; margin-top:-10px !important;" height="673px" width="350"></iframe>
+				<iframe class="contactus-card" src="https://form.jotform.me/60712670748459"></iframe>
 			</div>
 			<!-- contact form end -->
 			<hr/>

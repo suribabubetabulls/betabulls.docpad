@@ -1,0 +1,46 @@
+---
+title: Search Information Discovery
+layout: enterprise-default
+class: betabulls-enterprise-search
+script:
+style: 
+---
+
+<div id="headerwrap" class="pure-g-r headerwrap-main" >
+	<div class="pure-u-1 center">
+		<div class="banner-txt">
+			<h1 style="text-align: left; font-weight: bold; margin: 0px; padding: 0px;">
+			 	We build next generation mobile apps faster</h1>
+			<h4 style="text-align: left; color: #ffffff; font-weight: bold;">Personalized user experience on any mobile or tablet for your employees, Clients and partners</h4>
+		</div>
+	</div><!-- pure-u-1-->
+</div><!-- headerwrap -->
+<div class="container">
+	<div class="row center">
+		<div class="pure-u-2-3">
+			<div class="pure-g-r w">
+				<h2><b>Case Study : Search and Information Discovery</b></h2>
+				<p><b>We believe that professional maintenance and support is the right way to reduce software system TCO and ensure useful improvements and optimization steps. This is not only about availability of single units and modules it is about making sure that the entire IT-infrastructure is cost-effective and runs smoothly and reliably.</b></p>
+			</div><!-- .pure-u-1 .center -->
+		</div><!-- container -->
+		<div class="pure-u-1-4 right-col1">
+			<div class="bck-contact"><!-- contact form start -->
+				<h3>Please Contact Us</h3>
+				<hr/>
+				<iframe class="contactus-card" src="https://form.jotform.me/60712670748459"></iframe>
+			</div><!-- contact form end -->
+			<hr/>
+			<div id="tagsSidebar">
+				<h2>Tags</h2>
+				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=bigdata+training+in+hyderabad" class="btn btn-success" type="button" target="_blank">
+										#Application Support  </a>
+				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=bigdata+training+in+traingap" class="btn btn-success" type="button" target="_blank">
+										#Application Maintenance </a>
+				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=traingap.com" class="btn btn-success" type="button" target="_blank">
+										#Request Support </a>
+				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=courses+in+traingap.com" class="btn btn-success" type="button" target="_blank">
+										#Request Maintenance</a>
+			</div>
+		</div>
+	</div>
+</div>

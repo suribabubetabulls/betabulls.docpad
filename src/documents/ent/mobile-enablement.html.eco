@@ -1,0 +1,131 @@
+---
+title: Mobile Enablement
+layout: enterprise-default
+class: betabulls-enterprise-mobile
+script:
+style: 
+---
+
+<div id="headerwrap" class="pure-g-r mobile-enablement" style="margin-top: 0px;">
+	<div class="pure-u-1 center" style="background-color: rgba(0,0,0,0.5); overflow: hidden;height: 300px;">
+		<div class="banner-txt">
+			<h1 style="text-align: left; font-weight: bold; margin: 0px; padding: 0px;">
+														We build next generation mobile apps faster</h1>
+			<h4 style="text-align: left; color: #ffffff; font-weight: bold;">Personalized user experience on any mobile or tablet for your employees, Clients and partners</h4>
+		</div>
+	</div><!-- pure-u-1-->
+</div><!-- headerwrap -->
+<div style="width: 100%; margin: 0px auto; padding: 0px 0px 0px 0px; text-align: center;">
+	<h2 style=" font-weight:500;" align="center">Mobile Enablement</h2>
+	<hr>
+</div>
+<div class="container">
+	<div class="row center">
+		<div class="pure-u-2-3">
+			<div class="pure-g-r w">
+				<a name="WhatWeDo" id="WhatWeDo"></a>
+
+				<div class="pure-u-1 center">
+					<div class="pure-u-1-3 bb-aspect">
+						<i class="fa fa-user" ></i>
+						<div class="card-hr"></div>
+						<h4>User Centric</h4>
+						<p>We carefully understand audiences for the app to design the optimal flow</p>
+						<!-- <div style="width: 125px; margin: 5px auto; padding: 3px; background-color: #464646; color: #ffffff; opacity: 0.9; letter-spacing: 0.1em; font-size: small; font-weight: bold;">Case Studies</div>  -->
+						<!-- <div style="width: 100%; margin: 5px auto; padding: 3px; color: #c82f32; letter-spacing: 0.1em; font-size: small; font-weight: 200;">Need application support or maintenance?</div> -->
+					</div>
+					<!-- pure-u-1-4 -->
+
+					<div class="pure-u-1-3 bb-aspect">
+						<i class="fa fa-puzzle-piece" ></i>
+						<div class="card-hr"></div>
+						<h4>Platform Selection</h4></a>
+						<p>Mobile development is complex with variety of choices( Native, HTML5, Hybridetc). We analyze your needs and build app on the right platform</p>
+						<!-- <div style="width: 125px; margin: 5px auto; padding: 3px; background-color: #464646; color: #ffffff; opacity: 0.9; letter-spacing: 0.1em; font-size: small; font-weight: bold;">Case Studies</div> -->
+						<!-- <a href="custom-software-development"><div style="width: 100%; margin: 5px auto; padding: 3px; color: #c82f32; letter-spacing: 0.1em; font-size: small; font-weight: 200;">Hire a developer or whole team?</div></a> -->
+					</div><!-- pure-u-1-4 -->
+					<div class="pure-u-1-3 bb-aspect">
+						<i class="fa fa-lock" ></i>
+						<div class="card-hr"></div>
+						<h4>Security First</h4>
+						<p>We use up-to date security measures (Encryption, De-Identification etc) and they are integral part of our app architecture</p>
+						<!-- <div style="width: 125px; margin: 5px auto; padding: 3px; background-color: #464646; color: #ffffff; opacity: 0.9; letter-spacing: 0.1em; font-size: small; font-weight: bold;">Case Studies</div> -->
+						<!-- <div style="width: 100%; margin: 5px auto; padding: 3px; color: #c82f32; letter-spacing: 0.1em; font-size: small; font-weight: 200;">Engage users on mobile platforms?</div> -->
+					</div>
+					<div class="pure-u-1-3 bb-aspect">
+						<i class="fa fa-bar-chart" ></i>
+						<div class="card-hr"></div>
+						<h4>Analytics Driven</h4>
+						<p>We implement analytics as part of core framework to measure from engagement to insights on app users.
+						</p>
+						<!--  <div style="width: 125px; margin: 5px auto; padding: 3px; background-color: #464646; color: #ffffff; opacity: 0.9; letter-spacing: 0.1em; font-size: small; font-weight: bold;">Case Studies</div> -->
+						<!-- <div style="width: 100%; margin: 5px auto; padding: 3px; color: #c82f32; letter-spacing: 0.1em; font-size: small; font-weight: 200;">Locate things among piles of data?</div> -->
+					</div><!-- pure-u-1-4 -->
+					<div class="pure-u-1-3 bb-aspect">
+						<i class="fa fa-check" ></i>
+						<div class="card-hr"></div>
+						<h4>Comprehensive Testing</h4>
+						<p>We go beyond traditional QA process from range of devices to private beta users to ensure delightful app experience.</p>
+						<!--  <div style="width: 125px; margin: 5px auto; padding: 3px; background-color: #464646; color: #ffffff; opacity: 0.9; letter-spacing: 0.1em; font-size: small; font-weight: bold;">Case Studies</div> -->
+						<!-- <div style="width: 100%; margin: 5px auto; padding: 3px; color: #c82f32; letter-spacing: 0.1em; font-size: small; font-weight: 200;">Locate things among piles of data?</div> -->
+					</div><!-- pure-u-1-4 -->
+				</div><!-- .pure-u-1 .center -->
+			</div><!-- .pure-u-1 .center -->
+			<h1>Case Studies</h1>
+			<hr/>
+			<div id="timeline">
+				<ul id="dates" style="display: none;">
+					<li><a href="#">1900</a></li>
+					<li><a href="#">1930</a></li>
+					<!--  <li><a href="#">1944</a></li> -->
+				</ul>
+				<ul id="issues">
+					<li id="#1900">
+						<img src="img/casestudy/affiliate-marketing-sales-application.png" width="256" height="180" style="margin-top: 30px;" />
+						<h1>Affiliate Marketing Sales Application</h1>
+						<p>Making it simple for online marketers to earn income by finding and promoting great product deals for people to discover.</p>
+						<a href="affiliate-marketing-sales-application" class="btn btn-primary"> View More</a>
+					</li>
+					<li id="#1930">
+						<img src="img/casestudy/social-professional-mentorship-application.png" width="256" style="margin-top: 30px;" />
+						<h1>Social Professional Mentorship Application</h1>
+						<p>A social network for finding mentors for professional projects.</p>
+						<a href="social-professional-mentorship-application" class="btn btn-primary"> View More</a>
+					</li>
+					<!-- <li id="#1944">
+								<img src="img/3.png" width="256" height="256" />
+								<h1>1944</h1>
+								<p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+						</li> -->
+				</ul>
+				<div id="grad_left"></div>
+				<div id="grad_right"></div>
+				<a href="#" id="next">+</a>
+				<a href="#" id="prev">-</a>
+			</div>
+		</div>
+		<!-- container -->
+		<!-------------------------------------------->
+
+		<div class="pure-u-2-3 right-col1" style="padding:0 5px 0 5px; height: 1160px;">
+			<div class="bck-contact"><!-- contact form start -->
+				<h3>Please Contact Us</h3>
+				<hr/>
+
+				<iframe class="contactus-card" src="https://form.jotform.me/60712670748459"></iframe>
+			</div><!-- contact form end -->
+			<hr/>
+			<div id="tagsSidebar">
+				<h2>Tags</h2>
+				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=bigdata+training+in+hyderabad" class="btn btn-success" type="button" target="_blank">
+										#Application Support  </a>
+				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=bigdata+training+in+traingap" class="btn btn-success" type="button" target="_blank">
+										#Application Maintenance </a>
+				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=traingap.com" class="btn btn-success" type="button" target="_blank">
+										#Request Support </a>
+				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=courses+in+traingap.com" class="btn btn-success" type="button" target="_blank">
+										#Request Maintenance</a>
+			</div>
+		</div>
+	</div>
+</div>
