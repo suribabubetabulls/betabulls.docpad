@@ -8,12 +8,8 @@ style: '../css/ent-home-style.css'
 <div id="headerwrap" class="pure-g-r headerwrap-main" >
 	<div class="pure-u-1 center">
 		<div class="banner-txt">
-			<h1>
-				We Build Reliable Software and Delight Your Customers
-			</h1>
-			<h4>
-				CLOUD | MOBILITY | BIG DATA EXPERTS
-			</h4>
+			<h1>We Build Reliable Software and Delight Your Customers</h1>
+			<h4>CLOUD | MOBILITY | BIG DATA EXPERTS</h4>
 		</div>
 	</div><!-- pure-u-1-->
 </div><!-- headerwrap -->
@@ -23,7 +19,8 @@ style: '../css/ent-home-style.css'
 <div class="pure-g-r w">
 	<div class="pure-u-1">
 		<a name="WhatWeDo" id="WhatWeDo"></a>
-		<a href="application-support-maintenance">
+		
+		<a href="/ent/application-support-maintenance">
 		<div class="pure-u-1-4 bb-aspect1 center ">
 			<i class="material-icons large light-blue">vertical_align_top</i>
 			<div class="card-hr"> </div>
@@ -31,8 +28,9 @@ style: '../css/ent-home-style.css'
 			<p>We support your applications 24x7 and keep the Lights On (KTLO).</p>
 			<div class="card-sub-title">Need application support ?</div>
 			<div class="case-study-label">Learn More</div>
-		</div></a><!-- pure-u-1-4 -->
-		<a href="custom-software-development">
+		</div></a><!-- bb-aspect1 pure-u-1-4 -->
+		
+		<a href="/ent/custom-software-development">
 		<div class="pure-u-1-4 bb-aspect1 center ">
 			<i class="material-icons large light-blue">subtitles</i>
 			<div class="card-hr"> </div>
@@ -40,8 +38,9 @@ style: '../css/ent-home-style.css'
 			<p>We develop reliable web and Mobile software that matters to you.</p>
 			<div class="card-sub-title"> Need a developer or whole team?</div>
 			<div class="case-study-label">Learn More</div>
-		</div></a><!-- pure-u-1-4 -->
-		<a href="mobile-enablement">
+		</div></a><!-- bb-aspect1 pure-u-1-4 -->
+		
+		<a href="/ent/mobile-enablement">
 		<div class="pure-u-1-4 bb-aspect1 center ">
 			<i class="material-icons large light-blue">devices</i>
 			<div class="card-hr"> </div>
@@ -50,6 +49,7 @@ style: '../css/ent-home-style.css'
 			<div class="card-sub-title">Need to engage users on Mobile?</div>
 			<div class="case-study-label">Learn More</div>
 		</div></a>
+		
 		<div class="pure-u-1-4 bb-aspect1 center ">
 			<i class="material-icons large light-blue">linear_scale</i>
 			<div class="card-hr"> </div>
@@ -57,8 +57,9 @@ style: '../css/ent-home-style.css'
 			<p>We build powerful search driven apps and text analytics.</p>
 			<div class="card-sub-title">Need to discoverthings among piles of data?</div>
 			<div class="case-study-label">Learn More</div>
-		</div><!-- pure-u-1-4 -->
-		<a href="big-data-analytics">
+		</div><!-- bb-aspect1 pure-u-1-4 -->
+		
+		<a href="/ent/big-data-analytics">
 		<div class="pure-u-1-4 bb-aspect1 center ">
 			<i class="material-icons large light-blue">group_work</i>
 			<div class="card-hr"> </div>
@@ -66,8 +67,9 @@ style: '../css/ent-home-style.css'
 			<p>We help you make smarter decisions with analytics.</p>
 			<div class="card-sub-title">Need insights from your big data?</div>
 			<div class="case-study-label">Learn More</div>
-		</div></a><!-- pure-u-1-4 -->
-		<a href="software-testing">
+		</div></a><!-- bb-aspect1 pure-u-1-4 -->
+		
+		<a href="/ent/software-testing">
 		<div class="pure-u-1-4 bb-aspect1 center ">
 			<i class="material-icons large light-blue">cloud_done</i>
 			<div class="card-hr"> </div>
@@ -76,5 +78,6 @@ style: '../css/ent-home-style.css'
 			<div class="card-sub-title">Get rid of surprises.</div>
 			<div class="case-study-label">Learn More</div>
 		</div></a><!-- bb-aspect1 pure-u-1-4 -->
+		
 	</div><!-- .pure-u-1 .w -->
 </div><!-- .pure-g-r .w -->

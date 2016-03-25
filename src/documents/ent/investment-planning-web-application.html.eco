@@ -6,12 +6,12 @@ script:
 style: 
 ---
 
-<div id="headerwrap" class="pure-g-r headerwrap-main" style="margin-top: 0px;">
+<div id="headerwrap" class="pure-g-r headerwrap-main">
 	<div class="pure-u-1 center" style="background-color: rgba(0,0,0,0.5); overflow: hidden;">
 		<div class="banner-txt">
 			<h1 style="text-align: left;font-weight: bold; margin: 0px; padding: 0px;">
 				We Build Reliable Software and Delight Your Customers</h1>
-			<h4 style="text-align: left; color: #ffffff; font-weight: bold;">CLOUD | MOBILITY | BIG DATA EXPERTS</h4>
+			<h4>CLOUD | MOBILITY | BIG DATA EXPERTS</h4>
 		</div>
 	</div><!-- pure-u-1-->
 </div><!-- headerwrap -->

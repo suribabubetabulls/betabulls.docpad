@@ -24,35 +24,48 @@ style: '../css/ent-testimonials-style.css'
 		<div class="pure-u-2-3">
 			<div class="pure-g-r w">
 
-				<div class="testimonial-card ">
-				<p>
-					BetaBulls did a good job focusing on delivery of the solution and working within our 
-					budget and the inevitable scope creep that occurs when hands-on experience with new things
-					leads to new, great ideas... BetaBulls had a great attitude and energy and never stopped
-					working for the end goal." 
-				</p>
-				<p><b> &#9473;Online Operations Developer, <span class="org">Health Savings Advisor Company</span></b></p> 
+				<div class="testimonial-card shadow">
+					<p>
+						"BetaBulls did a good job focusing on delivery of the solution and working within our 
+						budget and the inevitable scope creep that occurs when hands-on experience with new things
+						leads to new, great ideas... BetaBulls had a great attitude and energy and never stopped
+						working for the end goal." 
+					</p>
+					<p><b> &#9473;Online Operations Developer, <span class="org">Health Savings Advisor Company</span></b></p> 
 				</div>
 
 				<hr style="background: #ccc;" />
 				
-				
-				<p>I felt they understood startups very well. They have a clear focus on client's success. They even recommend de-scoping some functionality if the feature is not appropriate for that time. Also they excel at defining requirements from one line idea
-					stage. At the same time, they never lose focus on the end user value vs cost of development. </p>
-				<!-- <p><b>- Kim Ciraulo, CEO. KJ Connections</b></p> -->
+				<div class="testimonial-card shadow">
+					<p>
+						"I'm extremely impressed. I had started my own process where you can create your own website, 
+						and it's light years behind what they were able to develop. I've been very happy with BetaBulls."
+					</p>
+					<p><b> &#9473;Founder, <span class="org">Startup Social Media</span></b></p> 
+				</div>
 
 				<hr style="background: #ccc;" />
 
 
-				<p>They understand that requirements cannot be given with every minute detail. They have a great process of taking the requirement and coming up with a clickable prototype quickly. This helped us to visualize the product, understand scope very clearly.
-					<br/> They are great with applying technology to business problems. They understand business objective clearly and provide valuable suggestions on what more can be achieved with available technology. </p>
-				<!-- <p><b>- James Beal, CTO. HSA Planner</b></p> -->
+				<div class="testimonial-card shadow">
+				<p>
+					"I think the quality of the BetaBulls's work is very good. They're very responsive.
+					We give them deadlines to complete projects, and they come in on time."
+				</p>
+				<p><b> &#9473; Integration Director, <span class="org">Onboarding System Startup</span></b></p> 
+				</div>
 
 				<hr style="background: #ccc;" />
 
-				<p>They have very established process for scoping, analysis and estimation. Their communication skills are excellent. They had to change the resource once in the first month to match with the required skill set. I'm very happy with their work. Their
-					size, agile nature, they way the approach the problem fitted very well with ours.</p>
-				<!--  <p><b>- Sapna Madiraju, Manager. EMGENEX</b></p>     -->
+				<div class="testimonial-card shadow">
+				<p>
+					"Requirements were a challenge for us, but BetaBulls was very flexible in terms of absorbing the requirements
+					on the fly and changing things that they had already done at no additional cost. They believe in building
+					relationships – that's the feeling I got."
+				</p>
+				<p><b> &#9473;Software Development Manager, <span class="org">Medical Practice Management Company</span></b></p> 
+				</div>
+			
 			</div><!-- .pure-u-1 .center -->
 
 		</div>

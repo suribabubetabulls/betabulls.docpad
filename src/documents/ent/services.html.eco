@@ -4,96 +4,82 @@ layout: enterprise-default
 class: betabulls-enterprise-services
 entPageOrder: 2
 script:
-style: 
+style: '../css/ent-services-style.css'
 ---
 
 <div id="headerwrap" class="pure-g-r headerwrap-main">
 	<div class="pure-u-1 center">
 		<div class="banner-txt">
-			<h1 style="text-align: left; font-weight: bold; margin: 0px; padding: 0px;">
-				We Build Reliable Software and Delight Your Customers</h1>
-			<h4 style="text-align: left; color: #fff; font-weight: bold;">CLOUD | MOBILITY | BIG DATA EXPERTS</h4>
+			<h1>We Build Reliable Software and Delight Your Customers</h1>
+			<h4>CLOUD | MOBILITY | BIG DATA EXPERTS</h4>
 		</div>
 	</div><!-- pure-u-1-->
-</div>
-<!-- headerwrap -->
-<div style="width: 100%; margin: 0px auto; background: #0066b9; padding: 10px  0px; text-align: center;">
-	<h2 style="margin: 0; font-weight:bold; color: #fff;" align="center">What we do ?</h2>
-</div>
+</div><!-- headerwrap -->
 
+<div class="what-we-do">
+	<h2>What we do ?</h2>
+</div>
 	<div class="pure-g-r w center">
 		<a name="WhatWeDo" id="WhatWeDo"></a>
 
+		<a href="/ent/application-support-maintenance">
 		<div class="pure-u-1-4 bb-aspect1 center">
 			<i class="material-icons large light-blue" >vertical_align_top</i>
-			<div class="card-hr"></div>
-			<a href="application-support-maintenance"><h4>Application Support & Maintenance</h4></a>
+			<div class="card-hr"> </div>
+			<h4>Application Support & Maintenance</h4>
 			<p>We support your applications 24x7 and keep the Lights On (KTLO).</p>
-			<a href="application-support-maintenance" style="width: 125px; margin: 5px auto; padding: 3px; background-color: #464646; color: #ffffff; opacity: 0.9; letter-spacing: 0.1em; font-size: small; text-decoration: none; font-weight: bold;">Case Studies</a>
-			<div style="width: 100%; margin: 5px auto; padding: 3px; color: #c82f32; letter-spacing: 0.1em; font-size: small; font-weight: 200;">Need application support ?</div>
-		</div>
-		<!-- pure-u-1-4 -->
+			<div class="case-study-label">Learn More</div>
+			<div class="case-sub-title">Need application support ?</div>
+		</div></a><!-- bb-aspect1 pure-u-1-4 -->
 
+		<a href="/ent/custom-software-development">
 		<div class="pure-u-1-4 bb-aspect1 center">
-			<a href="custom-software-development"><i class="material-icons large light-blue" >subtitles</i></a>
-			<a href="custom-software-development">
-				<div class="card-hr"></div>
-			</a>
-			<a href="custom-software-development"><h4>Custom Software Development</h4></a>
+			<i class="material-icons large light-blue" >subtitles</i>
+			<div class="card-hr"> </div>
+			<h4>Custom Software Development</h4>
 			<p>We develop reliable web and Mobile software that matters to you.</p>
-			<a href="custom-software-development">
-				<div style="width: 125px; margin: 5px auto; padding: 3px; background-color: #464646; color: #ffffff; opacity: 0.9; letter-spacing: 0.1em; font-size: small; font-weight: bold;">Case Studies</div>
-			</a>
-			<a href="custom-software-development">
-				<div style="width: 100%; margin: 5px auto; padding: 3px; color: #c82f32; letter-spacing: 0.1em; font-size: small; font-weight: 200;">Need a developer or whole team?</div>
-			</a>
-		</div>
-		<!-- pure-u-1-4 -->
+			<div class="case-study-label">Learn More</div>
+			<div class="case-sub-title">Need a developer or whole team?</div>
+		</div></a><!-- bb-aspect1 pure-u-1-4 -->
 
+		<a href="/ent/mobile-enablement">
 		<div class="pure-u-1-4 bb-aspect1 center">
 			<i class="material-icons large light-blue" >devices</i>
-			<div class="card-hr"></div>
-			<a href="mobile-enablement">
-				<h4>Mobile Enablement</h4></a>
-			<p>We Extend Legacy Applications to Smartphones and Tablets.</p>
-			<a href="mobile-enablement">
-				<div style="width: 125px; margin: 5px auto; padding: 3px; background-color: #464646; color: #ffffff; opacity: 0.9; letter-spacing: 0.1em; font-size: small; font-weight: bold;">Case Studies</div>
-			</a>
-			<div style="width: 100%; margin: 5px auto; padding: 3px; color: #c82f32; letter-spacing: 0.1em; font-size: small; font-weight: 200;">Need to engage users on Mobile?</div>
-		</div>
+			<div class="card-hr"> </div>
+				<h4>Mobile Enablement</h4>
+				<p>We Extend Legacy Applications to Smartphones and Tablets.</p>
+				<div class="case-study-label">Learn More</div>
+			<div class="case-sub-title">Need to engage users on Mobile?</div>
+		</div></a><!-- bb-aspect1 pure-u-1-4 -->
 
 		<div class="pure-u-1-4 bb-aspect1 center">
 			<i class="material-icons large light-blue">linear_scale</i>
 			<div class="card-hr"></div>
 			<h4>Search and Information Discovery</h4>
 			<p>We build powerful search driven apps and text analytics.</p>
-			<div style="width: 125px; margin: 5px auto; padding: 3px; background-color: #464646; color: #ffffff; opacity: 0.9; letter-spacing: 0.1em; font-size: small; font-weight: bold;">Case Studies</div>
-			<div style="width: 100%; margin: 5px auto; padding: 3px; color: #c82f32; letter-spacing: 0.1em; font-size: small; font-weight: 200;">Need to discoverthings among piles of data?</div>
-		</div>
-		<!-- pure-u-1-4 -->
+			<div class="case-study-label">Learn More</div>
+			<div class="case-sub-title">Need to discoverthings among piles of data?</div>
+		</div><!-- bb-aspect1 pure-u-1-4 -->
 
+		<a href="/ent/big-data-analytics">
 		<div class="pure-u-1-4 bb-aspect1 center">
 			<i class="material-icons large light-blue" >group_work</i>
 			<div class="card-hr"></div>
-			<a href="big-data-analytics">
-				<h4>Big Data Analytics</h4></a>
-			<p>We help you make smarter decisions with analytics.</p>
-			<a href="big-data-analytics">
-				<div style="width: 125px; margin: 5px auto; padding: 3px; background-color: #464646; color: #ffffff; opacity: 0.9; letter-spacing: 0.1em; font-size: small; font-weight: bold;">Case Studies</div>
-			</a>
-			<div style="width: 100%; margin: 5px auto; padding: 3px; color: #c82f32; letter-spacing: 0.1em; font-size: small; font-weight: 200;">Need insights from your big data?</div>
-		</div>
-		<!-- pure-u-1-4 -->
+				<h4>Big Data Analytics</h4>
+				<p>We help you make smarter decisions with analytics.</p>
+				<div class="case-study-label">Learn More</div>
+			<div class="case-sub-title">Need insights from your big data?</div>
+		</div></a><!-- bb-aspect1 pure-u-1-4 -->
+		
+		<a href="/ent/software-testing">
 		<div class="pure-u-1-4 bb-aspect1 center">
 			<i class="material-icons large light-blue" >cloud_done</i>
 			<div class="card-hr"></div>
-			<a href="software-testing">
-				<h4>Software Testing</h4></a>
+			<h4>Software Testing</h4>
 			<p>We use manual and automated testing to ensure your software exceeds expectations.</p>
-			<a href="software-testing">
-				<div style="width: 125px; margin: 5px auto; padding: 3px; background-color: #464646; color: #ffffff; opacity: 0.9; letter-spacing: 0.1em; font-size: small; font-weight: bold;">Case Studies</div>
-			</a>
-			<div style="width: 100%; margin: 5px auto; padding: 3px; color: #c82f32; letter-spacing: 0.1em; font-size: small; font-weight: 200;">Need to create engaging experience without surprises?</div>
-		</div><!-- pure-u-1-4 -->
+			<div class="case-study-label">Learn More</div>
+			<div class="case-sub-title">Need to create engaging experience without surprises?</div>
+		</div></a><!-- bb-aspect1 pure-u-1-4 -->
+		
 	</div><!-- .pure-g-r w -->
 </div>
