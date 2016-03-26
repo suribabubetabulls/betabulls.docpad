@@ -20,8 +20,8 @@ style: '../css/ent-home-style.css'
 	<div class="pure-u-1">
 		<a name="WhatWeDo" id="WhatWeDo"></a>
 		
-		<a href="/ent/application-support-maintenance">
-		<div class="pure-u-1-4 bb-aspect1 center ">
+		<a class="card-link" href="/ent/application-support-maintenance">
+		<div class="pure-u-1-4 bb-aspect1 center">
 			<i class="material-icons large light-blue">vertical_align_top</i>
 			<div class="card-hr"> </div>
 			<h4>Application Support & Maintenance</h4>
@@ -30,8 +30,8 @@ style: '../css/ent-home-style.css'
 			<div class="case-study-label">Learn More</div>
 		</div></a><!-- bb-aspect1 pure-u-1-4 -->
 		
-		<a href="/ent/custom-software-development">
-		<div class="pure-u-1-4 bb-aspect1 center ">
+		<a class="card-link" href="/ent/custom-software-development">
+		<div class="pure-u-1-4 bb-aspect1 center">
 			<i class="material-icons large light-blue">subtitles</i>
 			<div class="card-hr"> </div>
 			<h4>Custom Software Development</h4>
@@ -40,27 +40,28 @@ style: '../css/ent-home-style.css'
 			<div class="case-study-label">Learn More</div>
 		</div></a><!-- bb-aspect1 pure-u-1-4 -->
 		
-		<a href="/ent/mobile-enablement">
-		<div class="pure-u-1-4 bb-aspect1 center ">
+		<a class="card-link" href="/ent/mobile-enablement">
+		<div class="pure-u-1-4 bb-aspect1 center">
 			<i class="material-icons large light-blue">devices</i>
 			<div class="card-hr"> </div>
 			<h4>Mobile Enablement</h4>
 			<p>We Extend Legacy Applications to Smartphones and Tablets.</p>
 			<div class="card-sub-title">Need to engage users on Mobile?</div>
 			<div class="case-study-label">Learn More</div>
-		</div></a>
+		</div></a><!-- bb-aspect1 pure-u-1-4 -->
 		
-		<div class="pure-u-1-4 bb-aspect1 center ">
+		<a class="card-link" href="/ent/big-data-analytics">
+		<div class="pure-u-1-4 bb-aspect1 center">
 			<i class="material-icons large light-blue">linear_scale</i>
 			<div class="card-hr"> </div>
 			<h4>Search and Information Discovery</h4>
 			<p>We build powerful search driven apps and text analytics.</p>
 			<div class="card-sub-title">Need to discoverthings among piles of data?</div>
 			<div class="case-study-label">Learn More</div>
-		</div><!-- bb-aspect1 pure-u-1-4 -->
+		</div></a><!-- bb-aspect1 pure-u-1-4 -->
 		
-		<a href="/ent/big-data-analytics">
-		<div class="pure-u-1-4 bb-aspect1 center ">
+		<a class="card-link" href="/ent/big-data-analytics">
+		<div class="pure-u-1-4 bb-aspect1 center">
 			<i class="material-icons large light-blue">group_work</i>
 			<div class="card-hr"> </div>
 			<h4>Big Data Analytics</h4>
@@ -69,8 +70,8 @@ style: '../css/ent-home-style.css'
 			<div class="case-study-label">Learn More</div>
 		</div></a><!-- bb-aspect1 pure-u-1-4 -->
 		
-		<a href="/ent/software-testing">
-		<div class="pure-u-1-4 bb-aspect1 center ">
+		<a class="card-link" href="/ent/software-testing">
+		<div class="pure-u-1-4 bb-aspect1 center">
 			<i class="material-icons large light-blue">cloud_done</i>
 			<div class="card-hr"> </div>
 				<h4>Software Testing</h4>	

@@ -2,12 +2,12 @@
 title: Software Testing
 layout: enterprise-default
 class: betabulls-enterprise-testing
-script:
+script: 
 style: '../css/ent-testing-style.css'
 ---
 
 <div id="headerwrap" class="pure-g-r headerwrap-main">
-	<div class="pure-u-1 center" style="background-color: rgba(0,0,0,0.5); overflow: hidden;">
+	<div class="pure-u-1 center">
 		<div class="banner-txt">
 			<h1>
 				Release Your Software Application With Confidence</h1>
