@@ -5,7 +5,7 @@ class: betabulls-enterprise-home
 style: '../css/ent-home-style.css'
 ---
 
-<div id="headerwrap" class="pure-g-r headerwrap-main" >
+<div id="headerwrap" class="pure-g-r headerwrap-main">
 	<div class="pure-u-1 center">
 		<div class="banner-txt">
 			<h1>We Build Reliable Software and Delight Your Customers</h1>
@@ -13,8 +13,9 @@ style: '../css/ent-home-style.css'
 		</div>
 	</div><!-- pure-u-1-->
 </div><!-- headerwrap -->
-<div class="what-we-do">
-	<h2>What we do ?</h2>
+<div style="width: 100%; margin: 0px auto; padding: 0px 0px 0px 0px; text-align: center;">
+	<h2 style=" font-weight:500;" align="center">What we do ?</h2>
+	<hr>
 </div>
 <div class="pure-g-r w">
 	<div class="pure-u-1">
@@ -76,7 +77,7 @@ style: '../css/ent-home-style.css'
 			<div class="card-hr"> </div>
 				<h4>Software Testing</h4>	
 			<p>We use manual and automated testing to ensure your software exceeds expectations.</p>
-			<div class="card-sub-title">Get rid of surprises.</div>
+			<div class="card-sub-title">Need best experience without surprises?</div>
 			<div class="case-study-label">Learn More</div>
 		</div></a><!-- bb-aspect1 pure-u-1-4 -->
 		

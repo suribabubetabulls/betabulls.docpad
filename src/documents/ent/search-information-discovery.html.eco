@@ -3,14 +3,13 @@ title: Search Information Discovery
 layout: enterprise-default
 class: betabulls-enterprise-search
 script:
-style: 
+style:
 ---
 
-<div id="headerwrap" class="pure-g-r headerwrap-main" >
+<div id="headerwrap" class="pure-g-r custom-soft-dev" >
 	<div class="pure-u-1 center">
 		<div class="banner-txt">
-			<h1>
-			 	We Build Powerful Search Driven Applications</h1>
+			<h1>We Build Powerful Search Driven Applications</h1>
 			<h4>Our solutions power millions of searches from retailers, job boards to content publishers.</h4>
 		</div>
 	</div><!-- pure-u-1-->

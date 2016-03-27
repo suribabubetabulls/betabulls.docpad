@@ -3,7 +3,7 @@ title: Big Data Analytics
 layout: enterprise-default
 class: betabulls-enterprise-bigdata
 script:
-style: 
+style: '../css/ent-mobile-style.css'
 ---
 
 <div id="headerwrap" class="pure-g-r headerwrap-main" style="margin-top: 0px; background: url(img/testimonials.jpg);">
@@ -79,4 +79,7 @@ style:
 			</div>
 		</div>
 	</div>
+	
+	<%- @partial('case-studies') %>
+	
 </div>

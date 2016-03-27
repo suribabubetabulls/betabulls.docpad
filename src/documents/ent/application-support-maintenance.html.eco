@@ -78,8 +78,10 @@ style:
 					#Request Support </a>
 				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=courses+in+traingap.com" class="btn btn-success" type="button" target="_blank">
 					#Request Maintenance</a>
-
 			</div>
 		</div>
 	</div>
+	
+	<%- @partial('case-studies') %>
+	
 </div>

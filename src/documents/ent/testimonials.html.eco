@@ -2,7 +2,7 @@
 title: Testimonials
 layout: enterprise-default
 class: betabulls-enterprise-testimonials
-entPageOrder: 3
+entPageOrder: 2
 script:
 style: '../css/ent-testimonials-style.css'
 ---

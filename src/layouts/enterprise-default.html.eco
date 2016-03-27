@@ -68,8 +68,6 @@
 	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 	<![endif]-->
 
-	<script src="//load.sumome.com/" data-sumo-site-id="da70c9c1e7af90228f36afc17e0ff777149dd2f37da3c143d5826b7a1749220f" async></script>
-
 </head>
 <body>
 
@@ -82,7 +80,7 @@
 				<div class="pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal">
 					<div class="navbar-header">
 					<a itemscope itemtype="http://schema.org/Organization" href="/ent"><span itemprop="name" class="pure-menu-heading">BETA<%- @partial('betabulls-svg-icon') %>BULLS</span> 
-						<span class="for-ent"> for ENTERPRISE </span>
+						<span class="for-ent"> for SMBs </span>
 					</a>
 					<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
 							<span class="sr-only">Toggle navigation</span>
@@ -146,7 +144,7 @@
 							<ul class="footer">
 								<li>Java / Node / JavaScript</li>
 								<li>.NET / Microsoft</li>
-								<li>PHP / LAMP / XAMP</li>
+								<li>MEAN / LAMP / PHP</li>
 								<li>iOS / Android apps</li>
 								<li>Mongo / MySQL / PostgreSQL</li>
 								<li>HTML5 / CSS / JS</li>
@@ -198,7 +196,7 @@
 							</p>
 						</div>
 						<div class="pure-u-1-6 bb-footer">
-							<h5 class="footer">Our office locations are</h5>
+							<h5 class="footer">Locations</h5>
 							<p style="text-align: left; font-size: 13px;">2 King Arthur Court, Lakeside West</br>
 								North Brunswick, NJ 08902</br>
 								United States</br>

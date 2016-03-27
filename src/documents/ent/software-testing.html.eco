@@ -6,7 +6,7 @@ script:
 style: '../css/ent-testing-style.css'
 ---
 
-<div id="headerwrap" class="pure-g-r headerwrap-main">
+<div id="headerwrap" class="pure-g-r headerwrap-softwaretesting">
 	<div class="pure-u-1 center">
 		<div class="banner-txt">
 			<h1>
@@ -98,4 +98,7 @@ style: '../css/ent-testing-style.css'
 			</div>
 		</div>
 	</div>
+	
+	<%- @partial('case-studies') %>
+	
 </div>
