@@ -123,36 +123,36 @@
 				<div class="pure-g-r">
 					<div class="pure-u-1">
 						<div class="pure-u-1-6 bb-footer">
-							<h5 class="footer">Services / Solutions</h5>
+							<h5 class="footer"> Solutions</h5>
 							<ul class="footer">
-								<li>Application Support & Maintenance</li>
-								<li>Custom Software Development</li>
-								<li>Mobile Enablement</li>
-								<li>Search and Information Discovery</li>
-								<li>Big Data Analytics</li>
-								<li>Software Testing</li>
-								<li>Online Video / Media Systems</li>
+								<li><a href="/ent/application-support-maintenance">Application Support & Maintenance</a></li>
+								<li><a href="/ent/custom-software-development">Custom Software Development<a/></li>
+								<li><a href="/ent/mobile-enablement">Mobile Enablement<a/></li>
+								<li><a href="/ent/search-information-discovery">Search and Information Discovery</a></li>
+								<li><a href="/ent/big-data-analytics">Big Data Analytics</a></li>
+								<li><a href="/ent/software-testing">Software Testing</a></li>
+								<!--li>Online Video / Media Systems</li>
 								<li>Log Analytics</li>
 								<li>Job Boards / Resume Matching</li>
 								<li>Big Data Ingest</li>
-								<li>Build Automation / Deployments</li>
+								<li>Build Automation / Deployments</li-->
 							</ul>
 						</div><!-- pure-u-1-6 -->
 						
 						<div class="pure-u-1-8 bb-footer">
 							<h5 class="footer">Skills / Expertise</h5>
 							<ul class="footer">
-								<li>Java / Node / JavaScript</li>
-								<li>.NET / Microsoft</li>
-								<li>MEAN / LAMP / PHP</li>
-								<li>iOS / Android apps</li>
-								<li>Mongo / MySQL / PostgreSQL</li>
-								<li>HTML5 / CSS / JS</li>
-								<li>UI / UX / Design</li>
-								<li>Linux / Unix Administration</li>
-								<li>Elastic / Logstash / Kibana</li>
-								<li>Cloud Hosting / Cloud Servers</li>
-								<li>More Technical Specialties</li>
+								<li><a href="/ent/dedicated-developers-for-hire">Java / Node / JavaScript</a></li>
+								<li><a href="/ent/dedicated-developers-for-hire">.NET / Microsoft</a></li>
+								<li><a href="/ent/dedicated-developers-for-hire">MEAN / LAMP / PHP</a></li>
+								<li><a href="/ent/dedicated-developers-for-hire">iOS / Android apps</a></li>
+								<li><a href="/ent/dedicated-developers-for-hire">Mongo / MySQL / PostgreSQL</a></li>
+								<li><a href="/ent/dedicated-developers-for-hire">HTML5 / CSS / JS</a></li>
+								<li><a href="/ent/dedicated-developers-for-hire">UI / UX / Design</a></li>
+								<li><a href="/ent/dedicated-developers-for-hire">Linux / Unix Administration</a></li>
+								<li><a href="/ent/dedicated-developers-for-hire">Elastic / Logstash / Kibana</a></li>
+								<li><a href="/ent/dedicated-developers-for-hire">Cloud Hosting / Cloud Servers</a></li>
+								<li><a href="/ent/dedicated-developers-for-hire">More Technical Specialties</a></li>
 							</ul>
 						</div><!-- pure-u-1-8 -->
 						<div class="pure-u-1-6 bb-footer">
@@ -164,6 +164,7 @@
 								<li><a href="/ent/search-information-discovery">Search and Information Discovery</a></li>
 								<li><a href="/ent/big-data-analytics">Big Data Analytics</a></li>
 								<li><a href="/ent/software-testing">Software Testing</a></li>
+								<li><a href="/ent/dedicated_developers">Dedicated Developers for Hire</a></li>
 							</ul>
 						</div><!-- pure-u-1-6 -->
 						<div class="pure-u-1-6 bb-footer">
@@ -171,9 +172,8 @@
 							<ul class="footer">
 								<li><a href="about-us">About us</a></li>
 								<li><a href="services">Case Studies</li></a>
-								<li>What We Do</li>
-								<li>Careers</li>
-								<li>Contact Us</li>
+								<li><a href="http://betabulls.com/careers">Careers</a></li>
+								<li><a href="#contact" data-toggle="modal" data-target="#contactModal">Contact Us</a></li>
 							</ul>
 
 							<p style="text-align: left; margin-left: 0px; color: #dedede; font-size: smaller;">

@@ -85,6 +85,6 @@ style:
 		</div>
 	</div>
 	
-	<%- @partial('case-studies') %>
+	<%- @partial('custom_software_development_case_studies') %>
 
 </div>

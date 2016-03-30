@@ -24,13 +24,10 @@ style: '../css/ent-testimonials-style.css'
 					<h2 style=" font-weight:500;" align="center">Testimonials</h2>
 					<hr>
 				</div>
-				
 				<%- @partial('testimonials') %>
-
-		</div>
-		<!-- container -->
-		<!-------------------------------------------->
-
+			</div>
+		</div><!-- end pure-u-2-3 -->
+		
 		<div class="pure-u-1-4 right-col1">
 			<div class="bck-contact"><!-- contact form start -->
 				<h3>Please Contact Us</h3>
@@ -38,7 +35,6 @@ style: '../css/ent-testimonials-style.css'
 
 				<iframe class="contactus-card" src="https://form.jotform.me/60874122485458"></iframe>
 			</div><!-- contact form end -->
-			
-		</div>
-	</div>
-</div>
+		</div><!-- pure-u-1-4 right-col1 -->
+	</div><!-- end row center -->
+</div><!-- end container -->
