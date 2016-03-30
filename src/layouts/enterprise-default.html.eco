@@ -55,7 +55,7 @@
 	<!-- Styles -->
 	<link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" />
 	<link  rel="stylesheet" href="/css/pure-min.css" />
-	<link  rel="stylesheet" href="/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="/css/ent-style.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<% if @document.style: %>
@@ -191,7 +191,7 @@
 								</a>
 								<br> &copy;
 								<%- (new Date()).getFullYear() %> BetaBulls
-									<span class="muted">*</span>&nbsp;
+									<br/>
 									<a href="/pages/privacy">Privacy Policy</a>
 							</p>
 						</div>
@@ -211,22 +211,11 @@
 				</div><!-- Footer -->
 			</div> <!-- end .f -->
 			<!-- .content .main -->
-			<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-							<h4 class="modal-title" id="contactModalLabel">Contact us</h4>
-						</div>
-						<div class="modal-body">
-							<iframe src="https://form.jotform.me/60712670748459" style="border: 0; margin-top:-10px !important;" height="700px" width="100%"></iframe>
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-						</div>
-					</div>
-				</div>
-			</div>
+			
+			<%- @partial('header-contactus') %>
+			
+			<%- @partial('risk-free-trial') %>
+			
 			<!-- Scripts -->
 			<% if @document.script: %>
 				<%- @getBlock('scripts').add(@document.script).toHTML() %>

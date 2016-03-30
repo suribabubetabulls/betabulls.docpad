@@ -1,0 +1,103 @@
+---
+title: Dedicated Developers for Hire
+layout: enterprise-default
+class: betabulls-enterprise-hire-developer
+script:
+style: '../css/ent-dedicated-style.css'
+keywords: 'Developer for Hire, Hire programmer, Hire coder, Programmer for Hire'
+description: 'Hire Dedicated Developers. Expand or Optimize Your Team with our experts. 100% IP Safe!'
+---
+
+<div id="headerwrap" class="pure-g-r mobile-enablement">
+	<div class="pure-u-1 center" style="background-color: rgba(0,0,0,0.5); overflow: hidden;height: 300px;">
+		<div class="banner-txt">
+			<h1>Hire Dedicated Developers</h1>
+			<h4>Expand or Optimize Your Team with our experts. 100% IP Safe!</h4>
+		</div>
+	</div><!-- pure-u-1-->
+</div><!-- headerwrap -->
+<div style="width: 100%; margin: 0px auto; padding: 0px 0px 0px 0px; text-align: center;">
+	<h2 style="font-weight:500;margin: 66px auto 44px;" align="center">Why Our Customers Love Us</h2>
+	<hr>
+</div>
+<div class="container">
+	<div class="row center">
+		<div class="pure-u-2-3">
+			
+			<div class="paper-sheet">
+			<div class="pure-g-r w we-hire-the-best">
+				<h1>We Hire Absolutely Best Talent</h1> 
+				<div class="pure-u-2-3">
+					<p>
+						Our Rock star HR team designed a proven 9 step process to hire THE BEST. 
+						The step by step process ranges from tech trivia, programming, and design to culture fit.
+					</p>
+				</div>
+				<div class="pure-u-1-3">
+					<%- @partial('iconmonstr-user-29') %>
+				</div>
+			</div><!-- .pure-u-1 .center -->
+			
+			<div class="pure-g-r w support-business-strategy">
+				<h1>We Support Business Strategy</h1> 
+				<div class="pure-u-2-3">
+					<p>
+						Our Developers write code every day. However, they are business oriented and support your
+						business objectives. Our developers go thru 40hrs of mandatory training every year on Business Strategy to Six Sigma.
+					</p>
+				</div>
+				<div class="pure-u-1-3">
+					<%- @partial('iconmonstr-chart-6') %>
+				</div>
+			</div><!-- .pure-u-1 .center -->
+			
+			<div class="pure-g-r w we-respect-deadlines">
+				<h1>We have Respect for deadlines</h1> 
+				<div class="pure-u-2-3">
+					<p>
+						If we made a commitment to deliver a project/milestone by a certain time, we take responsibility
+						and deliver. If it means putting in extra hours or additional resources, then do so.
+					</p>
+				</div>
+				<div class="pure-u-1-3">
+					<%- @partial('iconmonstr-calendar-6') %>
+				</div>
+			</div><!-- .pure-u-1 .center -->
+			
+			<div class="pure-g-r w we-have-developers">
+				<h1>We Have</h1> 
+				<ul>
+					<li>Web Developers</li>
+					<li>Java</li>
+					<li>.Net</li>
+					<li>Node JS</li>
+					<li>PHP</li>
+					<li>Ruby On Rails</li>
+					<li>Big Data/NoSQL Developers</li>
+					<li>Elastic search, Logstash, Kibana</li>
+					<li>Spark</li>
+					<li>MongoDB</li>
+					<li>Hadoop</li>
+					<li>Mahout</li>
+					<li>Mobile Developers</li>
+					<li>iOS</li>
+					<li>Android</li>
+					<li>Windows</li>
+					<li>Phonegap</li>
+					<li>Xamarin</li>
+				</ul>
+			</div><!-- .pure-u-1 .center -->
+			</div><!-- .paper-sheet -->
+			
+			<div class="pure-g-r w testimonials">
+				<h1>What our clients say about us</h1> 
+				<%- @partial('testimonials') %>
+			</div><!-- .pure-u-1 .center -->
+			
+		</div>
+	</div><!-- end row center -->
+</div><!-- end container -->
+
+<div class="pure-g-r ded-hire-form">
+	<script type="text/javascript" src="https://form.jotform.com/jsform/60891420252147"></script>
+</div><!-- .pure-u-1 .center -->

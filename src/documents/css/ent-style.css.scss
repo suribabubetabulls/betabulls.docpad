@@ -279,9 +279,7 @@ hr {
 	}
 	.banner-txt{height: 306px;}
 }
-.container{
-	.pure-u-2-3{text-align: left;}
-}
+.container{.pure-u-2-3{text-align: left;}}
 
 .headerwrap-main {
 	background: rgba(0, 0, 0, 0) url(../img/ent-img/header-bg.jpg) no-repeat scroll center top;
@@ -364,9 +362,7 @@ hr {
 		color: $color_silver_approx;
 		font-size: 30px;
 		padding: 20px;
-		&:hover {
-			color: $color_froly_approx;
-		}
+		&:hover {color: $color_froly_approx;}
 	}
 	a {color: $color_alto_approx;}
 }
@@ -494,9 +490,7 @@ hr {
 		font-weight: bold;
 		padding: 15px 10px;
 		text-align: center;
-		&:hover {
-			background: $color_froly_approx none repeat scroll 0 0;
-		}
+		&:hover {background: $color_froly_approx none repeat scroll 0 0;}
 	}
 }
 .pricing-free-top {
@@ -515,22 +509,14 @@ hr {
 	background: $color_blue_chalk_28_approx none repeat scroll 0 0;
 	a {color: $color_persian_blue_74_approx;}
 }
-.pricing-items-hash {
-	background: $color_puerto_rico_6_approx none repeat scroll 0 0;
-}
-.priving-items-mvp {
-	background: $color_golden_tainoi_6_approx none repeat scroll 0 0;
-}
+.pricing-items-hash {background: $color_puerto_rico_6_approx none repeat scroll 0 0;}
+.priving-items-mvp {background: $color_golden_tainoi_6_approx none repeat scroll 0 0;}
 .pricing-signup-free {
 	background: $color_cornflower_blue_58_approx none repeat scroll 0 0;
 	color: $white;
 }
-.pricing-signup-hash {
-	background: $color_mountain_meadow_approx none repeat scroll 0 0;
-}
-.pricing-signup-mvp {
-	background: $web_orange none repeat scroll 0 0;
-}
+.pricing-signup-hash {background: $color_mountain_meadow_approx none repeat scroll 0 0;}
+.pricing-signup-mvp {background: $web_orange none repeat scroll 0 0;}
 .processbox {
 	background: $concrete none repeat scroll 0 0;
 	border: 2px solid $color_bon_jour_approx;
@@ -635,9 +621,7 @@ iframe {border: 0 none;}
 		padding: 33px 0;
 		text-align: left;
 		width: 32.3333%;
-		h1 {
-			text-align: center;
-		}
+		h1 {text-align: center;}
 		&:first-child {
 			background: rgba(0, 0, 0, 0) linear-gradient(to bottom, $color_china_ivory_approx 0, $color_key_lime_pie_13_approx 100%) repeat scroll 0 0;
 		}
@@ -843,7 +827,8 @@ $colors: $purple, $redish, $turquoise, $grey, $gold, dodgerblue;
 // http://stackoverflow.com/a/15475957/1762493
 @for $i from 1 through length($colors) {
 	.card-link:nth-of-type(#{length($colors)}n+#{$i}) .bb-aspect1:before, 
-	.card:nth-of-type(#{length($colors)}n+#{$i}):before{
+	.card:nth-of-type(#{length($colors)}n+#{$i}):before,
+	.we-have-developers li:nth-of-type(#{length($colors)}n+#{$i}){
 		background: lighten(nth($colors, $i), 1%);
 	}
 }
@@ -933,9 +918,7 @@ $card-width: 39%;
 		height: $card-height + 33px;
 	}
 }
-.bb-aspect1{
-	&:hover{width: 30.5%;}
-}
+.bb-aspect1{&:hover{width: 30.5%;}}
 .bb-lean {cursor: pointer;}
 .home-device-bg {
 	background: $color_alto_approx none repeat scroll 0 0;
@@ -944,16 +927,10 @@ $card-width: 39%;
 	border-radius: 33px;
 	margin: 33px;
 	padding: 66px 33px 13px;
-	a {
-		color: $color_concord_approx;
-	}
+	a {color: $color_concord_approx;}
 }
-.navbar-nav {
-	margin: 9px 0 0 !important;
-}
-.contact-step {
-	cursor: pointer;
-}
+.navbar-nav {margin: 9px 0 0 !important;}
+.contact-step {cursor: pointer;}
 .price-slogan {
 	color: $color_mountain_mist_approx;
 	display: block;
@@ -1012,9 +989,7 @@ $card-width: 39%;
 	margin: 0 0 0 20px;
 	width: 531px;
 }
-.mute {
-	opacity: 0.7;
-}
+.mute {opacity: 0.7;}
 @media(max-width: 979px) {
 	.bb-aspect1 {
 		width: 28% !important;
@@ -1169,6 +1144,16 @@ $card-width: 39%;
 		padding: 0;
 	}
 }
+.contactModal{background:#f2f9fc;}
+.header-contactus{
+    border: 0;
+    height: 520px !important;
+    overflow-y: none;
+    width: 100%;
+    margin: 0 auto;
+    width: 450px;
+    display: block;
+}
 .right-col1 {
 	float: right;
 	background: none;
@@ -1180,8 +1165,10 @@ $card-width: 39%;
 	.contactus-card{
 		border: 0;
 		margin-top: -10px !important;
-		height: 616px;
+		height: 460px;
+		background:#f2f9fc;
 		width: 262px;
+		overflow-y:hidden;
 	}
 }
 .floating-form {
@@ -1294,8 +1281,9 @@ $card-width: 39%;
 	padding: 0;
 	@include shadow;
 	h3 {
-		padding: 19px 0 0 18px;
+		padding: 22px 0 10px 18px;
 		margin: 0;
+		font-size:16px;
 	}
 }
 .modal-backdrop {z-index: 0;}
@@ -1321,9 +1309,7 @@ ul.footer {
 		padding: 33px 33px 51px;
 	}
 }
-.lean-modal-frame .modal-body {
-	background: $color_log_cabin_approx none repeat scroll 0 0;
-}
+.lean-modal-frame .modal-body {background: $color_log_cabin_approx none repeat scroll 0 0;}
 .form-hori .clearfix {
 	margin-top: 10px !important;
 	overflow: hidden !important;
@@ -1334,3 +1320,16 @@ ul.footer {
 	margin: 5px 15px;
 	overflow: hidden;
 }
+.form-all{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.margin-top-10{margin-top:10px;}
+.trial-iframe{
+	border: none;
+	width: 85%;
+	text-align: center;
+	margin: -22px -44px auto auto;
+	height: 281px;
+}
+#trialModal{text-align: center;}

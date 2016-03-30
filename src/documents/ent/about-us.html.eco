@@ -19,39 +19,29 @@ style:
 		</div>
 	</div><!-- pure-u-1-->
 </div> <!-- headerwrap -->
-<div style="width: 100%; margin: 0px auto; padding: 0px 0px 0px 0px; text-align: center;">
-	<h2 style=" font-weight:500;" align="center">About Us</h2>
-	<hr>
-</div>
+
 <div class="container">
 <div class="row center">
 <div class="pure-u-2-3">
-		
+	
 <p>BetaBulls Inc. is a leading New Jersey based Information technology, consulting and outsourcing services provider. BetaBulls is seen as a reliablepartner by small and mid-sized businesses, helping them with innovative technology solutions to disrupt existing businesses and creating new opportunities.</p>
 <p>BetaBulls Startup Division partners with entrepreneursto help build and grow their startups. While It make all kinds of web and mobile applications, this division specializes in getting Minimum Viable Product (MVP) online for feedback and initial sales. We take the idea, no matter how grandiose or petite and chisel it into an ideal MVP and release to the world quickly.</p>
 <p>BetaBulls industry experience spans manufacturing, hospitality, health care, government, media, ISVs and financial services. With presence in the US and India, the company delivers comprehensive services for mission critical operational systems, search and recommendation systems, business intelligence and analytics, cloud enablement and mobile enablement.</p>
 
 </div><!-- container -->
 <!-------------------------------------------->
-
+	<div style="width: 100%; margin: 0px auto; padding: 0px 0px 0px 0px; text-align: center;">
+	<h2 style=" font-weight:500;" align="center">About Us</h2>
+	<hr>
+</div>
 <div class="pure-u-1-4 right-col1">
-	<div class="bck-contact"><!-- contact form start -->
-		<h3>Please Contact Us</h3>
-		<hr/>
-		<iframe class="contactus-card" src="https://form.jotform.me/60712670748459"></iframe>
-	</div><!-- contact form end -->
-	<hr/>
-	<div id="tagsSidebar">
-				<h2>Tags</h2>
-				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=bigdata+training+in+hyderabad" class="btn btn-success" type="button" target="_blank">
-				#Application Support  </a>
-				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=bigdata+training+in+traingap" class="btn btn-success" type="button" target="_blank">
-				#Application Maintenance </a>
-				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=traingap.com" class="btn btn-success" type="button" target="_blank">
-				#Request Support </a>
-				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=courses+in+traingap.com" class="btn btn-success" type="button" target="_blank">
-				#Request Maintenance</a>
-			</div>
+		<div class="bck-contact"><!-- contact form start -->
+				<h3>Please Contact Us</h3>
+				<hr/>
+
+				<iframe class="contactus-card" src="https://form.jotform.me/60874122485458"></iframe>
+			</div><!-- contact form end -->
+
 		</div>
 	</div>
 </div>

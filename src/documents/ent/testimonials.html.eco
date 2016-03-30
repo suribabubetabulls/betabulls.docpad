@@ -15,86 +15,30 @@ style: '../css/ent-testimonials-style.css'
 		</div>
 	</div><!-- pure-u-1-->
 </div><!-- headerwrap -->
-<div style="width: 100%; margin: 0px auto; padding: 0px 0px 0px 0px; text-align: center;">
-	<h2 style=" font-weight:500;" align="center">Testimonials</h2>
-	<hr>
-</div>
+
 <div class="container">
 	<div class="row center">
 		<div class="pure-u-2-3">
 			<div class="pure-g-r w">
-
-				<div class="testimonial-card shadow">
-					<p>
-						"BetaBulls did a good job focusing on delivery of the solution and working within our 
-						budget and the inevitable scope creep that occurs when hands-on experience with new things
-						leads to new, great ideas... BetaBulls had a great attitude and energy and never stopped
-						working for the end goal." 
-					</p>
-					<p><b> &#9473;Online Operations Developer, <span class="org">Health Savings Advisor Company</span></b></p> 
+				<div style="width: 100%; margin: 0px auto; padding: 0px 0px 0px 0px; text-align: center;">
+					<h2 style=" font-weight:500;" align="center">Testimonials</h2>
+					<hr>
 				</div>
-
-				<hr style="background: #ccc;" />
 				
-				<div class="testimonial-card shadow">
-					<p>
-						"I'm extremely impressed. I had started my own process where you can create your own website, 
-						and it's light years behind what they were able to develop. I've been very happy with BetaBulls."
-					</p>
-					<p><b> &#9473;Founder, <span class="org">Startup Social Media</span></b></p> 
-				</div>
-
-				<hr style="background: #ccc;" />
-
-
-				<div class="testimonial-card shadow">
-				<p>
-					"I think the quality of the BetaBulls's work is very good. They're very responsive.
-					We give them deadlines to complete projects, and they come in on time."
-				</p>
-				<p><b> &#9473; Integration Director, <span class="org">Onboarding System Startup</span></b></p> 
-				</div>
-
-				<hr style="background: #ccc;" />
-
-				<div class="testimonial-card shadow">
-				<p>
-					"Requirements were a challenge for us, but BetaBulls was very flexible in terms of absorbing the requirements
-					on the fly and changing things that they had already done at no additional cost. They believe in building
-					relationships – that's the feeling I got."
-				</p>
-				<p><b> &#9473;Software Development Manager, <span class="org">Medical Practice Management Company</span></b></p> 
-				</div>
-			
-			</div><!-- .pure-u-1 .center -->
+				<%- @partial('testimonials') %>
 
 		</div>
 		<!-- container -->
 		<!-------------------------------------------->
 
 		<div class="pure-u-1-4 right-col1">
-			<div class="bck-contact">
-				<!-- contact form start -->
+			<div class="bck-contact"><!-- contact form start -->
 				<h3>Please Contact Us</h3>
 				<hr/>
 
-				<iframe class="contactus-card" src="https://form.jotform.me/60712670748459"></iframe>
-			</div>
-			<!-- contact form end -->
-			<hr/>
-			<div id="tagsSidebar">
-				<h2>Tags</h2>
-
-				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=bigdata+training+in+hyderabad" class="btn btn-success" type="button" target="_blank">
-					#Application Support  </a>
-				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=bigdata+training+in+traingap" class="btn btn-success" type="button" target="_blank">
-					#Application Maintenance </a>
-				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=traingap.com" class="btn btn-success" type="button" target="_blank">
-					#Request Support </a>
-				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=courses+in+traingap.com" class="btn btn-success" type="button" target="_blank">
-					#Request Maintenance</a>
-
-			</div>
+				<iframe class="contactus-card" src="https://form.jotform.me/60874122485458"></iframe>
+			</div><!-- contact form end -->
+			
 		</div>
 	</div>
 </div>

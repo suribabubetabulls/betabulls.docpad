@@ -6,7 +6,7 @@ script:
 style: 
 ---
 
-<div id="headerwrap" class="pure-g-r mobile-enablement" style="margin-top: 0px;">
+<div id="headerwrap" class="pure-g-r mobile-enablement">
 	<div class="pure-u-1 center" style="background-color: rgba(0,0,0,0.5); overflow: hidden;height: 300px;">
 		<div class="banner-txt">
 			<h1>
@@ -16,14 +16,19 @@ style:
 	</div><!-- pure-u-1-->
 </div><!-- headerwrap -->
 <div style="width: 100%; margin: 0px auto; padding: 0px 0px 0px 0px; text-align: center;">
-	<h2 style=" font-weight:500;" align="center">Risk Free Trial</h2>
+	<h2 style="font-weight:500;" align="center">Risk Free Trial</h2>
 	<hr>
 </div>
 <div class="container">
 	<div class="row center">
 		<div class="pure-u-2-3">
 			<div class="pure-g-r w">
-				Test Content
+				<h1>Build your Trust with 100% Risk Free Trial</h1> 
+				<p>
+					In order to demonstrate the quality of our work, we offer a no cost 40 hour proof
+					of concept and only ask you to move forward with us if you like our work.
+					This way you know exactly what you are getting into before spending any money. 
+				</p>
 			</div><!-- .pure-u-1 .center -->
 		</div>
 		<!-- container -->
@@ -33,20 +38,9 @@ style:
 			<div class="bck-contact"><!-- contact form start -->
 				<h3>Please Contact Us</h3>
 				<hr/>
-				<iframe class="contactus-card" src="https://form.jotform.me/60712670748459"></iframe>
+
+				<iframe class="contactus-card" src="https://form.jotform.me/60874122485458"></iframe>
 			</div><!-- contact form end -->
-			<hr/>
-			<div id="tagsSidebar">
-				<h2>Tags</h2>
-				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=bigdata+training+in+hyderabad" class="btn btn-success" type="button" target="_blank">
-                    #Application Support  </a>
-				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=bigdata+training+in+traingap" class="btn btn-success" type="button" target="_blank">
-                    #Application Maintenance </a>
-				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=traingap.com" class="btn btn-success" type="button" target="_blank">
-                    #Request Support </a>
-				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=courses+in+traingap.com" class="btn btn-success" type="button" target="_blank">
-                    #Request Maintenance</a>
-			</div>
 		</div>
 	</div>
 </div>

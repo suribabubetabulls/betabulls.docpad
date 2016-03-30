@@ -101,5 +101,5 @@ $(document).ready(function() {
 		$(this).css('border-color', '');
 		$("#result").slideUp();
 	});
-
+	
 });

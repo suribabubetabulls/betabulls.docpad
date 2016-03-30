@@ -14,17 +14,17 @@ style:
 		</div>
 	</div><!-- pure-u-1-->
 </div><!-- headerwrap -->
-<div style="width: 100%; margin: 0px auto; padding: 0px 0px 0px 0px; text-align: center;">
-	<h2 style=" font-weight:500;" align="center">Custom Software Development</h2>
-	<hr>
-</div>
+
 <div class="container">
 	<div class="row center">
 		<div class="pure-u-2-3">
 			<div class="pure-g-r w">
 				<a name="WhatWeDo" id="WhatWeDo"></a>
 				<div class="pure-u-1 center">
-					
+					<div style="width: 100%; margin: 0px auto; padding: 0px 0px 0px 0px; text-align: center;">
+						<h2 style=" font-weight:500;" align="center">Custom Software Development</h2>
+						<hr>
+					</div>
 					<div class="pure-u-1-2 card">
 						<i class="fa fa-lightbulb-o" ></i>
 						<div class="card-hr"></div>
@@ -78,20 +78,10 @@ style:
 				<h3>Please Contact Us</h3>
 				<hr/>
 
-				<iframe class="contactus-card" src="https://form.jotform.me/60712670748459"></iframe>
+				<iframe class="contactus-card" src="https://form.jotform.me/60874122485458"></iframe>
 			</div><!-- contact form end -->
-			<hr/>
-			<div id="tagsSidebar">
-				<h2>Tags</h2>
-				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=bigdata+training+in+hyderabad" class="btn btn-success" type="button" target="_blank">
-										#Application Support  </a>
-				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=bigdata+training+in+traingap" class="btn btn-success" type="button" target="_blank">
-										#Application Maintenance </a>
-				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=traingap.com" class="btn btn-success" type="button" target="_blank">
-										#Request Support </a>
-				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=courses+in+traingap.com" class="btn btn-success" type="button" target="_blank">
-										#Request Maintenance</a>
-			</div>
+  
+			 
 		</div>
 	</div>
 	
