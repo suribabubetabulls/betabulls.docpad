@@ -1,0 +1,94 @@
+/*#myQoutes{
+    width:1000px;
+}
+.testimonial {
+    margin: 0;
+    background: #B7EDFF;
+    padding: 10px 50px;
+    position: relative;
+    font-family: Georgia, serif;
+    color: #666;
+    border-radius: 5px;
+    font-style: italic;
+    text-shadow: 0 1px 0 #ECFBFF;
+    background-image: linear-gradient(#CEF3FF, #B7EDFF);
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#CEF3FF), to(#B7EDFF));
+    background-image: -webkit-linear-gradient(top, #CEF3FF, #B7EDFF);
+    background-image:    -moz-linear-gradient(top, #CEF3FF, #B7EDFF);
+    background-image:     -ms-linear-gradient(top, #CEF3FF, #B7EDFF);
+    background-image:      -o-linear-gradient(top, #CEF3FF, #B7EDFF);
+}
+
+.testimonial:before, .testimonial:after {
+    content: "\201C";
+    position: absolute;
+    font-size: 80px;
+    line-height: 1;
+    color: #999;
+    font-style: normal;
+}
+
+.testimonial:before {
+    top: 0;
+    left: 10px;
+}
+
+.testimonial:after {
+    content: "\201D";
+    right: 10px;
+    bottom: -0.5em;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #B7EDFF;
+    margin: 0 0 0 25px;
+}
+
+.testimonial-author {
+    margin: 0 0 0 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #999;
+    text-align:left;
+}
+
+.testimonial-author span {
+    font-size: 12px;
+    color: #666;
+}​*/
+.testimonials {
+  width: 1000px;
+  max-width: 96%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.testimonials blockquote {
+  background-color: #fff;
+  border-left: 4px #61acca solid; 
+  font-size: 21px;
+  line-height: 1.6;
+}
+.testimonials blockquote {
+  padding: 10px 20px; 
+}
+
+.testimonials blockquote {
+  background-image: url('images/quotationmarks.jpg');
+  background-repeat:no-repeat;
+  background-size: 25px 25px;
+  background-position: 10px 5px;
+}
+
+.testimonials cite {
+  font-size: 0.7em;
+  font-style: normal;
+}
+.author {
+  font-weight: bold;
+  font-size: 1.3em;
+  margin: 0 6px 0 36px;
+}
+p { margin: 0 0 0 36px; }
