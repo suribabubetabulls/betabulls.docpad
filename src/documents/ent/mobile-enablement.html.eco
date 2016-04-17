@@ -1,0 +1,81 @@
+---
+title: Mobile Enablement
+layout: enterprise-default
+class: betabulls-enterprise-mobile
+script:
+style: '../css/ent-mobile-style.css'
+---
+
+<div id="headerwrap" class="pure-g-r mobile-enablement">
+	<div class="pure-u-1 center">
+		<div class="banner-txt">
+			<h1>We build next generation mobile apps faster</h1>
+			<h4>Personalized user experience on any mobile or tablet for your employees, Clients and partners</h4>
+		</div>
+	</div><!-- pure-u-1-->
+</div><!-- headerwrap -->
+
+<div class="container">
+	<div class="row center">
+		<div class="pure-u-2-3">
+			<div class="pure-g-r w">
+				<a name="WhatWeDo" id="WhatWeDo"></a>
+
+				<div class="pure-u-1 center">
+				<div style="width: 100%; margin: 0px auto; padding: 0px 0px 0px 0px; text-align: center;">
+					<h2 style=" font-weight:500;" align="center">Mobile Enablement</h2>
+					<hr>
+				</div>
+					<div class="pure-u-1-2 card ">
+						<i class="fa fa-user" ></i>
+						<div class="card-hr"></div>
+						<h4>User Centric</h4>
+						<p>We carefully understand audiences for the app to design the optimal flow</p>
+					</div>
+					<!-- pure-u-1-4 -->
+
+					<div class="pure-u-1-2 card ">
+						<i class="fa fa-puzzle-piece" ></i>
+						<div class="card-hr"></div>
+						<h4>Platform Selection</h4></a>
+						<p>Mobile development is complex with variety of choices( Native, HTML5, Hybridetc). We analyze your needs and build app on the right platform</p>
+					</div><!-- pure-u-1-4 -->
+					<div class="pure-u-1-2 card ">
+						<i class="fa fa-lock" ></i>
+						<div class="card-hr"></div>
+						<h4>Security First</h4>
+						<p>We use up-to date security measures (Encryption, De-Identification etc) and they are integral part of our app architecture</p>
+					</div>
+					<div class="pure-u-1-2 card ">
+						<i class="fa fa-bar-chart" ></i>
+						<div class="card-hr"></div>
+						<h4>Analytics Driven</h4>
+						<p>We implement analytics as part of core framework to measure from engagement to insights on app users.
+						</p>
+					</div><!-- pure-u-1-4 -->
+					<div class="pure-u-1-2 card ">
+						<i class="fa fa-check" ></i>
+						<div class="card-hr"></div>
+						<h4>Comprehensive Testing</h4>
+						<p>We go beyond traditional QA process from range of devices to private beta users to ensure delightful app experience.</p>
+					</div><!-- pure-u-1-4 -->
+				</div><!-- .pure-u-1 .center -->
+			</div><!-- .pure-u-1 .center -->
+		</div>
+		<!-- container -->
+		<!-------------------------------------------->
+
+		<div class="pure-u-1-4 right-col1">
+<div class="bck-contact"><!-- contact form start -->
+				<h3>Please Contact Us</h3>
+				<hr/>
+
+				<iframe class="contactus-card" src="https://form.jotform.me/60874122485458"></iframe>
+			</div><!-- contact form end -->
+			
+		</div>
+	</div>
+
+	<%- @partial('case-studies_affiliate-social') %>
+
+</div>

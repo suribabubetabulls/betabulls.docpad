@@ -1,0 +1,95 @@
+---
+title: Software Testing
+layout: enterprise-default
+class: betabulls-enterprise-testing
+script: 
+style: '../css/ent-testing-style.css'
+---
+
+<div id="headerwrap" class="pure-g-r headerwrap-softwaretesting">
+	<div class="pure-u-1 center">
+		<div class="banner-txt">
+			<h1>
+				Release Your Software Application With Confidence</h1>
+			<h4>We ensure that the application does what it is supposed to do</h4>
+		</div>
+	</div><!-- pure-u-1-->
+</div><!-- headerwrap -->
+
+<div class="container">
+	<div class="row center">
+		<div class="pure-u-2-3">
+			<div class="pure-g-r w">
+				<a name="WhatWeDo" id="WhatWeDo"></a>
+
+				<div class="pure-u-1 center">
+				<div style="width: 100%; margin: 0px auto; padding: 0px 0px 0px 0px; text-align: center;">
+					<h2 style=" font-weight:500;" align="center">Software Testing</h2>
+					<hr>
+				</div>
+					<div class="pure-u-1-2 card ">
+						<i class="fa fa-file-text"></i>
+						<div class="card-hr"></div>
+						<h4>Test Requirements</h4>
+						<p>We define clear and complete requirements that are testable</p>
+						<!-- <div class="card-sub-title">Case Studies</div>  -->
+						<!-- <div class="case-study-label">Need application support or maintenance?</div> -->
+					</div><!-- pure-u-1-4 -->
+
+					<div class="pure-u-1-2 card ">
+						<i class="fa fa-paperclip"></i>
+						<div class="card-hr"></div>
+						<h4>Resource Allocation</h4></a>
+						<p>We believe understanding your business is key for successful testing. We allocate testers with strong domain knowledge.</p>
+						<!-- <div class="card-sub-title">Case Studies</div> -->
+						<!-- <a href="custom-software-development"><div class="case-study-label">Hire a developer or whole team?</div></a> -->
+					</div><!-- pure-u-1-4 -->
+
+					<div class="pure-u-1-2 card ">
+						<i class="material-icons large light-blue" >devices</i>
+						<div class="card-hr"></div>
+						<h4>Test Data Preparation</h4>
+						<p>We ensure your test data is similar to production. We use variety of tools such as mockaroo to generate and maintain test data</p>
+						<!-- <div class="card-sub-title">Case Studies</div> -->
+						<!-- <div class="case-study-label">Engage users on mobile platforms?</div> -->
+					</div>
+
+					<div class="pure-u-1-2 card ">
+						<i class="material-icons" >call_missed_outgoing</i>
+						<div class="card-hr"></div>
+						<h4>Metrics driven</h4>
+						<p>We use variety of metrics such as risk assessment of each feature, quality score etc to track progress and make improvements.
+
+						</p>
+						<!--  <div class="card-sub-title">Case Studies</div> -->
+						<!-- <div class="case-study-label">Locate things among piles of data?</div> -->
+					</div><!-- pure-u-1-4 -->
+
+					<div class="pure-u-1-2 card ">
+						<i class="fa fa-lightbulb-o"></i>
+						<div class="card-hr"></div>
+						<h4>Crowdsourcing</h4>
+						<p>We help you with crowd sourced testing from strategy, tester recruitment to providing valuable insights from test results.</p>
+						<!--  <div class="card-sub-title">Case Studies</div> -->
+						<!-- <div class="case-study-label">Locate things among piles of data?</div> -->
+					</div><!-- pure-u-1-4 -->
+				</div><!-- .pure-u-1 .center -->
+			</div><!-- .pure-u-1 .center -->
+		</div>
+		<!-- container -->
+		<!-------------------------------------------->
+
+		<div class="pure-u-1-4 right-col1">
+			<div class="bck-contact"><!-- contact form start -->
+				<h3>Please Contact Us</h3>
+				<hr/>
+
+				<iframe class="contactus-card" src="https://form.jotform.me/60874122485458"></iframe>
+			</div><!-- contact form end -->
+			
+		</div>
+	</div>
+	
+	<%- @partial('case-studies') %>
+	
+</div>

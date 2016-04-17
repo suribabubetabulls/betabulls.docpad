@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Meta -->
+	<meta charset="utf-8" />
+
+	<!-- Mobile viewport optimized: h5bp.com/viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#FF282B">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#FF282B">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#FF282B">
+
+	<!-- Use the .htaccess and remove these lines to avoid edge case issues.
+		 More info: h5bp.com/i/378 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<!-- Our site title and description -->
+	<title>
+		<% if @document.customTitle: %>
+			<%= @document.customTitle %>
+		<% else: %>
+			<%= @getPreparedTitle() %>
+		<% end %>
+	</title>
+
+	<% if @document.description: %>
+		<meta name="description" content="<%= @document.description %>" />
+	<% else: %>
+		<meta name="description" content="<%= @getPreparedDescription() %>" />
+	<% end %>
+	<% if @document.keywords: %>
+		<meta name="keywords" content="<%= @document.keywords %>" />
+	<% else: %>
+		<meta name="keywords" content="<%= @getPreparedKeywords() %>" />
+	<% end %>
+	<meta name="author" content="<%= @site.author or '' %>" />
+
+	<!-- Output DocPad produced meta elements -->
+	<%- @getBlock('meta').toHTML() %>
+
+	<!-- Icon -->
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	<!-- Shims: IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+	<script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Styles -->
+	<link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" />
+	<link  rel="stylesheet" href="/css/pure-min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/css/ent-style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<% if @document.style: %>
+		<%- @getBlock('styles').add(@document.style).toHTML() %>
+	<% end %>
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+
+	<!-- Markup -->
+	<!-- Fixed navbar -->
+	<div class="content main pure-g-r">
+		<div class="main-inner">
+		<nav role="navigation" class="navbar navbar-default">
+			<div class="header pure-u-1">
+				<div class="pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal">
+					<div class="navbar-header">
+					<a itemscope itemtype="http://schema.org/Organization" href="/ent"><span itemprop="name" class="pure-menu-heading">BETA<%- @partial('betabulls-svg-icon') %>BULLS</span> 
+						<span class="for-ent"> for SMBs </span>
+					</a>
+					<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+					</button>
+					</div>
+					<div id="navbarCollapse" class="pull-right collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<!-- DocPad menu -->
+						<li typeof="sioc:Page" about="/ent/">
+							<a href="/ent/" property="dc:title">HOME</a>
+						</li>
+						<% for document in @getCollection( 'entPages').toJSON(): %>
+							<li typeof="sioc:Page" about="<%= document.url %>" class="<%= 'active'  if @document.url is document.url %>">
+								<a href="<%= document.url %>" property="dc:title">
+									<%= document.title %>
+								</a>
+							</li>
+						<% end %><!-- DocPad menu end -->
+							<li>
+								<a href="#contact" data-toggle="modal" data-target="#contactModal" class="pricing-signup">
+									<%- @getIconmonstrIcon( 'email', 'emailIcon', 'email-icon-header') %>
+								</a>
+							</li>
+					</ul>
+				</div>
+			</div>
+			</div>
+			</nav>
+			
+			<script type="text/javascript" src="../js/jquery-1.12.0.min.js"></script>
+			<span class="<%= @document.class %>">
+				<%- @content %>
+			</span>
+
+			<!-- FOOTER -->
+			<div id="f">
+				<div class="pure-g-r">
+					<div class="pure-u-1">
+						<div class="pure-u-1-6 bb-footer">
+							<h5 class="footer"> Solutions</h5>
+							<ul class="footer">
+								<li><a href="/ent/application-support-maintenance">Application Support & Maintenance</a></li>
+								<li><a href="/ent/custom-software-development">Custom Software Development<a/></li>
+								<li><a href="/ent/mobile-enablement">Mobile Enablement<a/></li>
+								<li><a href="/ent/search-information-discovery">Search and Information Discovery</a></li>
+								<li><a href="/ent/big-data-analytics">Big Data Analytics</a></li>
+								<li><a href="/ent/software-testing">Software Testing</a></li>
+								<!--li>Online Video / Media Systems</li>
+								<li>Log Analytics</li>
+								<li>Job Boards / Resume Matching</li>
+								<li>Big Data Ingest</li>
+								<li>Build Automation / Deployments</li-->
+							</ul>
+						</div><!-- pure-u-1-6 -->
+						
+						<div class="pure-u-1-8 bb-footer">
+							<h5 class="footer">Skills / Expertise</h5>
+							<ul class="footer">
+								<li><a href="/ent/dedicated-developers-for-hire">Java / Node / JavaScript</a></li>
+								<li><a href="/ent/dedicated-developers-for-hire">.NET / Microsoft</a></li>
+								<li><a href="/ent/dedicated-developers-for-hire">MEAN / LAMP / PHP</a></li>
+								<li><a href="/ent/dedicated-developers-for-hire">iOS / Android apps</a></li>
+								<li><a href="/ent/dedicated-developers-for-hire">Mongo / MySQL / PostgreSQL</a></li>
+								<li><a href="/ent/dedicated-developers-for-hire">HTML5 / CSS / JS</a></li>
+								<li><a href="/ent/dedicated-developers-for-hire">UI / UX / Design</a></li>
+								<li><a href="/ent/dedicated-developers-for-hire">Linux / Unix Administration</a></li>
+								<li><a href="/ent/dedicated-developers-for-hire">Elastic / Logstash / Kibana</a></li>
+								<li><a href="/ent/dedicated-developers-for-hire">Cloud Hosting / Cloud Servers</a></li>
+								<li><a href="/ent/dedicated-developers-for-hire">More Technical Specialties</a></li>
+							</ul>
+						</div><!-- pure-u-1-8 -->
+						<div class="pure-u-1-6 bb-footer">
+							<h5 class="footer">Services</h5>
+							<ul class="footer">
+								<li><a href="/ent/application-support-maintenance">Application Support & Maintenance</a></li>
+								<li><a href="/ent/custom-software-development">Custom Software Development</a></li>
+								<li><a href="/ent/mobile-enablement">Mobile Enablement</a></li>
+								<li><a href="/ent/search-information-discovery">Search and Information Discovery</a></li>
+								<li><a href="/ent/big-data-analytics">Big Data Analytics</a></li>
+								<li><a href="/ent/software-testing">Software Testing</a></li>
+								<li><a href="/ent/dedicated_developers">Dedicated Developers for Hire</a></li>
+							</ul>
+						</div><!-- pure-u-1-6 -->
+						<div class="pure-u-1-6 bb-footer">
+							<h5 class="footer">Company</h5>
+							<ul class="footer">
+								<li><a href="about-us">About us</a></li>
+								<li><a href="services">Case Studies</li></a>
+								<li><a href="http://betabulls.com/careers">Careers</a></li>
+								<li><a href="#contact" data-toggle="modal" data-target="#contactModal">Contact Us</a></li>
+							</ul>
+
+							<p style="text-align: left; margin-left: 0px; color: #dedede; font-size: smaller;">
+								<a href="https://twitter.com/betabulls" title="Tweet to BetaBulls">
+									<%- @getIconmonstrIcon('twitter4','twitterIcon','twitter-icon-footer footer-icon') %>
+								</a>
+								<a href="https://www.facebook.com/betabulls" title="BetaBulls Facebook page">
+									<%- @getIconmonstrIcon('facebook4','facebookIcon','facebook-icon-footer footer-icon') %>
+								</a>
+								<!-- <a href="callto:sg.v01" title="Skype With BetaBulls">
+							 <i class="fa fa-skype"> </i>
+					</a> -->
+								<a href="https://github.com/BetaBulls" title="BetaBulls Github page">
+									<%- @getIconmonstrIcon('github9','githubIcon','github-icon-footer footer-icon') %>
+								</a>
+								<br> &copy;
+								<%- (new Date()).getFullYear() %> BetaBulls
+									<br/>
+									<a href="/pages/privacy">Privacy Policy</a>
+							</p>
+						</div>
+						<div class="pure-u-1-6 bb-footer">
+							<h5 class="footer">Locations</h5>
+							<p style="text-align: left; font-size: 13px;">2 King Arthur Court, Lakeside West</br>
+								North Brunswick, NJ 08902</br>
+								United States</br>
+							</p>
+							<p style="text-align: left; font-size: 13px;">201 West Travelers Trail, Suite 25</br>
+								Minneapolis MN 55337</br>
+								United States</br>
+							</p>
+						</div><!-- pure-u-1-6 -->
+						<br/>
+					</div><!-- pure-g-r -->
+				</div><!-- Footer -->
+			</div> <!-- end .f -->
+			<!-- .content .main -->
+			
+			<%- @partial('header-contactus') %>
+			
+			<%- @partial('risk-free-trial') %>
+			
+			<!-- Scripts -->
+			<% if @document.script: %>
+				<%- @getBlock('scripts').add(@document.script).toHTML() %>
+			<% end %>
+			<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
+			<script type="text/javascript" src="../js/modernizr.js"></script>
+			<script type="text/javascript" src="../js/ent-script.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+---
+title: Search Information Discovery
+layout: enterprise-default
+class: betabulls-enterprise-search
+script:
+style:
+---
+
+<div id="headerwrap" class="pure-g-r custom-soft-dev" >
+	<div class="pure-u-1 center">
+		<div class="banner-txt">
+			<h1>We Build Powerful Search Driven Applications</h1>
+			<h4>Our solutions power millions of searches from retailers, job boards to content publishers.</h4>
+		</div>
+	</div><!-- pure-u-1-->
+</div><!-- headerwrap -->
+<div style="width: 100%; margin: 0px auto; padding: 0px 0px 0px 0px; text-align: center;">
+	<h2 style=" font-weight:500;" align="center">Search Information Discovery</h2>
+	<hr>
+</div>
+<div class="container">
+	<div class="row center">
+		<div class="pure-u-2-3">
+			<div class="pure-g-r w">
+				<a name="WhatWeDo" id="WhatWeDo"></a>
+				<div class="pure-u-1 center">
+
+				<div class="pure-u-1-2 card">
+					<i class="fa fa-lightbulb-o" ></i>
+					<div class="card-hr"></div>
+					<h4>Crawl Data</h4>
+					<p>Crawl information from variety of sources from public websites to private repositories.</p>
+				</div><!-- card pure-u-1-2 -->
+
+				<div class="pure-u-1-2 card">
+					<i class="material-icons" >card_membership</i>
+					<div class="card-hr"></div>
+					<h4>Normalize and Index</h4>
+					<p>Normalize, Enhance and Index data into search engine.</p>
+				</div><!-- card pure-u-1-2 -->
+				
+				<div class="pure-u-1-2 card">
+					<i class="fa fa-magic" ></i>
+					<div class="card-hr"></div>
+					<h4>Predictive Search</h4>
+					<p>Provide right content to your users as they type with auto complete and search suggestions.</p>
+				</div> <!-- pure-u-1-4 -->
+				
+				<div class="pure-u-1-2 card">
+					<i class="fa fa-unlock" ></i>
+					<div class="card-hr"></div>
+					<h4>Faceted Search and Aggregations</h4>
+					<p>Allow users to refine results with variety of filters such as date, Location, Company and Price etc.</p>
+				</div><!-- card pure-u-1-2 -->
+				
+				<div class="pure-u-1-2 card">
+					<i class="fa fa-paper-plane" ></i>
+					<div class="card-hr"></div>
+					<h4>Related Words</h4>
+					<p>We apply semantic techniques to understand related concepts to direct your users to right content.</p>
+				</div><!-- card pure-u-1-2 -->
+				
+				<div class="pure-u-1-2 card">
+					<i class="fa fa-check" ></i>
+					<div class="card-hr"></div>
+					<h4>Boost Results</h4>
+					<p>Control search relevance with custom weights on attributes such as product rating or number of views, or 
+					company name or user context. Your users will love highly personalized and relevant results.</p>
+				</div><!-- card pure-u-1-2 -->
+				
+			</div><!-- .pure-u-1 .center -->
+			</div><!-- .pure-u-1 .center -->
+		</div>
+		<!-- container -->
+		<!-------------------------------------------->
+		<div class="pure-u-1-4 right-col1">
+			<div class="bck-contact"><!-- contact form start -->
+				<h3>Please Contact Us</h3>
+				<hr/>
+				<iframe class="contactus-card" src="https://form.jotform.me/60712670748459"></iframe>
+			</div><!-- contact form end -->
+			<hr/>
+			<div id="tagsSidebar">
+				<h2>Tags</h2>
+				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=bigdata+training+in+hyderabad" class="btn btn-success" type="button" target="_blank">
+										#Application Support  </a>
+				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=bigdata+training+in+traingap" class="btn btn-success" type="button" target="_blank">
+										#Application Maintenance </a>
+				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=traingap.com" class="btn btn-success" type="button" target="_blank">
+										#Request Support </a>
+				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=courses+in+traingap.com" class="btn btn-success" type="button" target="_blank">
+										#Request Maintenance</a>
+			</div>
+		</div>
+	</div>
+</div>

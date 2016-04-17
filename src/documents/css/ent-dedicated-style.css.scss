@@ -1,0 +1,85 @@
+.we-hire-the-best{
+	.iconmonstr{width: 166px;}
+}
+.we-have-developers{
+	.card{
+		background: #fff;
+		h4{color: #5A5A5A;}
+	}
+	ul{
+		text-align: center;
+		padding: 0;
+		margin: 45px auto;
+	}
+	li{
+		list-style: none;
+		padding: 7px 13px;
+		background: aquamarine;
+		color: #F7F8FD;
+		border-radius: 33px;
+		text-align: center;
+		display: inline-block;
+		margin: 7px;
+		font-weight: bold;
+	}
+}
+
+.testimonials{
+	hr{background:#ECECEC !important;}
+	.testimonial-card {
+		background: #fff;
+		padding: 33px;
+		width: 27%;
+		display: inline-block;
+		float: left;
+		margin: 33px;
+		.quote-from{text-align: right;}
+		&:last-child{display:none;}
+	}
+}
+
+.ded-hire-form{margin: auto auto -5px auto;}
+
+.iconmonstr{
+	width: 89px;
+	height: 144px;
+	margin: -26px auto -12px;
+	fill: white;
+}
+
+.card{
+	width: 27%;
+	height: 303px;
+	padding-top: 33px;
+	&:hover {
+		width: 31%;
+	}
+	.card-hr{
+		margin: 0 auto 5px;
+	}
+	p{line-height: 20px;}
+}
+
+/* Portrait and Landscape */
+@media screen and (min-width: 320px) and (max-height: 640px) {
+	.container{
+		.card{
+			width: 91%;
+		}
+		.pure-g-r{
+			svg{
+				height: 166px;
+				width: 196px;
+			}
+		}
+	}
+	.testimonials{
+		h1{font-size: 33px;}
+		.testimonial-card{width: 84% !important;}
+	}
+	.content-header{
+		margin: 33px auto 0 !important;
+		font-size: 25px;
+	}
+	.ded-hire-form{width:93%;}
+} // end mobile @media query

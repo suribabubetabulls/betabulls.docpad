@@ -130,7 +130,7 @@ script: '/js/pricing.js'
             </span>
             <span class="lean-startup">
 				<span class="lean-cover">
-					<%- @getIconmonstrTipsyBlock('play3', 'playIcon', 'play-icon') %>
+					<%- @getIconmonstrIcon('play3', 'playIcon', 'play-icon') %>
 					<img class="lean-book" src="https://googledrive.com/host/0BwctX3BqWnGmYkw0dE5jRnQ3UTA/lean-startup_book-cover.png" alt="the lean startup book cover png"/>
 				</span>
                 <p>
@@ -147,7 +147,7 @@ script: '/js/pricing.js'
 					<span class="lean-ux"> </span>
 				</span>
 				<span class="pure-u-1-5 running-frame">
-					<%- @getIconmonstrTipsyBlock('play3', 'playIcon', 'play-icon play-icon-running') %>
+					<%- @getIconmonstrIcon('play3', 'playIcon', 'play-icon play-icon-running') %>
 					<span class="lean-running"> </span>
 				</span>
 				<span class="pure-u-1-5">
