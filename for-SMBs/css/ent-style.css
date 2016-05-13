@@ -392,27 +392,3 @@ ul.footer {
 	margin:0; 
 	font-size: 16px;
 }
-.bb-aspect1 p, .card p{ text-transform: uppercase !important; font-size: 18px;}
-
-
-
-.bb-aspect1 {
-	background: #fff;
-}
-.bb-aspect1 i {
-	color: #cd4346 !important;
-	}
-	.bb-aspect1 .card-hr {
-		background: #ccc;
-	}
-	.case-study-label{
-		background: #333 !important;
-		color: #fff !important;
-	}
-.bb-aspect1 h4 {
-    color: #333;
-}
-.bb-aspect1 p {
-    color: #333;
-    font-size: 16px !important;
-}
