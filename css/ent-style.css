@@ -392,3 +392,6 @@ ul.footer {
 	margin:0; 
 	font-size: 16px;
 }
+.services {
+    background: transparent url(../img/ent-img/services.png) no-repeat scroll center top !important;
+}
