@@ -394,4 +394,5 @@ ul.footer {
 }
 .services {
     background: transparent url(../img/ent-img/services.png) no-repeat scroll center top !important;
+    background-size: cover !important;
 }
