@@ -1,0 +1,264 @@
+@font-face {
+	font-family: 'icons';
+	src: url("font/icons.eot");
+	src: 
+		url("font/icons.eot?#iefix") format('embedded-opentype'), 
+		url("font/icons.woff") format('woff'), 
+		url("font/icons.ttf") format('truetype'), 
+		url("font/icons.svg#icons") format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Let's set and reset some common styles */
+.mb-wrap {
+	width: 300px;
+	margin: 20px auto;
+	padding:5px 0px;
+	position: relative;	
+}
+
+.mb-wrap p{
+	margin: 0;
+	padding: 0;
+}
+
+.mb-wrap blockquote {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.mb-wrap cite {
+	font-style: normal;
+}
+
+
+.mb-style-3 {
+	width: 220px;
+}
+
+.mb-style-3 blockquote{
+	background: #fff;
+	padding: 15px 5px;
+	border-radius: 5px;
+	box-shadow: 
+		inset 0 2px 0 rgba(188, 147, 200, 0.7), 
+		-5px -4px 25px rgba(0, 0, 0, 0.3);
+}
+
+.mb-style-3 blockquote:after, 
+.mb-style-3 blockquote:before  {
+	top: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.mb-style-3 blockquote:after  {
+	border-top-color: #ffffff;
+	border-width: 10px;
+	left: 65%;
+	margin-left: -10px;
+}
+
+.mb-style-3 blockquote:before {
+	border-top-color: rgba(0,0,0,0.01);
+	border-width: 11px;
+	left: 65%;
+	margin-left: -11px;
+}
+
+.mb-style-3 blockquote p {
+	font-family: 'Alegreya', serif;
+	font-size: 15px;
+	text-align: justify;
+	color: #555;
+	font-weight: 400;
+	line-height: 30px;
+	font-style: italic;
+	text-indent: 100px;
+	position: relative;
+}
+
+.mb-style-3 blockquote p:before{
+	content: '\201C';
+	font-family: serif;
+	font-style: normal;
+	font-weight: 700;
+	position: absolute;
+	font-size: 175px;
+	top: 0px;
+	left: -105px;
+	color: rgba(188, 147, 200, 1);
+	text-shadow: 7px 14px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mb-style-3 .mb-attribution {
+	text-align: right;
+	padding: 20px 50px 20px 20px;
+	position: relative;
+	font-size: 22px;
+}
+
+.mb-style-3 .mb-thumb {
+	display: block;
+	width: 70px;
+	height: 70px;
+	border: 5px solid #fff;
+	border-radius: 50%;
+	background: url(images/bronte.jpg) no-repeat center center;
+	background-size: 100%;
+	position: absolute;
+	right: 10px;
+	bottom: 5px;
+	box-shadow: 
+		inset 1px 1px 4px rgba(0,0,0,0.5),
+		0 2px 3px rgba(0,0,0,0.6);
+}
+
+.mb-style-3 .mb-author{
+	font-family: 'Alegreya SC', serif;
+	font-weight: 700;
+	font-size: 18px;
+	color: rgba(188, 147, 200, 1);
+	text-shadow: 0 1px 1px rgba(255,255,255,0.7);
+}
+
+.mb-style-3 cite a{
+	font-family: 'Alegreya', serif;
+	font-weight: 700;
+	font-style: italic;
+	/*color: #fff;*/
+	text-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+
+.mb-style-3 cite a:hover{
+	color: rgba(188, 147, 200, 1);
+	text-shadow: 0 1px 1px rgba(255,255,255,0.7);
+}
+#myTabsSideBar{
+	  margin-left: 15px;
+	  min-height: 375px;
+}
+#myTabsSideBar .popularPosts p{
+	  font-size: 14px;
+  line-height: 20px;
+  text-align: justify;
+}
+#myBlogTags button{
+	  margin: 15px 0px;
+}
+#myBlogTags{
+	margin-left: 15px;
+}
+label{
+	margin-bottom: 0;
+}
+.tabs input[type=radio] {
+	display:none;
+}
+	  
+.tabs {
+   
+    float: none;
+    list-style: none;
+    position: relative;
+    padding: 0;
+    margin: 30px auto;
+}
+	  
+.tabs li{
+	float: left;
+}
+	  
+.tabs label {
+	display: block;
+	padding: 10px;
+	color: #FFFFFF;
+	font-size: 15px;
+	font-weight: normal;
+	background: #2c3e50;
+	cursor: pointer;
+	position: relative;
+}
+
+.tabs label:hover {
+	background: #3498db;
+}
+	  
+.tab-content {
+	/*z-index: 2;*/
+	display: none;
+	left: 0;
+	width: 100%;
+	font-size: 20px;
+	line-height: 140%;
+	padding: 15px;
+	position: absolute;
+	box-sizing: border-box;
+	
+	border-top: 10px solid #08C;
+	background-color:#ffffff;
+}
+       
+[id^=tab]:checked + label {
+    background: #08C;
+    color: white;
+    top: 0;
+}
+       
+[id^=tab]:checked ~ [id^=tab-content] {
+    display: block;
+}
+.posts h4{
+	margin-bottom: -5px !important;
+}
+.posts{
+	margin-bottom: 25px !important;
+}
+.comments{
+	margin-bottom: 25px !important;
+}
+.comments h4{
+	margin-bottom: -5px !important;
+}
+.categories h4{
+	margin-bottom: -5px !important;
+}
+.categories{
+	margin: 0 0 20px !important;
+}
+.archievs{
+	margin-top: -25px !important;
+}
+.archievs h4{
+	margin-bottom: -5px !important;
+}
+
+
+
+#menutree li {
+   list-style: none;          /* all list item li dots invisible */
+         }
+
+   li .menu_label + input[type=checkbox] {
+      opacity: 0;             /* checkboxes invisible and use no space */
+     }                        /* display: none; is better but fails in ie8 */
+
+    li .menu_label {
+      cursor: pointer;        /* cursor changes when you mouse over this class */
+    }                         /* could add the many user-select: none; commands here */
+
+      li .menu_label + input[type=checkbox] + ol > li
+         {
+            display: none;         /* prevents sublists below unchecked labels from displaying */
+         }
+
+      li .menu_label + input[type=checkbox]:checked + ol > li
+         {
+           display: block;         /* display submenu on click */
+         }
