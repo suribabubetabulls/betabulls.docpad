@@ -403,7 +403,8 @@ ul.footer {
 	    width: 95% !important;
 	}
 	.case_studies{
-		margin:0 !important; 
+		margin:0 !important;
+		padding:0 !important; 
 	}
 	.case_studies h1, .case_studies p{
 		width: 95% !important;
