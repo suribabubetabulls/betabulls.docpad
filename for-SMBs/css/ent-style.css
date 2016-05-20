@@ -411,4 +411,7 @@ ul.footer {
 	.email-icon-header{
 		position: static !important; 
 	}
+	.right-col1{
+		width: 98% !important;
+	}
 }
