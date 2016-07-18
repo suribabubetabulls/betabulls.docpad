@@ -1038,4 +1038,8 @@ iframe{border: 0}
 			font-size: 16px;
 		}
 	
-} /* end of small device css
+} 
+
+#yui_patched_v3_11_0_2_1468849475663_161{
+	height: 114px !important;
+}
