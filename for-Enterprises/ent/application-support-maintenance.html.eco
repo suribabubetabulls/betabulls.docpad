@@ -1,0 +1,74 @@
+--- 
+title: Application Support Maintenance
+layout: enterprise-default 
+class: betabulls-enterprise-application-support 
+script: 
+style: 
+---
+
+<div id="headerwrap" class="pure-g-r maintenance-support">
+	<div class="pure-u-1 center">
+		<div class="banner-txt">
+			<h1>Reliable Support and Maintenance with a Purpose</h1>
+			<h4 >Improve Quality and Reduce costs year over year</h4>
+		</div>
+	</div><!-- pure-u-1-->
+</div><!-- headerwrap -->
+
+<div class="container">
+	<div class="row center">
+		<div class="pure-u-2-3">
+			<div class="pure-g-r w">
+				<a name="WhatWeDo" id="WhatWeDo"></a>
+
+				<div class="pure-u-1 center">
+				<div style="width: 100%; margin: 0px auto; padding: 0px 0px 0px 0px; text-align: center;">
+					<h2 style=" font-weight:500;" align="center">Application Support & Maintenance</h2>
+					<hr>
+				</div>
+					<div class="pure-u-1-2 card ">
+						<i class="material-icons large light-blue" >accessibility</i>
+						<div class="card-hr"></div>
+						<h4>Proactive</h4>
+						<p>We take proactive approach to manage errors before they even occur</p>
+					</div><!-- pure-u-1-2 card -->
+
+					<div class="pure-u-1-2 card ">
+						<a href="custom-software-development"><i class="material-icons large light-blue" >subtitles</i></a>
+						<div class="card-hr"></div>
+						<h4>Beyond Offshore Price Difference</h4></a>
+						<p>We reduce total cost of ownership by optimizing the entire process beyond offshoring </p>
+					</div><!-- pure-u-1-2 card -->
+
+					<div class="pure-u-1-2 card ">
+						<i class="material-icons large light-blue" >devices</i>
+						<div class="card-hr"></div>
+						<h4>Business Focus</h4>
+						<p>We strive to understand your business so we can fine tune our service.</p>
+					</div><!-- pure-u-1-2 card -->
+
+					<div class="pure-u-1-2 card ">
+						<i class="material-icons" >settings_backup_restore</i>
+						<div class="card-hr"></div>
+						<h4>Project Rescue</h4>
+						<p>We mastered the process of bringing project back on track if your current project is
+						gone wrong or current in-house or outsourced development team is off-the-rails. 
+						We can even recover source code from executables.</p>
+					</div><!-- pure-u-1-2 card -->
+					
+				</div><!-- .pure-u-1 .center -->
+			</div><!-- .pure-u-1 .center -->
+		</div>
+	
+		<div class="pure-u-1-4 right-col1">
+			<div class="bck-contact"><!-- contact form start -->
+				<h3>Please Contact Us</h3>
+				<hr/>
+				<iframe class="contactus-card" src="https://form.jotform.me/60874122485458"></iframe>
+			</div><!-- end contact form end -->
+		</div><!-- end pure-u-1-4 right-col1 -->
+	</div> <!-- end container -->
+	
+	<%- @partial('case_studies') %>
+	
+</div>

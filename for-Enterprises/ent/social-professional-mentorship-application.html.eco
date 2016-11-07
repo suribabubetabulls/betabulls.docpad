@@ -1,0 +1,74 @@
+---
+title: Social Professional Mentorship Application
+layout: enterprise-default
+class: betabulls-enterprise-social-professional-mentorship-application
+script:
+style: 
+---
+
+<div id="headerwrap" class="pure-g-r headerwrap-main">
+	<div class="pure-u-1 center" style="background-color: rgba(0,0,0,0.5); overflow: hidden;">
+		<div class="banner-txt">
+			<h1>
+				We Build Reliable Software and Delight Your Customers</h1>
+			<h4>CLOUD | MOBILITY | BIG DATA EXPERTS</h4>
+		</div>
+	</div><!-- pure-u-1-->
+</div><!-- headerwrap -->
+<div class="container">
+	<div class="row center">
+		<div class="pure-u-2-3">
+			<div class="pure-g-r w">
+				<h2><b>Case Study : Social Professional Mentorship Application</b></h2>
+				<p><b>A social network for finding mentors for professional projects.</b></p>
+				<img src="img/casestudy/social-professional-mentorship-application-lg.png" width="100%">
+				<p> Whether a person is an independent contractor or an employee of a company, it pays to become proficient at important skills and responsibilities. Sometimes, we eagerly seek out someone who can help us learn or accomplish new things, such as a trainer,
+					a manager, an experienced colleague. But what to do when we don’t know who to ask for help or mentorship? Especially when we are faced with a great opportunity, project, or critical deadline that needs the skills we hope to build? </p>
+
+				<p>Nowadays, social and professional networks contain vast resources and links to talented and experienced people; it is both a problem and an opportunity to tap into such networks in order to improve people’s ability to develop in their profession and
+					careers.
+				</p>
+
+
+				<h2>PROCESS</h2>
+				<hr/>
+				<p>Although social networking is a popular and established set of technical features, there are almost limitless ways to consider how to match people together based on interests, needs, availability, etc. BetaBulls drew upon deep experience with technologies
+					that perform matching through customizable algorithms in order to develop a software application that would help a person and a mentor be connected.</p>
+
+				<p>Additionally, BetaBulls knew that success in this situation would not mean doing hundreds of things well, it would be doing a small number of things with excellence, precision, and user friendliness.
+				</p>
+
+				<h2>SOLUTION</h2>
+				<hr/>
+				<p>On the surface, the application uses a standard mobile application development toolkit, but underneath is some novel and complicated supporting functionality, such as connecting separate systems together with APIs, performing wide and narrow record
+					searches, establishing matches, and then allowing for interactivity and both asynchronous and synchronous messaging. By focusing on a mobile application, and knowing that users tend to carry phones with them everywhere, BetaBulls helped the client
+					create a solution that can be with the mentor and mentee wherever they go.</p>
+
+				<h2>BENEFITS</h2>
+				<hr/>
+				<p>It is very compelling nowadays to consider the power of getting very specific help when it is needed. In this case of finding mentors for building skills or completing projects, the time it takes to find certain skills could vary (consider looking
+					for someone who can help create a PowerPoint presentation versus someone who knows how to fix antique pocket watches!). However, the power of searching large networks of people and quickly establishing matches and agreements with people provides
+					an unparalleled ability to save time and create value in careers and relationships.</p>
+			</div><!-- .pure-u-1 .center -->
+		</div><!-- container -->
+		<div class="pure-u-1-4 right-col1" style="padding:0 5px 0 5px; height: 1480px;">
+			<div class="bck-contact"><!-- contact form start -->
+				<h3>Please Contact Us</h3>
+				<hr/>
+				<iframe class="contactus-card" src="https://form.jotform.me/60712670748459"></iframe>
+			</div><!-- contact form end -->
+			<hr/>
+			<div id="tagsSidebar">
+				<h2>Tags</h2>
+				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=bigdata+training+in+hyderabad" class="btn btn-success" type="button" target="_blank">
+										#Application Support  </a>
+				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=bigdata+training+in+traingap" class="btn btn-success" type="button" target="_blank">
+										#Application Maintenance </a>
+				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=traingap.com" class="btn btn-success" type="button" target="_blank">
+										#Request Support </a>
+				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=courses+in+traingap.com" class="btn btn-success" type="button" target="_blank">
+										#Request Maintenance</a>
+			</div>
+		</div>
+	</div>
+</div>

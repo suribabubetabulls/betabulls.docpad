@@ -1,0 +1,65 @@
+---
+title: Medical Enterprise Management Application
+layout: enterprise-default
+class: betabulls-enterprise-medical-enterprise-management-application
+script:
+style: 
+---
+
+<div id="headerwrap" class="pure-g-r headerwrap-main">
+	<div class="pure-u-1 center" style="background-color: rgba(0,0,0,0.5); overflow: hidden;">
+		<div class="banner-txt">
+			<h1 style="text-align: left; margin: 0px; padding: 0px;">
+				We Build Reliable Software and Delight Your Customers</h1>
+			<h4>CLOUD | MOBILITY | BIG DATA EXPERTS</h4>
+		</div>
+	</div><!-- pure-u-1-->
+</div><!-- headerwrap -->
+<div class="container">
+	<div class="row center">
+		<div class="pure-u-2-3">
+			<div class="pure-g-r w">
+				<h2><b>Case Study : Medical Enterprise Management Application</b></h2>
+				<p><b>Centralizing sales, marketing, service, and practice management into a role-based enterprise management system.</b></p>
+				<img src="img/casestudy/medical-enterprise-management-application-lg.png" width="100%">
+				<p> Modern business organizations are tasked with using technology in order to lower costs, improve the speed of operations, empower employees and customers, and -- by doing so -- create revenue opportunities for the business. But online automation is
+					no simple task, and some industries have complex products, long sales cycles, a strong need to educate and inform prospective clients, and intensive responsibilities to take care of customer service in a timely fashion. There is also an urgent need
+					to help keep employees on pace with guidance, updated customer-facing materials, and new product and service information and requirements in a very dynamic medical services marketplace.</p>
+				<p>When a business enterprise is able to align and coordinate all of these things in a single online system, with the ability for different people to do their jobs based on their role in the organization, a very important problem and challenge is solved
+					and a path for growth is opened.</p>
+				<h2>PROCESS</h2>
+				<hr/>
+				<p>In order to create a solution that will work well, Beta Bulls first aims to understand what the customer is trying to achieve. In this case, it was important to consider the flow of information, how work is created and messages are sent, and how different
+					people organize their work into tasks and schedules. For this project to be successful, it needed to be usable by the entire organization. Additionally, company executives needed the right dashboards and visibility to understand the needs of the
+					business and plan for growth and success.</p>
+
+				<p>Working with the client, BetaBulls selected development methods and worked toward a solution based on open source web frameworks, for an architecture that is economical as well as a strong foundation for ongoing enhancements and growth. To understand
+					this complex market and opportunity, BetaBulls worked closely with the client and provided personal attention to ensure that the delivered solution matched the needs of the business.</p>
+
+				<h2>SOLUTION</h2>
+				<hr/>
+				<p>The delivered system is built on a modern, “material” HTML5 web framework that calls heavily upon JavaScript libraries and APIs for interactivity. The responsive design allows for simple UIs to be accessible via desktop computers or mobile devices;
+					while complex dashboards of metrics and features are available to users who need the most functionality. Because the web framework is open source, it is easy to update and upgrade while also being highly customizable. Additionally, narrowing the
+					core technical skillsets to HTML and JavaScript ensures a large talent pool of people for when new features are desired. Knowing what project success means for this client, BetaBulls ensured that more effort and resources were spent on developing
+					customized workflows and features instead of building up proprietary or exotic foundational technology.</p>
+
+				<p>The final solution has a lot of different functionality, but the concept of role-based user interfaces means that what each person sees is what he or she needs to help them do their jobs versus extra features that are not relevant to their duties.</p>
+
+				<h2>BENEFITS</h2>
+				<hr/>
+				<p>By implementing a centralized, highly automated online enterprise management platform, the business can focus on efficiently finding new customers as well as offering the highest levels of service and responsiveness to existing customers. A set of
+					automated notifications ensure that people are aware of how to best spend their time at any given moment, and real-time dashboard reports enable managers and executives to stay on top of operations, and react quickly to needs before they become problems
+					and opportunities before they disappear. The bottom line: This organization is better positioned to compete and succeed!</p>
+			</div><!-- .pure-u-1 .center -->
+		</div><!-- container -->
+		<div class="pure-u-1-4 right-col1" style="padding:0 5px 0 5px; height: 1850px;">
+			<div class="bck-contact"><!-- contact form start -->
+				<h3>Please Contact Us</h3>
+				<hr/>
+
+				<iframe class="contactus-card" src="https://form.jotform.me/60874122485458"></iframe>
+			</div><!-- contact form end -->
+			
+		</div>
+	</div>
+</div>

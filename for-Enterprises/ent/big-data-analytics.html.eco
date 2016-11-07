@@ -1,0 +1,75 @@
+---
+title: Big Data Analytics
+layout: enterprise-default
+class: betabulls-enterprise-bigdata
+script:
+style: '../css/ent-mobile-style.css'
+---
+
+<div id="headerwrap" class="pure-g-r headerwrap-main" style="margin-top: 0px; background: url(img/testimonials.jpg);">
+	<div class="pure-u-1 center">
+		<div class="banner-txt">
+			<h1>We crunch data and deliver insights</h1>
+			<h4>To grow your business, reduce risk and make better decisions</h4>
+		</div>
+	</div><!-- pure-u-1-->
+</div><!-- headerwrap -->
+
+<div class="container">
+	<div class="row center">
+		<div class="pure-u-2-3">
+			<div class="pure-g-r w">
+				<a name="WhatWeDo" id="WhatWeDo"></a>
+
+				<div class="pure-u-1 center">
+				<div style="width: 100%; margin: 0px auto; padding: 0px 0px 0px 0px; text-align: center;">
+					<h2 style=" font-weight:500;" align="center">Big Data Analytics</h2>
+					<hr>
+				</div>
+					<div class="pure-u-1-2 card ">
+						<i class="material-icons" >lock_open</i>
+						<div class="card-hr"></div>
+						<h4>Unlock Value</h4>
+						<p>We unlock value from your data and provide descriptive to prescriptive analytics</p>
+					</div><!-- pure-u-1-4 -->
+
+					<div class="pure-u-1-2 card ">
+						<i class="fa fa-clipboard"></i>
+						<div class="card-hr"></div>
+						<h4>Insight into Past</h4></a>
+						<p>What happened and Why? We deliver revealing patterns, trends, causes using delightful dash boards and visualization </p>
+					</div><!-- pure-u-1-4 -->
+
+					<div class="pure-u-1-2 card ">
+						<i class="material-icons large light-blue" >devices</i>
+						<div class="card-hr"></div>
+						<h4>Understanding the Future</h4>
+						<p>We use your data and public data sources to predict “what might happen”. Foe example, we may be able to help you understand what products your customers likely to buy together or high risk customers or how sales may close by end of the year </p>
+					</div>
+
+					<div class="pure-u-1-2 card ">
+						<i class="material-icons" >call_missed_outgoing</i>
+						<div class="card-hr"></div>
+						<h4>Prescriptive analytics</h4>
+						<p>We go beyond predictions and recommend specific actions to get most out of predictive analytics</p>
+					</div><!-- pure-u-1-4 -->
+				</div><!-- .pure-u-1 .center -->
+			</div><!-- .pure-u-1 .center -->
+		</div>
+		<!-- container -->
+		<!-------------------------------------------->
+
+		<div class="pure-u-1-4 right-col1">
+			<div class="bck-contact"><!-- contact form start -->
+				<h3>Please Contact Us</h3>
+				<hr/>
+
+				<iframe class="contactus-card" src="https://form.jotform.me/60874122485458"></iframe>
+			</div><!-- contact form end -->
+			
+		</div>
+	</div>
+	
+	<%- @partial('case-studies') %>
+	
+</div>

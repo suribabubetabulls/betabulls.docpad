@@ -1,0 +1,50 @@
+---
+title: Investment Planning Web Application
+layout: enterprise-default
+class: betabulls-enterprise-investment-planning
+script:
+style: 
+---
+
+<div id="headerwrap" class="pure-g-r headerwrap-main">
+	<div class="pure-u-1 center" style="background-color: rgba(0,0,0,0.5); overflow: hidden;">
+		<div class="banner-txt">
+			<h1 style="text-align: left;font-weight: bold; margin: 0px; padding: 0px;">
+				We Build Reliable Software and Delight Your Customers</h1>
+			<h4>CLOUD | MOBILITY | BIG DATA EXPERTS</h4>
+		</div>
+	</div><!-- pure-u-1-->
+</div><!-- headerwrap -->
+<div class="container">
+	<div class="row center">
+		<div class="pure-u-2-3">
+			<div class="pure-g-r w">
+				<h2><b>Case Study : Investment Planning Web Application</b></h2>
+				<p><b>Creating a self-service web application that helps account holders visualize, research options, and make changes to their investment account.</b></p>
+				<!-- <img src="img/casestudy/investment-planning-web-application.png" width="100%"> -->
+				<p>Nowadays, it’s not enough just to offer a bunch of online features to customers, anticipating that they will figure everything out and know how to use them best. In certain industries, such as finance, medicine, and insurance, people deal with complicated
+					terminology and situations, often having big ramifications.</p>
+
+				<p>In order to provide excellent service, financial services companies often find themselves offering online tools supplemented with a great deal of in-person service and advice. But, this can be challenging and expensive to provide on a 24X7 basis;
+					furthermore, research and modern design evidence says that people are willing and able to take on their own account management responsibilities personally, if they are properly enabled.</p>
+
+				<p>This project illustrates making a complicated, manual process simpler and automated by implementing an intuitive Graphic User Interface (GUI), an interactive personal calculator, and API-enabled automation.The solution is built on HTML5 and MEAN stack,
+					with a custom Node.js application and server-side PHP. Upon secure sign-in, a user is presented with information about their current account status. Users are provided with simple choices about one-time or automatedsettings they can apply to their
+					accounts. In order to decide what is best for their personal situation, users can answer simple questions about their preferences. The results isa filtered list of actions that are optimized for individual situations. </p>
+				<p>
+					This financial services company’s goal was to empower its users with the kind of information and tools available to financial experts, but delivered in a simple, three page web application that is easily navigated by users of all skill levels. Beta Bulls
+					helped achieve this goal economically, and in-line with the company’s budget and product roadmap, taking the idea from an early prototype to MVP, production and on boarding of clients.</p>
+				</p>
+			</div><!-- .pure-u-1 .center -->
+		</div><!-- container -->
+		<div class="pure-u-1-4 right-col1" style="padding:0 5px 0 5px; height: 1000px;">
+				<div class="bck-contact"><!-- contact form start -->
+				<h3>Please Contact Us</h3>
+				<hr/>
+
+				<iframe class="contactus-card" src="https://form.jotform.me/60874122485458"></iframe>
+			</div><!-- contact form end -->
+		
+		</div>
+	</div>
+</div>

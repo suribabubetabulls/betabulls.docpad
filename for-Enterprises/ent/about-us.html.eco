@@ -1,0 +1,43 @@
+---
+title: About Us
+layout: enterprise-default
+class: betabulls-enterprise-about
+entPageOrder: 3
+script:
+style: 
+---
+
+<div id="headerwrap" class="pure-g-r headerwrap-main">
+	<div class="pure-u-1 center">
+		<div class="banner-txt">
+			<h1>About Us</h1>
+			<h4>To grow your business, reduce risk and make better decisions</h4>
+		</div>
+	</div><!-- pure-u-1-->
+</div> <!-- headerwrap -->
+
+
+
+<div class="container">
+	<div class="row center">
+		
+		<div class="pure-u-2-3 txt-j">
+		<div style="width: 100%; margin: 0px auto; padding: 0px 0px 0px 0px; text-align: center;">
+			<h2 style=" font-weight:500;" align="center">About Us</h2>
+			<hr>
+		</div>
+			<p>BetaBulls Inc. is a leading New Jersey based Information technology, consulting and outsourcing services provider. BetaBulls is seen as a reliablepartner by small and mid-sized businesses, helping them with innovative technology solutions to disrupt existing businesses and creating new opportunities.</p>
+			<p>BetaBulls Startup Division partners with entrepreneursto help build and grow their startups. While It make all kinds of web and mobile applications, this division specializes in getting Minimum Viable Product (MVP) online for feedback and initial sales. We take the idea, no matter how grandiose or petite and chisel it into an ideal MVP and release to the world quickly.</p>
+			<p>BetaBulls industry experience spans manufacturing, hospitality, health care, government, media, ISVs and financial services. With presence in the US and India, the company delivers comprehensive services for mission critical operational systems, search and recommendation systems, business intelligence and analytics, cloud enablement and mobile enablement.</p>
+		</div><!-- end pure-u-2-3 -->
+		
+		<div class="pure-u-1-4 right-col1">
+			<div class="bck-contact"><!-- contact form start -->
+				<h3>Please Contact Us</h3>
+				<hr/>
+				<iframe class="contactus-card" src="https://form.jotform.me/60874122485458"></iframe>
+			</div><!-- contact form end -->
+		</div><!-- end pure-u-1-4 right-col1 -->
+		
+	</div><!-- end row center -->
+</div><!-- end container -->
