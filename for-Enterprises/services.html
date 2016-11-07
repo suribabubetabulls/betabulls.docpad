@@ -48,6 +48,71 @@
 	<script src="js/modernizr.js" type="text/javascript"></script>
 	<!--script src="//load.sumome.com/" data-sumo-site-id="da70c9c1e7af90228f36afc17e0ff777149dd2f37da3c143d5826b7a1749220f" async></script-->
 	<style type="text/css">
+	.pure-menu ul{
+  visibility: inherit !important;
+ }
+ .pure-menu.pure-menu-horizontal>ul{
+   text-transform: uppercase;
+ }
+ .pure-menu ul {
+     left:0px !important; 
+    
+     top: 0px !important;
+   }
+   .caret{
+   vertical-align: middle !important;
+   margin-left: 2px;
+   }
+   
+ .dropdown-submenu {
+    position: relative;
+ }
+
+.dropdown-submenu>.dropdown-menu {
+   
+        margin-top: 35px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+.dropdown-menu>li>a:hover{
+color:#333 !important;
+}
+.dropdown-submenu>a:after {
+    display: none;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+	
 	#headerwrap h1{
 		margin-top: 55px !important;
 		  font-size: 60px !important;
@@ -126,52 +191,57 @@
 	</svg>
 </span>
 BULLS</span></a>
-			  <ul class="header-nav">
-
-				<!-- DocPad menu -->
-
-					<li typeof="sioc:Page" class="">
-						<a href="enterprise" property="dc:title">HOME</a>
-					</li>
-				
-					
-					
-		<li class="" typeof="sioc:Page" >
-  						<a href="bigData" property="dc:title">SERVICES </a>        
-  					</li>
-  				
-					</li>
-				
-					<li typeof="sioc:Page" class="">
-						<a href="product" property="dc:title">PRODUCTS</a>
-					</li>
-				
-					<!--li typeof="sioc:Page" class="">
-						<a href="#" property="dc:title">MOBILE APP DEVLOPMENT</a>
-					</li-->
-				
-					<li typeof="sioc:Page" class="">
-						<a href="portfolio" property="dc:title">OUR WORKS</a>
-					</li>
-				<li class="" typeof="sioc:Page" >
-						<a href="sixSigma" property="dc:title">TRAINING </a>
-					
-					</li>
-					<li typeof="sioc:Page" class="">
-						<a href="staffing" property="dc:title">STAFFING</a>
-					</li>
-					<li typeof="sioc:Page" class="">
-						<a href="careers" property="dc:title">CAREERS</a>
-					</li>
-				 <!-- DocPad menu end -->
-				
-				<li>
-					<a href="#contact" class="pricing-signup">
-					<!--a href="#contact"-->
-						<!-- iconmonstr START --><svg id="emailIcon" class="email-icon-header" rel="tipsy" undefined version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path id="email-icon" d="M170.544,239.052L50,146.454v213.142L170.544,239.052z M460.928,103.407H51.416l204.593,157.162L460.928,103.407z M313.355,260.696l-57.364,43.994l-57.454-44.135L50.5,408.593h410.751L313.355,260.696z M341.367,239.212L462,359.845V146.693L341.367,239.212z"/></svg><!-- iconmonstr END -->
-					</a>
-				</li>
-			  </ul>
+			 <ul class="header-nav">
+      <!-- DocPad menu -->
+      <li typeof="sioc:Page" about="/for-SMBs/">
+       <a href="/for-Enterprises/" property="dc:title">HOME</a>
+      </li>
+      
+       <li typeof="sioc:Page" about="/for-SMBs/services" class="">
+        <a href="/for-Enterprises/services" property="dc:title">
+         Services
+        </a>
+       </li>
+        <li class="dropdown-submenu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Solutions<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Log Analytics</a></li>
+                                <li><a href="#">Resume Matching</a></li>
+                                <li><a href="#">Internet of Things (IoT)</a></li>
+                               
+                            </ul>
+                        </li>
+                   
+               
+      
+       <li typeof="sioc:Page" about="/for-SMBs/testimonials" class="">
+        <a href="#" property="dc:title">
+         Testimonials
+        </a>
+       </li>
+       <li typeof="sioc:Page" about="/for-SMBs/case-studies" class="">
+        <a href="#" property="dc:title">
+         Case Studies 
+        </a>
+       </li>
+      
+       <li typeof="sioc:Page" about="/for-SMBs/about-us" class="">
+        <a href="#" property="dc:title">
+         About Us
+        </a>
+       </li>
+       <li class="red-bg" typeof="sioc:Page" about="/for-SMBs/risk-free-trial">
+        <a href="#" property="dc:title">
+         Risk Free Trial
+        </a>
+       </li>
+      <!-- DocPad menu end -->
+       <li>
+        <a href="#contact" data-toggle="modal" data-target="#contactModal" class="pricing-signup">
+         <!-- iconmonstr START --><svg id="emailIcon" class="email-icon-header" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path id="email-icon" d="M170.544,239.052L50,146.454v213.142L170.544,239.052z M460.928,103.407H51.416l204.593,157.162L460.928,103.407z M313.355,260.696l-57.364,43.994l-57.454-44.135L50.5,408.593h410.751L313.355,260.696z M341.367,239.212L462,359.845V146.693L341.367,239.212z"/></svg><!-- iconmonstr END -->
+        </a>
+       </li>
+     </ul>
 		  </div>
 		</div>
 		<!-- <div id="fixedForBetaBulls">
