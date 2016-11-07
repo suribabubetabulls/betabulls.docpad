@@ -48,12 +48,7 @@ padding-bottom: 20px;}
 .bb-aspect:hover h4 {
     font-size: 14px !important;
 }
-a {
-    color: #555 !important;
-}
-a:hover{
-    color: #555 !important;
-}
+
 .pure-menu li a:hover {
     color: #fff;
     /* font-weight: 800; */
