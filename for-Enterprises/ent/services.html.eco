@@ -1,0 +1,86 @@
+---
+title: Services
+layout: enterprise-default
+class: betabulls-enterprise-services
+entPageOrder: 1
+script:
+style: '../css/ent-services-style.css'
+---
+
+<div id="headerwrap" class="pure-g-r headerwrap-main">
+	<div class="pure-u-1 center">
+		<div class="banner-txt">
+			<h1>We Build Reliable Software and Delight Your Customers</h1>
+			<h4>CLOUD | MOBILITY | BIG DATA EXPERTS</h4>
+		</div>
+	</div><!-- pure-u-1-->
+</div><!-- headerwrap -->
+<div style="width: 100%; margin: 0px auto; padding: 0px 0px 0px 0px; text-align: center;">
+	<h2 style=" font-weight:500;" align="center">What we do ?</h2>
+	<hr>
+</div>
+<div class="pure-g-r w center">
+	<a name="WhatWeDo" id="WhatWeDo"></a>
+
+	<a class="card-link" href="/ent/application-support-maintenance">
+	<div class="pure-u-1-4 bb-aspect1 center">
+		<i class="material-icons large light-blue" >vertical_align_top</i>
+		<div class="card-hr"> </div>
+		<h4>Application Support & Maintenance</h4>
+		<p>We support your applications 24x7 and keep the Lights On (KTLO).</p>
+		<div class="card-sub-title">Need application support ?</div>
+		<div class="case-study-label">Learn More</div>
+	</div></a><!-- bb-aspect1 pure-u-1-4 -->
+
+	<a class="card-link" href="/ent/custom-software-development">
+	<div class="pure-u-1-4 bb-aspect1 center">
+		<i class="material-icons large light-blue" >subtitles</i>
+		<div class="card-hr"> </div>
+		<h4>Custom Software Development</h4>
+		<p>We develop reliable web and Mobile software that matters to you.</p>
+		<div class="card-sub-title">Need a developer or whole team?</div>
+		<div class="case-study-label">Learn More</div>
+	</div></a><!-- bb-aspect1 pure-u-1-4 -->
+
+	<a class="card-link" href="/ent/mobile-enablement">
+	<div class="pure-u-1-4 bb-aspect1 center">
+		<i class="material-icons large light-blue" >devices</i>
+		<div class="card-hr"> </div>
+			<h4>Mobile Enablement</h4>
+			<p>We Extend Legacy Applications to Smartphones and Tablets.</p>
+		<div class="card-sub-title">Need to engage users on Mobile?</div>
+			<div class="case-study-label">Learn More</div>
+	</div></a><!-- bb-aspect1 pure-u-1-4 -->
+
+	<a class="card-link" href="/ent/mobile-enablement">
+	<div class="pure-u-1-4 bb-aspect1 center">
+		<i class="material-icons large light-blue">linear_scale</i>
+		<div class="card-hr"></div>
+		<h4>Search and Information Discovery</h4>
+		<p>We build powerful search driven apps and text analytics.</p>
+		<div class="card-sub-title">Need to discoverthings among piles of data?</div>
+		<div class="case-study-label">Learn More</div>
+	</div></a><!-- bb-aspect1 pure-u-1-4 -->
+
+	<a class="card-link" href="/ent/big-data-analytics">
+	<div class="pure-u-1-4 bb-aspect1 center">
+		<i class="material-icons large light-blue" >group_work</i>
+		<div class="card-hr"></div>
+			<h4>Big Data Analytics</h4>
+			<p>We help you make smarter decisions with analytics.</p>
+		<div class="card-sub-title">Need insights from your big data?</div>
+			<div class="case-study-label">Learn More</div>
+	</div></a><!-- bb-aspect1 pure-u-1-4 -->
+	
+	<a class="card-link" href="/ent/software-testing">
+	<div class="pure-u-1-4 bb-aspect1 center">
+		<i class="material-icons large light-blue" >cloud_done</i>
+		<div class="card-hr"></div>
+		<h4>Software Testing</h4>
+		<p>We use manual and automated testing to ensure your software exceeds expectations.</p>
+		<div class="card-sub-title">Need to create engaging experience without surprises?</div>
+		<div class="case-study-label">Learn More</div>
+	</div></a><!-- bb-aspect1 pure-u-1-4 -->
+	
+</div><!-- .pure-g-r w -->
+</div>

@@ -1,0 +1,78 @@
+--- 
+title: Affiliate Marketing Sales Application
+layout: enterprise-default 
+class: betabulls-enterprise-affiliate 
+script: 
+style: 
+---
+
+
+<div id="headerwrap" class="pure-g-r headerwrap-main">
+	<div class="pure-u-1 center" style="background-color: rgba(0,0,0,0.5); overflow: hidden;">
+
+		<div class="banner-txt">
+			<h1>
+					We Build Reliable Software and Delight Your Customers</h1>
+			<h4>CLOUD | MOBILITY | BIG DATA EXPERTS</h4>
+		</div>
+	</div><!-- pure-u-1-->
+</div><!-- headerwrap -->
+<div class="container">
+	<div class="row center">
+		<div class="pure-u-2-3">
+			<div class="pure-g-r w">
+				<h2><b>Case Study : Affiliate Marketing Sales Application</b></h2>
+				<p><b>Making it simple for online marketers to earn income by finding and promoting great product deals for people to discover.</b></p>
+				<img src="img/casestudy/affiliate-marketing-sales-application-lg.png" width="100%">
+				<p> The internet has opened up a world of people shopping, discovering, and buying products and services online. While consumers spend time browsing and clicking for interesting and needed things, people called “affiliate” or “social” marketers are challenged
+					to hunt down great deals and share them to people who may want them. An affiliate marketer “wins” when a person finds a needed item, sees that it’s a great deal, can make a purchase conveniently, and is very happy with the product when it arrives.
+					</p>
+
+				<p>The problem to be solved with this application was more than just how to make this whole e-commerce process easy, safe, secure, convenient, and fun – on a mobile platform so people can shop anytime, anywhere. Equally important to the consumer or buyer
+					experience is the set of tools that marketers use to find, create and share products, as well as the business systems behind the scenes that process orders, compute financial transactions, track account histories, and ensure a marketplace that works
+					well for all parties.</p>
+
+				<h2>PROCESS</h2>
+				<hr/>
+				<p>Creating software that is used by a wide variety of users, especially consumers, can be challenging. BetaBulls knew that a key to project success would be engineering a software application that users would like to use, that fits in with how people
+					use mobile devices, that has robust e-commerce functionality, and that would create confidence in the online purchase process. </p>
+				<p>BetaBulls selected mobile application development tools for Apple iOS as a landing spot for this product, knowing that mobile commerce is a huge trend and that more and more people love to browse and shop from their phones. Additionally, launching
+					a mobile application includes the potential to reach large audiences through the app stores and referrals or ratings by satisfied users, so BetaBulls aimed to deliver a solution with the tools and potential to excel and grow rapidly once launched.
+				</p>
+
+				<h2>SOLUTION</h2>
+				<hr/>
+				<p>e-Commercesolutions are very common, and BetaBulls understands how to use technology not just to create new products, but also to make them run efficiently and help clients offer something different and competitive in the market. A key concept in
+					this application is the series of actions that happen in order for a successful “deal” to occur, from first finding or entering a product, to creating a special offer, to finding people (marketers) willing to promote it, matching up with shoppers
+					who are ready to become customers, and finally tracking the financials so that a market gets income for a job well done. Combined with a strong creative and user experience focus, BetaBulls pulled in rock star skills and expertise to create a mobile
+					application that is both beautiful and works great.</p>
+
+				<h2>BENEFITS</h2>
+				<hr/>
+				<p>When people use a system that they know they can trust, a lot of good things can happen. Customers will have faith in being treated well and finding things they want at good prices, so they become loyal to the platform and possibly more willing to
+					share it with others. Consumer loyalty and the willingness to share cool things reduces future costs of marketing and customer acquisition for marketers and retailers. At the same time, marketers, retailers, and manufacturers are provided with a
+					convenient and low-cost sales channel to reach people, which can lead to business growth and also lowered operating costs. Really well-built and executed marketing platforms are win-win-win situations.</p>
+			</div><!-- .pure-u-1 .center -->
+		</div><!-- container -->
+
+		<div class="pure-u-1-4 right-col1" style="padding:0 5px 0 5px; height: 1700px;">
+			<div class="bck-contact"><!-- contact form start -->
+				<h3>Please Contact Us</h3>
+				<hr/>
+				<iframe class="contactus-card" src="https://form.jotform.me/60712670748459"></iframe>
+			</div><!-- contact form end -->
+			<hr/>
+			<div id="tagsSidebar">
+				<h2>Tags</h2>
+				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=bigdata+training+in+hyderabad" class="btn btn-success" type="button" target="_blank">
+										#Application Support  </a>
+				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=bigdata+training+in+traingap" class="btn btn-success" type="button" target="_blank">
+										#Application Maintenance </a>
+				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=traingap.com" class="btn btn-success" type="button" target="_blank">
+										#Request Support </a>
+				<a href="https://www.google.co.in/?gfe_rd=cr&amp;ei=kVVsVczRCe7I8AeI2YDwAg&amp;gws_rd=ssl#q=courses+in+traingap.com" class="btn btn-success" type="button" target="_blank">
+										#Request Maintenance</a>
+			</div>
+		</div>
+	</div>
+</div>

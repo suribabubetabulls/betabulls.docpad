@@ -1,0 +1,95 @@
+---
+title: BLOG
+layout: page
+pageOrder: 4
+---
+
+<style>
+	.cal-icon{
+		width: 27px;
+		height: 25px;
+		margin: 0 0 -6px 0;
+		fill: rgb(61, 104, 61);
+	}
+	.cal-link{
+		width:100%;display:block;padding: 0 0 13px;
+	}
+		.cal-link a{color:green}
+</style>
+
+<div class="pure-g-r content-ribbon">
+	<div class="content pure-u-1 blog-index">
+			<div class="pure-u-1-3 blog-3rd">
+				<h1>Articles</h1>
+				<nav class="linklist">
+					<ul>
+					<% for document in @getCollection('articles').toJSON(): %>
+						<li>
+							<a href="<%= document.url %>">
+								<img class="blog-thumb" alt="wright bothers plane lite idea beta bulls" src="<%= document.img %>"/>
+							</a>
+							<span class="blog-listing-label">
+								<a class="home-post-title" href="<%= document.url %>">
+								<%- @getIconmonstrIcon(document.iconmonstr,'blogListIconId','footer-icon') %>
+								<%= document.title %> </a> &raquo; 
+								<span> <%- document.desc %> </span>
+								<!-- <span>Updated <%= document.date.toDateString() %></span> -->
+								<a href="<%= document.url %>" class="pure-button right">READ</a>
+							</span>
+						</li>
+					<% end %>
+					</ul>	
+				</nav>
+			</div>
+			<div class="pure-u-1-3 blog-3rd">
+				<h1>Events</h1>
+				<span class="center cal-link"><a href="/pages/events">
+					Tech/Startup Meetup Calendar
+					<%- @getIconmonstrIcon('calendar4','calIcon','cal-icon') %>
+				</a></span>
+				<nav class="linklist">
+					<ul>
+					<% for document in @getCollection('events').toJSON(): %>
+						<li>
+							<a href="<%= document.url %>">
+								<img class="blog-thumb" alt="wright bothers plane lite idea beta bulls" src="<%= document.img %>"/>
+							</a>
+							<span class="blog-listing-label">
+								<a class="home-post-title" href="<%= document.url %>">
+								<%- @getIconmonstrIcon(document.iconmonstr,'blogListIconId','footer-icon') %>
+								<%= document.title %> </a> &raquo; 
+								<span> <%- document.desc %> </span>
+								<!-- <span>Updated <%= document.date.toDateString() %></span> -->
+								<a href="<%= document.url %>" class="pure-button right">READ</a>
+							</span>
+						</li>
+					<% end %>
+					</ul>
+				</nav>
+			</div>
+			<div class="pure-u-1-3 blog-3rd">
+				<h1>Resources</h1>
+				<nav class="linklist">
+					<ul>
+					<% for document in @getCollection('resources').toJSON(): %>
+						<li>
+							<a href="<%= document.url %>">
+								<img class="blog-thumb" alt="wright bothers plane lite idea beta bulls" src="<%= document.img %>"/>
+							</a>
+							<span class="blog-listing-label">
+								<a class="home-post-title" href="<%= document.url %>">
+								<%- @getIconmonstrIcon(document.iconmonstr,'blogListIconId','footer-icon') %>
+								<%= document.title %> </a> &raquo; 
+								<span> <%- document.desc %> </span>
+								<!-- <span>Updated <%= document.date.toDateString() %></span> -->
+								<a href="<%= document.url %>" class="pure-button right">READ</a>
+							</span>
+						</li>
+					<% end %>
+					</ul>
+				</nav>
+			</div>
+    </div>
+</div>
+
+<br/><br/><br/><br/><br/><br/><br/>

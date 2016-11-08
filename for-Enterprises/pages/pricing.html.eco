@@ -1,0 +1,198 @@
+---
+title: PRICING 
+layout: page
+tags: ['page', 'pricing']
+pageOrder: 2
+script: '/js/pricing.js'
+---
+
+	<div id="blue">
+		<div class="pure-g-r">
+			<div class="pure-u-1 center">
+				<div class="pricing-slogan">
+                    <h4>NO NEED TO GIVE UP EQUITY</b></h4>
+                    <h4>OR</b></h4>
+                    <h4>COMPLICATED LEGAL NON SENSE</b></h4>
+                    <p>SIMPLE AND AFFORDABLE PRICING </p>
+				</div>
+			</div><!-- pure-u-1 -->
+		</div><!-- pure-g-r -->
+	</div><!-- blue wrap -->
+
+	<!-- PRICING SECTION -->
+		<div class="pure-g-r pricing-row"> 
+			<div class="pure-u-1 center">
+				<h4>PRICING PLANS</h4>
+				<br>
+
+				<div class="pure-u-1-3 mobile-price">
+					<!-- START PRICING TABLE -->
+					<div class="pricing-option">
+						<div class="pricing-top pricing-free-top">
+							<span class="pricing-edition">Free
+								<br/>
+								<span class="price-slogan"> Strapped for Cash </span>
+							</span>
+							<span class="price">
+								<!-- price
+								<sup>$</sup>
+								<span class="price-amount">0</span>
+								<small></small>
+								-->
+							</span>
+						</div>
+						<ul class="pricing-items-free">
+				<li><strong>Idea Analysis &amp; Feedback</strong></li>
+				<li><strong><a href="/pages/blog">Lean Startup Resources</a></strong></li>
+				<li><strong>Lean Startup Case Studies</strong></li>
+				<li><strong><a href="/pages/blog">Startup Events</a></strong></li>
+						</ul>
+				<a href="#contact" class="pricing-signup pricing-signup-free">Get Advice</a>
+				<ul class="sub-questions">
+					<li><sub>Already have a prototype? <a id="moreThanMvP" href="#beyond-mvp">Click</a>.</sub></li>
+					<li><sub>Why does it cost this? <a id="modalCost" href="#why-cost">Click</a>.</sub></li>
+					<li><sub>Not ready yet? <a id="priceFeedModal" href="#pricing-questions">Click</a>.</sub></li>
+				</ul>
+				</div><!-- /pricing-option -->
+<div class="col-lg-2"> </div>
+                    <!-- END PRICING TABLE -->
+				</div><!-- pure-u-1-3 -->
+
+				<div class="pure-u-1-3 mobile-price">
+					<!-- START PRICING TABLE -->
+					<div class="pricing-option">
+						<div class="pricing-top pricing-hash-top">
+							<span class="pricing-edition">Hash Out
+								<br/>
+								<span class="price-slogan"> Define Visualize Survey </span>
+							</span>
+							<span class="price">
+								<!-- price
+								<sup>$</sup>
+								<span class="price-amount">3k</span>
+								<small></small>
+								-->
+							</span>
+						</div>
+						<ul class="pricing-items-hash">
+				<li><strong>Analyse Idea</strong></li>
+				<li><strong>Define Use Cases</strong></li>
+				<li><strong>Design User Interface</strong></li>
+				<li><strong>Custom Built Application with Hard Coded Data</strong></li>
+				<li><strong>100 Usability Tests</strong></li>
+				<li><strong>Landing Page</strong></li>
+				<li><strong>App Hosting &amp; Maintenance</strong></li>
+				<li><strong>Mentorship</strong></li>
+						</ul>
+				<a href="#contact" class="pricing-signup pricing-signup-hash">Hashout Your Idea</a>
+				</div><!-- /pricing-option -->
+<div class="col-lg-2"> </div>
+                    <!-- END PRICING TABLE -->
+				</div><!-- pure-u-1-3 -->
+				
+				<div class="pure-u-1-3 mobile-price">
+					<!-- START PRICING TABLE -->
+					<div class="pricing-option">
+						<div class="pricing-top pricing-mvp-top">
+							<span class="pricing-edition">MVP
+								<br/>
+								<span class="price-slogan"> Minimum Viable Product </span>
+							</span>
+							<span class="price">
+								<!-- price
+								<sup>$</sup>
+								<span class="price-amount">7k</span>
+								<small></small>
+								-->
+							</span>
+						</div>
+						<ul class="pricing-items-mvp">
+							<li><strong>Detailed Analysis</strong></li>
+							<li><strong>Technical Architecture</strong></li>
+							<li><strong>Enhance User Interface</strong></li>                     
+							<li><strong>Fully Functional Application</strong></li>
+							<li><strong>300 Usability Tests</strong></li>
+							<li><strong>3 Page Website</strong></li>
+							<li><strong>App Hosting &amp; Maintainace</strong></li>
+							<li><strong>Mentorship</strong></li>
+						</ul>
+						<a href="#contact" class="pricing-signup pricing-signup-mvp">Impress Investors </a>
+					</div><!-- /pricing-option -->
+					<!-- END PRICING TABLE -->
+				</div><!-- pure-u-1-3 -->
+                
+    <div id="lean-startup-book" class="pure-g-r books-included">
+        <div class="pure-u-1">
+            <span class="lean-icon-bg">
+                <h1>Have you read <i>The Lean Startup</i> yet?</h1>
+                <h3>The book is included in non-free plans above. </h3>
+                <sub id="leanClick">To learn more, <a href="#lean-startup">Click Here</a></sub>
+            </span>
+            <span class="lean-startup">
+				<span class="lean-cover">
+					<%- @getIconmonstrIcon('play3', 'playIcon', 'play-icon') %>
+					<img class="lean-book" src="https://googledrive.com/host/0BwctX3BqWnGmYkw0dE5jRnQ3UTA/lean-startup_book-cover.png" alt="the lean startup book cover png"/>
+				</span>
+                <p>
+                    Already read it? Choose another great book from the <i>Lean Series.</i>
+                </p>
+				<span class="lean-series">
+				<span class="pure-u-1-5">
+					<span class="lean-analytics"> </span>
+				</span>
+				<span class="pure-u-1-5">
+					<span class="lean-enterprise"> </span>
+				</span>
+				<span class="pure-u-1-5">
+					<span class="lean-ux"> </span>
+				</span>
+				<span class="pure-u-1-5 running-frame">
+					<%- @getIconmonstrIcon('play3', 'playIcon', 'play-icon play-icon-running') %>
+					<span class="lean-running"> </span>
+				</span>
+				<span class="pure-u-1-5">
+					<span class="lean-ux-startup"> </span>
+				</span>
+				</span> <!-- .lean-series 0-->
+            </span>
+        </div>        
+    </div>
+
+	
+	<div id="r">
+		<div class="pure-g-r">
+			<div class="pure-u-1 center">
+				<div class="col-lg-8 col-lg-offset-2">
+					<h4>SOUNDS GREAT, RIGHT?</h4>
+
+                    <h2><button type="button btn-default btn-xlarge" class="btn btn-primary btn-xlarge pricing-signup"><b>Contact Us</b></button></h2>
+					
+				</div>
+			</div><!-- pure-u-1 -->
+		</div><!-- pure-g-r -->
+	</div><!-- r wrap -->
+	
+	<!-- More than MVPs Modal -->
+	<div class="yui3-skin-sam beyondmvp-modal-frame">
+		<div id="beyondMvp"> </div> <!-- #beyondMvp -->
+	</div><!-- .beyondmvp-modal-frame -->
+	
+	<!-- Pricing Feedback Modal -->
+	<div class="yui3-skin-sam pricefeed-modal-frame">
+		<div id="pricingFeedbackModal"> </div> <!-- #pricingFeedbackModal -->
+	</div><!-- .pricefeed-modal-frame -->
+	
+	<!-- Why Cost Modal -->
+	<div class="yui3-skin-sam cost-modal-frame">
+		<div id="costModal"> </div> <!-- #costModeal -->
+	</div><!-- .cost-modal-frame -->
+	
+	<!-- Lean Modal Pricing -->
+	<div class="yui3-skin-sam lean-modal-frame">
+      <div id="leanModalPrice"> </div><!-- /#leanModalPrice -->
+	</div><!-- /.modal -->
+	
+	<!-- Running Lean Modal -->
+	<div class="yui3-skin-sam lean-modal-frame">
+      <div id="runningLeanModal"> </div><!-- /#runningLeanModal -->
+	</div><!-- /.modal -->

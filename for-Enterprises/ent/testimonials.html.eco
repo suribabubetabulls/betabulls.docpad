@@ -1,0 +1,40 @@
+---
+title: Testimonials
+layout: enterprise-default
+class: betabulls-enterprise-testimonials
+entPageOrder: 2
+script:
+style: '../css/ent-testimonials-style.css'
+---
+
+<div id="headerwrap" class="pure-g-r mobile-enablement">
+	<div class="pure-u-1 center">
+		<div class="banner-txt">
+			<h1 style="text-align: left; font-size: 36px !important; font-weight: bold; margin: 0px; padding: 0px;">
+				What Our Clients Are Saying About Us</h1>
+		</div>
+	</div><!-- pure-u-1-->
+</div><!-- headerwrap -->
+
+<div class="container">
+	<div class="row center">
+		<div class="pure-u-2-3">
+			<div class="pure-g-r w">
+				<div style="width: 100%; margin: 0px auto; padding: 0px 0px 0px 0px; text-align: center;">
+					<h2 style=" font-weight:500;" align="center">Testimonials</h2>
+					<hr>
+				</div>
+				<%- @partial('testimonials') %>
+			</div>
+		</div><!-- end pure-u-2-3 -->
+		
+		<div class="pure-u-1-4 right-col1">
+			<div class="bck-contact"><!-- contact form start -->
+				<h3>Please Contact Us</h3>
+				<hr/>
+
+				<iframe class="contactus-card" src="https://form.jotform.me/60874122485458"></iframe>
+			</div><!-- contact form end -->
+		</div><!-- pure-u-1-4 right-col1 -->
+	</div><!-- end row center -->
+</div><!-- end container -->

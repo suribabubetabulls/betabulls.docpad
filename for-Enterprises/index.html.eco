@@ -1,0 +1,134 @@
+---
+layout: 'default'
+title: 'BetaBulls'
+script: '/js/home.js'
+---
+
+	<div id="fixedForBetaBulls">
+		<a href="enterprise.html" id="yui_patched_v3_11_0_1_1458257209567_399"><img src="img/ForEnterprise.png" class="img-responsive"></a>
+	</div>
+
+	<span class="home">
+	<div id="headerwrap" class="pure-g-r">
+		<div class="pure-u-1 center">
+			<h1>We Build Apps<br/> for startups</h1>
+			<h2>We are your interim CTO</h2>
+			<!-- <a href="howitworks.html"><h2><button type="button btn-default btn-xlarge" class="btn btn-success btn-xlarge"><b>How It Works?</b></button></h2></a> -->
+		</div><!-- pure-u-1 -->
+	</div><!-- headerwrap -->
+
+
+	<div class="pure-g-r w">
+		<div class="pure-u-1 center">
+			
+			<div class="pure-u-1-4 bb-aspect">
+				<%- @getIconmonstrIcon('heart','heartIcon','heart-icon home-icon') %>
+				<h4>We Love Ideas</h4>
+				<p>Working with new ideas and start-ups is our passion. Not work.</p>
+			</div><!-- pure-u-1-4 -->
+
+			<div class="pure-u-1-4 bb-aspect bb-lean">
+					<img class="home-icon leanstartup-icon" src="https://googledrive.com/host/0BwctX3BqWnGmYkw0dE5jRnQ3UTA/Lean-Startup_icon-pink.png" alt="lean startup png icon pink"/>
+					<h4>We Believe in Lean</h4>
+				<p>Prototype now, full product later. We work very hard to convince you on this model even if you are ready to spend money on a full product.</p>
+			</div><!-- pure-u-1-4 -->
+
+			<div class="pure-u-1-4 bb-aspect">
+				<%- @getIconmonstrIcon('crosshair11','mapIcon','map-icon home-icon') %>
+				<h4>Idea to Product</h4>
+				<p>We build an awesome, usable product around your idea.</p>
+			</div>
+
+		</div><!-- .pure-u-1 .center -->
+		<div class="pure-u-1 center">
+			<div class="pure-u-1-4 bb-aspect">
+				<%- @getIconmonstrIcon('wrench20','wrenchIcon','wrench-icon home-icon') %>
+				<h4>We Support & Maintain</h4>
+				<p>We make sure your product is up and running. You focus on demos and the path to world domination.</p>
+			</div><!-- pure-u-1-4 -->
+
+			<div class="pure-u-1-4 bb-aspect">
+				<%- @getIconmonstrIcon('checkmark11','checkIcon','check-icon home-icon') %>
+				<h4>Obsessed with Quality</h4>
+				<p>We are fanatics about frameworks and standards. Result is high quality product at lower cost faster.</p>
+			</div><!-- pure-u-1-4 -->
+
+			<div class="pure-u-1-4 bb-aspect">
+				<%- @getIconmonstrIcon('compass6','compassIcon','compass-icon home-icon') %>
+				<h4>Mentorship</h4>
+				<p>Apart from technology, our business experts mentor you with lean advice and a helping hand.</p>
+			</div><!-- pure-u-1-4 -->
+		</div><!-- .pure-u-1 .center -->
+		<div class="pure-u-1 center">
+						
+			<div class="pure-u-1-4 bb-aspect">
+				<%- @getIconmonstrIcon('banknote3','banknoteIcon','banknote-icon home-icon') %>
+				<h4>Most Affordable</h4>
+				<p>You don't have to break the bank to purse your idea. No need to give up equity or complicated paperwork.</p>
+			</div><!-- pure-u-1-4 -->
+		</div><!-- .pure-u-1 .center -->
+		<br>
+		<br>
+	</div><!-- container -->
+
+
+	<!-- PORTFOLIO SECTION -->
+		<div id="dg">
+			<div class="pure-g-r">
+				<div class="pure-u-1 center">
+					<h4>LATEST WORKS</h4>
+					<br>
+					<div class="pure-u-1-3 home-device-bg">
+						<a target="_blank" href="http://commissionize.com/">
+							<img src="/img/commissionize.png" alt="Commissionize iPhone iOS app BetaBulls">
+							<img style="padding: 7px 16px;" class="itunes-icon" src="/img/commissionize_img4.png" alt="Commissionize iTunes app icon" />
+							<br/>
+							<p>
+								<strong>Commissionize</strong> is an iPhone App which allows you to buy and sell products or services that have been incentivized with discounts and/or cash commissions.
+							</p>
+						</a>
+					</div>
+
+				<div class="pure-u-1-3 home-device-bg">
+					<a target="_blank" href="http://breakk.co/">
+						<img src="/img/Breakk.png" alt="Breakk iPhone iOS app BetaBulls">
+						<img class="itunes-icon" src="/img/Breakk1_icon.png" alt="Breakk iTunes app icon" />
+						<br/>
+						<p>
+							<strong>Breakk</strong> create and join events, collect and track payments, and connect with everyone attending. Join breakk to easily create and run events for free.
+						</p>
+					</a>
+				</div>
+				</div><!-- pure-u-1 -->
+				<div class="pure-u-1 center">
+					<div class="pure-u-3-4 screen home-device-bg">
+						<a target="_blank" href="http://simpleonboarding.com/">
+							<img class="tablet-app" src="/img/sob.png" alt="web app screen">
+							<br/>
+							<p>
+								A simple to use, paperless onboarding system that allows to speed up the hiring process, get EEOC compliant and gives new hire a better experience.
+							</p>
+						</a>
+					</div>
+				</div><!-- TAPO pure-u-1 -->
+		</div><!-- pure-g-r -->
+	</div> <!-- DG -->
+
+	<div id="r">
+		<div class="pure-g-r">
+			<div class="pure-u-1 center">
+				<h4>WANT TO LEARN MORE?</h4>
+				<a href="/pages/how-it-works">
+					<h2><button type="button btn-default btn-xlarge" class="btn btn-primary btn-xlarge"><b>How It Works</b></button></h2>
+				</a>
+			</div><!-- pure-u-1 -->
+		</div><!-- pure-g-r -->
+		</div><!-- r wrap -->
+	
+	<!-- Lean Modal -->
+	<div class="yui3-skin-sam lean-modal-frame">
+		<div id="leanModal"> </div><!-- /#leanModal -->
+	</div><!-- /.modal -->
+	
+	</span>  <!-- .home --> 
+	
