@@ -1,10 +1,9 @@
-.light-blue {font-size:33px !important;
-padding-top: 12px;
-    padding-bottom: 1px;}
+.light-blue {font-size:33px !important;    padding-top: 12px;
+    padding-bottom: 1px;color: #ff7878 !important;}
 .bb-aspect p {
     line-height: 32px;
     margin-bottom: 17px;
-    text-transform: uppercase;
+    text-transform: inherit;
 }
 .lear-more {
     width: 125px;
@@ -24,18 +23,18 @@ padding-bottom: 20px;}
    
 padding-bottom: 20px;}
 .services-cat-heading4 {
-    border-top: 1px solid #ccc;
+    
     font-size: 18px;
     padding-top: 13px;
     color: #555;
     font-weight: 600;
 }
 	
-	.myservices-icon{color: #000 !important;
+	.myservices-icon{
     font-size: 35px !important;}
 	.service-subhead{font-size: 15px;
     margin-bottom: 10px;}
-	.home-icon-material-icons{border-bottom:1px solid #ccc !important}
+	.home-icon-material-icons{}
 	.content-space{padding-top:20px}
 	.bb-aspect-area {
    
@@ -45,14 +44,83 @@ padding-bottom: 20px;}
 	font-weight:600;
 }
 .content-space-application{padding-top:5px}
-
-
-
-
-.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-submenu:hover>a, .dropdown-submenu:focus>a{
-	background-color: transparent !important;
+a{
+    color: #555;
+    text-decoration: none;
 }
-.pure-menu li a:hover {
+a:hover, a:focus {
+    color: #555;
+    text-decoration: none;
+}
+.risk-para{margin-bottom:-25px !important;margin}
+.body-padding{padding:0px 50px}
+.test-top {padding-top:35px}
+.testimonial-card {
+    padding: 30px;
+    margin-bottom: 20px;
+    background: #5083AD !important;
+}
+.testimonial-card p {
+    line-height: 33px;
+    font-size: 23px;
+    font-weight: bold;
     color: #fff;
-    background: #ccc;
 }
+.testimonial-card .org {
+    color: #16205D;
+}
+.case-std-h2 {
+    font-weight: 500;
+    text-transform: inherit;
+    font-size: 30px;
+    line-height: 33px;
+}
+.case-std-center {
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+}
+.case-std-left {
+    margin-left: 0px;
+}
+.case_studies li {
+    display: block;
+    text-align: left;
+    list-style: none;
+    padding: 20px 15px;
+    background: #ccc;
+    margin: 20px 0px;
+    overflow: hidden;
+}
+.case_studies img {
+    float: left;
+}
+.case_studies h1 {
+    float: left;
+    margin-left: 15px;
+    width: 60%;
+    margin-top: 0;
+    text-transform: inherit;
+    font-size: 32px;
+    line-height: 35px;
+}
+.case_studies p {
+    float: left;
+    margin-left: 15px;
+    text-align: justify;
+    width: 60%;
+    margin-bottom: 11px;
+    font-size: 16px;
+}
+.case_studies li a {
+    float: left;
+    margin-left: 15px;
+	    padding: 5px 10px;
+    background-color: #337ab7;
+    color: #fff;
+    font-weight: 500;
+	border-radius: 5px;
+}
+
+.case
