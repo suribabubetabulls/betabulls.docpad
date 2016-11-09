@@ -260,11 +260,11 @@ footer#colophon.site-footer ul li {
     text-decoration: none;
     color: #fff;
     background-color: #e7e7e7 !important;
-    background-image: -moz-linear-gradient(top,#08c,#e7e7e7);
-    background-image: -webkit-gradient(linear,0 0,0 100%,from(#08c),to(#e7e7e7));
-    background-image: -webkit-linear-gradient(top,#08c,#e7e7e7);
-    background-image: -o-linear-gradient(top,#08c,#e7e7e7);
-    background-image: linear-gradient(to bottom,#08c,#e7e7e7);
+    background-image: -moz-linear-gradient(top,#e7e7e7,#e7e7e7);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#e7e7e7),to(#e7e7e7));
+    background-image: -webkit-linear-gradient(top,#e7e7e7,#e7e7e7);
+    background-image: -o-linear-gradient(top,#e7e7e7,#e7e7e7);
+    background-image: linear-gradient(to bottom,#e7e7e7,#e7e7e7);
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF0088CC', endColorstr='#FF0077B3', GradientType=0);
 }
