@@ -142,7 +142,7 @@ a:hover, a:focus {
     overflow: hidden;
 }
 #headerwrap .banner-txt {
-    height: 306px;
+    height: 330px;
 }
 #headerwrap h1 {
     font-weight: bold;
@@ -252,4 +252,7 @@ footer#colophon.site-footer ul li {
 .body-padding-privacy {
     padding: 0px 65px;
 	margin-top: -70px;
+}
+.bb-aspect:hover {
+  padding: 20px !important;
 }
