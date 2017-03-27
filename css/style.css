@@ -9,15 +9,15 @@
     margin: 49px 20px 0 70px;
 }
 
-	.Main-head {background-color: #fff;
-    padding: 10px;
-    text-align: center;
-    margin: 108px 70px 0;
-    margin-top: 108px;}
+	.Main-head {background-color: #fff !important;
+    padding: 10px !important;
+    text-align: center !important;
+    margin: 108px 70px 0 !important;
+    margin-top: 108px !important; }
 .Main-head h1 {
-    font-weight: 600;
-    line-height: 48px;
-    font-size: 35px;
+    font-weight: 600 !important;
+    line-height: 48px !important;
+    font-size: 35px !important;
 }
 .Main-head h3 {font-weight:600;font-style:italic;font-size:23px}
 .cust-float {float:left}
