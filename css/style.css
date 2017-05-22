@@ -71,3 +71,21 @@
 .footer-content span {margin-left:15px}
 .txt-left{text-align:left !important}
 .txt-right {text-align:right !important}
+
+@media screen and (min-device-width: 381px) and (max-device-width: 425px) {
+.modal{
+    width: 97% !important;
+    height: 568px !important;
+    left: 284px !important;
+    top: 10px !important;
+}
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 380px) {
+.modal{
+    width: 97% !important;
+    height: 568px !important;
+    left: 284px !important;
+    top: 10px !important;
+}
+}
