@@ -114,3 +114,21 @@
 }
 	.yui3-widget-bd .modal-body p {margin-bottom:0px !Important;}
 }
+@media screen and (min-device-width: 376px) and (max-device-width: 425px) {
+.yui3-widget-modal{
+  top:5px !Important;
+}
+.modal-header h3    { line-height: 9px !important;}
+.close, .btn.close {line-height: 6px !important;}
+	.modal {
+    width: 583px!important;
+    height: 580px!important;
+		margin-left:-310px !important;
+	
+}
+	.modal-header .close {
+    margin: 0px 0px 0 0;
+    font-size: 22px !important;
+}
+	.yui3-widget-bd .modal-body p {margin-bottom:0px !Important;}
+}
