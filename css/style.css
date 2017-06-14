@@ -128,3 +128,17 @@
 	.yui3-widget-bd .modal-body p {margin-bottom:0px !Important; line-height:16px !important}
 	
 }
+@media screen and (min-device-width: 320px) and (max-device-width: 424px) {
+.yui3-widget-modal{
+  top:5px !Important;
+}
+.modal-header h3    { line-height: 9px !important;}
+.close, .btn.close {line-height: 6px !important;}
+	
+	.modal-header .close {
+    margin: 0px 0px 0 0;
+    font-size: 22px !important;
+}
+	.yui3-widget-bd .modal-body p {margin-bottom:0px !Important; line-height:16px !important}
+	
+}
