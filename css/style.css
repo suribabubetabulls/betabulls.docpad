@@ -108,4 +108,8 @@
 		margin-left:-310px !important;
 	
 }
+	.modal-header .close {
+    margin: 0px 0px 0 0;
+    font-size: 22px !important;
+}
 }
