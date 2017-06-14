@@ -125,7 +125,7 @@
     margin: 0px 0px 0 0;
     font-size: 22px !important;
 }
-	.yui3-widget-bd .modal-body p {margin-bottom:0px !Important; line-height:16px !important}
+	.yui3-widget-bd .modal-body p {margin-bottom:0px !Important; line-height:16px !important;font-size:13px !important;}
 	
 }
 @media screen and (min-device-width: 320px) and (max-device-width: 424px) {
@@ -139,6 +139,6 @@
     margin: 0px 0px 0 0;
     font-size: 22px !important;
 }
-	.yui3-widget-bd .modal-body p {margin-bottom:0px !Important; line-height:16px !important}
+	.yui3-widget-bd .modal-body p {margin-bottom:0px !Important; line-height:16px !important;font-size:13px !important;}
 	
 }
