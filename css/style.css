@@ -125,5 +125,6 @@
     margin: 0px 0px 0 0;
     font-size: 22px !important;
 }
-	.yui3-widget-bd .modal-body p {margin-bottom:0px !Important;}
+	.yui3-widget-bd .modal-body p {margin-bottom:0px !Important; line-height:16px !important}
+	
 }
