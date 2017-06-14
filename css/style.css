@@ -91,7 +91,7 @@
 }
 @media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
 .yui3-widget-modal{
-  top:20px !Important;
+  top:15px !Important;
 }
 .modal-header h3    { line-height: 9px !important;}
 .close, .btn.close {line-height: 6px;}
