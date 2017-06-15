@@ -133,15 +133,18 @@
   top:5px !Important;
 }
 .modal-header h3    { line-height: 9px !important;}
-.close, .btn.close {line-height: 6px !important;}
+.close, .btn.close {line-height: 10px !important;}
 	
 	.modal-header .close {
     margin: 0px 0px 0 0;
-    font-size: 22px !important;
+    font-size: 19px !important;
 }
 	.yui3-widget-bd .modal-body p {margin-bottom:0px !Important; line-height:16px !important;font-size:13px !important;}
 	body.modal-open {
     overflow: visible;
 }
 	.yui3-widget-mask {position:static !important;display:block !important;}
+	.modal-header {
+    padding: 5px 15px !important;
+}
 }
