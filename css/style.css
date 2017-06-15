@@ -140,5 +140,7 @@
     font-size: 22px !important;
 }
 	.yui3-widget-bd .modal-body p {margin-bottom:0px !Important; line-height:16px !important;font-size:13px !important;}
-	
+	body.modal-open {
+    overflow: visible;
+}
 }
