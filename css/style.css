@@ -143,4 +143,5 @@
 	body.modal-open {
     overflow: visible;
 }
+	.yui3-widget-mask {position:static !important;display:block !important;}
 }
