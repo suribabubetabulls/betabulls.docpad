@@ -132,7 +132,7 @@
 .yui3-widget-modal{
   top:5px !Important;
 }
-.modal-header h3    { line-height: 3px !important;}
+.modal-header h3    { line-height: 4px !important;}
 .close, .btn.close {line-height: 10px !important;}
 	
 	.modal-header .close {
@@ -152,4 +152,7 @@
     margin-bottom: 3px !important;
 		font-size:11px !important;
 }
+	.modal-body {
+		padding: 5px !important;
+	}
 }
