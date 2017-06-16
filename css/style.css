@@ -84,7 +84,7 @@
 @media screen and (min-device-width: 320px) and (max-device-width: 380px) {
 .modal{
     width: 97% !important;
-    height: 568px !important;
+    height: 440px !important;
     left: 284px !important;
     top: 10px !important;
 }
