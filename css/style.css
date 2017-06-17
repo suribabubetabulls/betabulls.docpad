@@ -85,7 +85,7 @@
 .modal {
     width: 91%!important;
     height: 440px!important;
-    left: 297px!important;
+    /*left: 297px!important;*/
     top: 10px!important;
 }
 }
