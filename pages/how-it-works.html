@@ -34,8 +34,32 @@
 	cursor: wait !important;
 	opacity: 0;
 	transition: opacity 0.5s ease;
-}</style><link  rel="stylesheet" href="http://yui.yahooapis.com/pure/0.2.0/pure-min.css" /><link  rel="stylesheet" href="http://cdn.alloyui.com/2.0.0/aui-css/css/bootstrap.min.css" /><link  rel="stylesheet" href="/css/style.css" /><link  rel="stylesheet" href="/css/font-awesome.min.css" />
-    
+}</style>
+<style>
+		body{background: #000}
+		.you-conquer{
+			padding: 33px 0 0;
+			margin: 77px auto 0;
+			height: 146px;
+			width: 1001px;
+			display: block;
+		}
+		.modal-backdrop.in {display:none !important;}
+		.pure-menu li a:hover, .pure-menu li a:focus {
+    background: transparent !important;
+}
+	</style>
+<link  rel="stylesheet" href="http://yui.yahooapis.com/pure/0.2.0/pure-min.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link  rel="stylesheet" href="/css/style.css" />
+<link  rel="stylesheet" href="/css/font-awesome.min.css" />
+    <script type="text/javascript">
+$(document).ready(function(){
+    $(".btn").click(function(){
+        $("#myModal").modal('show');
+    });
+});
+</script>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -106,7 +130,7 @@ BULLS</span></a>
 					</li>
 				 <!-- DocPad menu end -->
 
-				<li><a href="#contact">
+				<li><a href="" data-toggle="modal" data-target="#contact1">
 					<!-- iconmonstr START --><svg id="emailIcon" class="email-icon-header" rel="tipsy" undefined version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path id="email-icon" d="M170.544,239.052L50,146.454v213.142L170.544,239.052z M460.928,103.407H51.416l204.593,157.162L460.928,103.407z M313.355,260.696l-57.364,43.994l-57.454-44.135L50.5,408.593h410.751L313.355,260.696z M341.367,239.212L462,359.845V146.693L341.367,239.212z"/></svg><!-- iconmonstr END -->
 					</a>
 				</li>
@@ -115,16 +139,7 @@ BULLS</span></a>
 		</div>
 
     <article id="page" class="page">
-	<div class="page-content"><style>
-		body{background: #000}
-		.you-conquer{
-			padding: 33px 0 0;
-			margin: 77px auto 0;
-			height: 146px;
-			width: 1001px;
-			display: block;
-		}
-	</style>
+	<div class="page-content">
 
 	<div id="blue">
 		<div class="pure-g-r">
@@ -136,7 +151,23 @@ BULLS</span></a>
 	</div><!-- blue -->
 
 	<br>
-	
+	<div id="contact1" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+         <iframe id="JotFormIFrame-41991233222449" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="https://form.jotform.me/41991233222449" frameborder="0" style="width:100%; height:585px; border:none;" scrolling="no"> </iframe>
+      </div>
+      
+    </div>
+
+  </div>
+</div>
 	<div class="pure-g-r w">
 		<div class="pure-u-1 center">
 			<div class="pure-u-1-3 foursteps contact-step">
@@ -284,8 +315,13 @@ var inject = function(){
 	} else {
 		inject();
 	}
-})();</script><script defer="defer"  src="http://cdn.alloyui.com/2.0.0/aui/aui-min.js"></script><script defer="defer"  src="/js/script.js"></script>
-	
+})();</script>
+<script defer="defer"  src="http://cdn.alloyui.com/2.0.0/aui/aui-min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script>
+		$.modal.close();
+	</script>
 	
 <!-- begin olark code -->
 <script data-cfasync="false" type='text/javascript'>/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
